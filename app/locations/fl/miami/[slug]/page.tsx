@@ -5,7 +5,9 @@ import {
   LOCATION_SLUGS,
   getLocationBySlug,
   type LocationContent,
-} from "../locationData";
+} from "@/app/locations/locationData";
+
+const MIAMI_LIST_URL = "/locations/fl/miami";
 
 export function generateStaticParams() {
   return LOCATION_SLUGS.map((slug) => ({ slug }));
@@ -22,6 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: location.metaTitle,
     description: location.metaDescription,
+    alternates: { canonical: `${MIAMI_LIST_URL}/${slug}` },
   };
 }
 
@@ -41,6 +44,9 @@ function FullLocationPage({ location }: { location: LocationContent }) {
   return (
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">{name}</h1>
+      <p className="mt-2 text-sm font-medium text-neutral-500">
+        Florida → Miami
+      </p>
 
       <section className="mt-8 rounded-2xl border border-neutral-200 bg-neutral-50 p-6 sm:p-8">
         <h2 className="text-xl font-bold text-neutral">Studio address</h2>
@@ -103,10 +109,13 @@ function FullLocationPage({ location }: { location: LocationContent }) {
           Book a Session
         </a>
         <Link
-          href="/locations"
+          href={MIAMI_LIST_URL}
           className="rounded-lg border-2 border-neutral-300 px-6 py-3 font-semibold text-neutral-700 hover:border-primary hover:text-primary"
         >
-          All locations
+          All Miami locations
+        </Link>
+        <Link href="/locations" className="rounded-lg border-2 border-neutral-300 px-6 py-3 font-semibold text-neutral-700 hover:border-primary hover:text-primary">
+          All regions
         </Link>
         <Link href="/contact" className="font-medium text-primary hover:underline">
           Contact us
@@ -120,6 +129,9 @@ function StubLocationPage({ location }: { location: LocationContent }) {
   return (
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">{location.name}</h1>
+      <p className="mt-2 text-sm font-medium text-neutral-500">
+        Florida → Miami
+      </p>
       <p className="mt-4 text-lg text-neutral-600">{location.stubParagraph}</p>
       <div className="mt-8 flex flex-wrap gap-4">
         <a
@@ -130,8 +142,8 @@ function StubLocationPage({ location }: { location: LocationContent }) {
         >
           Book a Session
         </a>
-        <Link href="/locations" className="font-medium text-primary hover:underline">
-          View all locations
+        <Link href={MIAMI_LIST_URL} className="font-medium text-primary hover:underline">
+          View all Miami locations
         </Link>
         <Link href="/contact" className="font-medium text-primary hover:underline">
           Contact us
@@ -141,7 +153,7 @@ function StubLocationPage({ location }: { location: LocationContent }) {
   );
 }
 
-export default async function LocationSlugPage({ params }: Props) {
+export default async function MiamiLocationSlugPage({ params }: Props) {
   const { slug } = await params;
   const location = getLocationBySlug(slug);
   if (!location) notFound();

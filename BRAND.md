@@ -2,6 +2,15 @@
 
 You have a PDF (from a .ai file) with colors, logo, etc. Here’s how to use it on the site.
 
+## Voice & positioning (for copy)
+
+- **Tagline:** “Lift your energy”—physical, mental, and spiritual. More energy for life.
+- **Audience:** Stressed young professionals, busy executives, busy parents, older folks avoiding decline. Don’t narrow to one segment; energy and capability are the through-line.
+- **Voice:** Young, energetic, premium. Longevity and “stay strong for family” where they fit, but brand stays modern and capable, not “senior fitness” or dated.
+- **Reference:** `data/resources/local-domination-blueprint/phase6-pt-framing-checklist.md` (tagline & audience); `data/projects/Uplifted/summary.md` (business context).
+
+---
+
 **Can the site convert the PDF to SVG?** No. The site can’t open your PDF or .ai file. You export the logo from Illustrator (or export a PNG); the site then displays it. Until you add `logo.svg` or `logo.png`, the site shows a **styled wordmark fallback** (inline SVG “uplifted” in brand charcoal). See **`public/brand/LOGO-USAGE.md`** for exact usage, sizes, and recommended export colors.
 
 ## 1. Put the PDF in the project

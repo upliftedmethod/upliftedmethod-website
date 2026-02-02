@@ -103,7 +103,7 @@ export default function ARXPage() {
           <div>
             <dt className="font-semibold text-neutral">Where are you located?</dt>
             <dd className="mt-1 text-neutral-600">
-              Our studio is in Upper Buena Vista, Miami. Clients regularly come from Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, and Surfside. See our <Link href="/locations" className="font-medium text-primary hover:underline">Locations</Link> page for address and directions.
+              Our studio is in Upper Buena Vista, Miami. Clients regularly come from Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, and Surfside. See our <Link href="/locations/fl/miami" className="font-medium text-primary hover:underline">Locations</Link> page for address and directions.
             </dd>
           </div>
         </dl>
@@ -115,7 +115,7 @@ export default function ARXPage() {
           We&apos;re in <strong>Upper Buena Vista</strong>—one studio, one address. Clients drive in from Miami and the surrounding areas: Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside. One place. Coach-led strength. No big gym.
         </p>
         <p className="mt-4 text-neutral-600">
-          For full address, driving directions, and neighborhood-specific info, visit <Link href="/locations" className="font-medium text-primary hover:underline">Locations</Link>.
+          For full address, driving directions, and neighborhood-specific info, visit <Link href="/locations/fl/miami" className="font-medium text-primary hover:underline">Locations</Link>.
         </p>
         <p className="mt-2 text-sm text-neutral-500">
           Neighborhoods we serve: {NEIGHBORHOODS.join(", ")}.

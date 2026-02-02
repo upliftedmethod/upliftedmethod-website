@@ -13,11 +13,11 @@ export default function SupplementsForRecoveryBody() {
 
       <h2>What actually helps recovery?</h2>
       <p>
-        Recovery comes down to a few things: sleep, nutrition, load management, and sometimes tools like red light or vibration. Supplements can support that—they don’t replace it. The best supplements for recovery Miami athletes and busy adults use fill real gaps: protein when you’re not hitting it from food, creatine for strength and recovery, maybe omega-3s and vitamin D if your diet or lifestyle is short. Magnesium can help sleep and muscle function. Nothing magic. Just evidence-based support.
+        Recovery comes down to a few things: sleep, nutrition, load management, and sometimes tools like red light or vibration. Supplements can support that; they don’t replace it. The best supplements for recovery Miami athletes and busy adults use fill real gaps: protein when you’re not hitting it from food, creatine for strength and recovery, maybe omega-3s and vitamin D if your diet or lifestyle is short. Magnesium can help sleep and muscle function. Nothing magic—just evidence-based support.
       </p>
 
       <p>
-        Supplements for strength training overlap with recovery. You get stronger when you recover. So creatine, protein, and adequate calories matter for both. The “best” supplements for recovery aren’t exotic. They’re the basics done well: enough protein, creatine if you’re lifting, maybe collagen or glycine for connective tissue and sleep, and electrolytes if you sweat a lot. We don’t overclaim. We point people to what works and skip the rest.
+        Supplements for strength training overlap with recovery. You get stronger when you recover. So creatine, protein, and adequate calories matter for both. The “best” options aren’t exotic. They’re the basics done well: enough protein, creatine if you’re lifting, maybe collagen or glycine for connective tissue and sleep, and electrolytes if you sweat a lot. We don’t overclaim. We point people to what works and skip the rest.
       </p>
 
       <h2>Protein</h2>
@@ -27,7 +27,7 @@ export default function SupplementsForRecoveryBody() {
 
       <h2>Creatine</h2>
       <p>
-        Creatine is one of the most researched supplements for strength training and recovery. It supports strength, power, and muscle. It may also help with recovery between sessions—less soreness, faster return to baseline. Dose is simple: 3–5 grams per day. No loading phase needed. No fancy form required. Monohydrate is cheap and effective. If you lift and you’re not taking creatine, it’s one of the first things we’d suggest. Best supplements for recovery Miami lifters use often include creatine—not because it’s sexy, but because it works.
+        Creatine is one of the most researched supplements for strength training and recovery. It supports strength, power, and muscle. It may also help with recovery between sessions—less soreness, faster return to baseline. Dose is simple: 3–5 grams per day. No loading phase needed. No fancy form required. Monohydrate is cheap and effective. If you lift and you’re not taking creatine, it’s one of the first things we’d suggest. Miami lifters who care about recovery often include creatine in their stack for exactly that reason.
       </p>
 
       <h2>Omega-3s and vitamin D</h2>
@@ -37,17 +37,27 @@ export default function SupplementsForRecoveryBody() {
 
       <h2>Magnesium and sleep</h2>
       <p>
-        Sleep is the biggest recovery lever. Magnesium can support sleep and muscle function. A lot of people are mildly low. Forms like glycinate or threonate are often better tolerated than oxide. We’re not saying pop a pill and sleep like a baby. We’re saying: if you’re stressed, training hard, and sleeping poorly, magnesium is one piece of the puzzle. Same with glycine—some people find it helps sleep quality. Try it. If it helps, keep it. If not, skip it.
+        Sleep is the biggest recovery lever. Magnesium can support sleep and muscle function. A lot of people are mildly low. Forms like glycinate or threonate are often better tolerated than oxide. If you’re stressed, training hard, and sleeping poorly, magnesium is one piece of the puzzle—not a silver bullet. Same with glycine: some people find it helps sleep quality. Worth a try; if it doesn’t move the needle for you, no need to keep taking it.
+      </p>
+
+      <h2>Electrolytes and hydration</h2>
+      <p>
+        If you sweat a lot—Miami heat, intense sessions, ARX or outdoor training—electrolytes matter. Sodium, potassium, magnesium. You can get a lot from food (salty meals, bananas, leafy greens), but during or after a heavy session a simple electrolyte drink or tablet can help you rebalance without overdoing sugar. We’re not talking neon sports drinks. We’re talking enough sodium and potassium so you don’t feel wiped or crampy the rest of the day. Hydration plus electrolytes often gets overlooked; for people training hard in the heat, it’s one of the easiest fixes.
       </p>
 
       <h2>What we don’t push</h2>
       <p>
-        We don’t push exotic “recovery” stacks or miracle compounds. A lot of what’s marketed as supplements for recovery is under-researched or overhyped. We’d rather you nail protein, creatine, sleep, and maybe omega-3s and vitamin D than load up on stuff that might do nothing. Best supplements for recovery Miami clients actually use are the ones that fit their life and fill real gaps. That’s what we recommend in-studio and what we’ll offer in our <Link href="/shop" className="font-medium text-primary hover:underline">shop</Link> when it’s live—same standards as our training and recovery offerings.
+        We don’t push exotic “recovery” stacks or miracle compounds. A lot of what’s marketed as supplements for recovery is under-researched or overhyped. We’d rather you nail protein, creatine, sleep, and maybe omega-3s and vitamin D than load up on stuff that might do nothing. What our clients actually use are the ones that fit their life and fill real gaps. That’s what we recommend in-studio at our <Link href="/locations/fl/miami/upper-buena-vista" className="font-medium text-primary hover:underline">Upper Buena Vista studio</Link> and what we’ll offer in our <Link href="/shop" className="font-medium text-primary hover:underline">shop</Link> when it’s live—same standards as our training and recovery offerings.
       </p>
 
       <h2>Stacking supplements with training and recovery</h2>
       <p>
-        Supplements for recovery work best when they’re part of a full picture. You train—<Link href="/arx" className="font-medium text-primary hover:underline">ARX</Link> or other strength work. You recover—sleep, maybe <Link href="/red-light-therapy" className="font-medium text-primary hover:underline">red light</Link>, Shiftwave, and nutrition. Supplements support that. They don’t replace it. So the “best” approach is: train consistently, recover with sleep and whatever tools work for you (red light, vibration, etc.), eat enough protein and calories, and use supplements to fill gaps. That’s what we recommend. No magic. Just clear priorities.
+        Supplements work best when they’re part of a full picture. You train—<Link href="/arx" className="font-medium text-primary hover:underline">ARX</Link> or other strength work. You recover—sleep, maybe <Link href="/red-light-therapy" className="font-medium text-primary hover:underline">red light</Link>, Shiftwave, and nutrition. Supplements support that; they don’t replace it. So the best approach: train consistently, recover with sleep and whatever tools work for you (red light, vibration, etc.), eat enough protein and calories, and use supplements to fill gaps. That’s what we recommend. Clear priorities, no magic.
+      </p>
+
+      <h2>When to take what</h2>
+      <p>
+        You don’t need a complicated schedule. Creatine: same time every day (morning or post-workout), 3–5 g. Protein: spread across the day; if you’re using powder, post-workout is fine but not required—hitting your daily total matters more. Omega-3s and vitamin D: with a meal (fat helps absorption). Magnesium and glycine: evening, an hour or so before bed. Electrolytes: during or right after sessions when you’re sweating a lot. The goal isn’t to optimize every minute. It’s to make it easy enough that you actually do it.
       </p>
 
       <h2>Where to get them</h2>

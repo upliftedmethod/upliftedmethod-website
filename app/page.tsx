@@ -158,7 +158,7 @@ export default function HomePage() {
           {["Key Biscayne", "Coconut Grove", "Coral Gables", "Pinecrest", "Miami Beach", "Surfside", "Miami"].map((area) => (
             <Link
               key={area}
-              href={`/locations#${area.toLowerCase().replace(/\s+/g, "-")}`}
+              href={`/locations/fl/miami#${area.toLowerCase().replace(/\s+/g, "-")}`}
               className="rounded-full bg-neutral-100 px-5 py-2.5 text-sm font-medium text-neutral-700 hover:bg-primary hover:text-white"
             >
               {area}
@@ -166,7 +166,7 @@ export default function HomePage() {
           ))}
         </div>
         <p className="mt-8 text-center">
-          <Link href="/locations" className="btn-primary">
+          <Link href="/locations/fl/miami" className="btn-primary">
             Studio address & directions
           </Link>
         </p>

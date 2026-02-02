@@ -79,7 +79,7 @@ export default function ServicesPage() {
       </div>
 
       <p className="mt-16 text-center">
-        <Link href="/locations" className="font-medium text-primary hover:underline">
+        <Link href="/locations/fl/miami" className="font-medium text-primary hover:underline">
           Studio address & directions →
         </Link>
       </p>

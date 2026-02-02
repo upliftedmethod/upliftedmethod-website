@@ -1,11 +1,12 @@
 import { MetadataRoute } from "next";
 import { getAllPosts } from "@/app/blog/posts";
+import { getAllSlugs } from "@/app/locations/locationData";
 
 const BASE_URL = "https://upliftedmethod.com";
 
 /**
  * Indexable pages only. Excludes /forms/* (noindex).
- * Blog post URLs included from posts registry.
+ * Blog post URLs and location pages (FL/Miami) included.
  */
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
@@ -15,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/contact`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/locations`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/locations/fl/miami`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/services`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/shop`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/red-light-therapy`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
@@ -28,5 +30,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...blogPosts];
+  const locationPages: MetadataRoute.Sitemap = getAllSlugs().map((slug) => ({
+    url: `${BASE_URL}/locations/fl/miami/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...locationPages, ...blogPosts];
 }

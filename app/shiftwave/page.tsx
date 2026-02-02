@@ -102,7 +102,7 @@ export default function ShiftwavePage() {
           <div>
             <dt className="font-semibold text-neutral">Where are you located?</dt>
             <dd className="mt-1 text-neutral-600">
-              Our studio is in Upper Buena Vista, Miami. We serve clients from Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, and Surfside. See our <Link href="/locations" className="font-medium text-primary hover:underline">Locations</Link> page for address and directions.
+              Our studio is in Upper Buena Vista, Miami. We serve clients from Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, and Surfside. See our <Link href="/locations/fl/miami" className="font-medium text-primary hover:underline">Locations</Link> page for address and directions.
             </dd>
           </div>
         </dl>
@@ -111,7 +111,7 @@ export default function ShiftwavePage() {
       <section className="mt-12">
         <h2 className="text-xl font-bold text-neutral">Service Area</h2>
         <p className="mt-2 text-neutral-600">
-          We&apos;re in <strong>Upper Buena Vista</strong>. All Shiftwave sessions happen here. Clients drive in from Miami and the surrounding areas—Key Biscayne, Grove, Gables, Pinecrest, Beach, Surfside. One place: ARX, red light, Shiftwave in one visit. Address and directions: <Link href="/locations" className="font-medium text-primary hover:underline">Locations</Link>.
+          We&apos;re in <strong>Upper Buena Vista</strong>. All Shiftwave sessions happen here. Clients drive in from Miami and the surrounding areas—Key Biscayne, Grove, Gables, Pinecrest, Beach, Surfside. One place: ARX, red light, Shiftwave in one visit. Address and directions: <Link href="/locations/fl/miami" className="font-medium text-primary hover:underline">Locations</Link>.
         </p>
         <p className="mt-2 text-sm text-neutral-500">
           Neighborhoods we serve: {NEIGHBORHOODS.join(", ")}.

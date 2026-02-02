@@ -53,7 +53,7 @@ export default function WhatIsARXBody() {
 
       <h2>Where to try it</h2>
       <p>
-        If you’re in Miami and want to see what ARX is like in person, we’re in Upper Buena Vista with ARX Alpha and ARX Omni, coach-led sessions, and the option to add red light or Shiftwave the same day. You can read more about our <Link href="/arx" className="font-medium text-primary hover:underline">ARX offering</Link> and our <Link href="/locations/upper-buena-vista" className="font-medium text-primary hover:underline">Upper Buena Vista studio</Link> on the site, or book a session and feel the difference yourself. No hype—just clear, efficient strength training that fits real life.
+        If you’re in Miami and want to see what ARX is like in person, we’re in Upper Buena Vista with ARX Alpha and ARX Omni, coach-led sessions, and the option to add red light or Shiftwave the same day. You can read more about our <Link href="/arx" className="font-medium text-primary hover:underline">ARX offering</Link> and our <Link href="/locations/fl/miami/upper-buena-vista" className="font-medium text-primary hover:underline">Upper Buena Vista studio</Link> on the site, or book a session and feel the difference yourself. No hype—just clear, efficient strength training that fits real life.
       </p>
     </div>
   );

@@ -10,7 +10,7 @@ const NAV = [
   { href: "/arx", label: "ARX" },
   { href: "/red-light-therapy", label: "Red Light" },
   { href: "/shiftwave", label: "Shiftwave" },
-  { href: "/locations", label: "Locations" },
+  { href: "/locations/fl/miami", label: "Locations" },
   { href: "/blog", label: "Blog" },
   { href: "/shop", label: "Shop" },
   { href: "/about", label: "About" },

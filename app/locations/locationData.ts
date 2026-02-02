@@ -1,6 +1,7 @@
 /**
- * Per-location content for /locations/[slug].
- * Full content for all locations (Upper Buena Vista + P3-9–P3-17).
+ * Per-location content for /locations/fl/miami/[slug].
+ * Full content for all locations (Upper Buena Vista + neighborhoods).
+ * Structure supports future expansion: add state/city and reuse this data.
  */
 
 const BOOK_URL = "https://upliftedmethod.as.me/schedule/550c1c04";
@@ -47,6 +48,10 @@ export const LOCATION_SLUGS = [
   "bay-point",
   "morningside",
   "miami-shores",
+  "wynwood",
+  "midtown",
+  "edgewater",
+  "brickell",
 ] as const;
 
 export type LocationSlug = (typeof LOCATION_SLUGS)[number];
@@ -530,6 +535,198 @@ export const LOCATIONS: Record<LocationSlug, LocationContent> = {
     ],
     neighborhoodContent: `Miami Shores has its own identity—tree-lined boulevards, parks. No ARX and red light in one place in the village. Our Miami Shores clients drive fifteen minutes for the full setup. UBV is walkable—cafes, easy parking. Second floor, clear signage. In and out in under an hour for ARX plus red light, or red light only. ARX, red light, Shiftwave, and the supplements we use.`,
     responseTimes: `We reply within 24 hours, usually same day. Book online for the fastest slot; same-day and next-day often open, especially for red light. ARX and Shiftwave by appointment—book at least a day ahead for weekends. From Miami Shores you're 15–20 minutes; put your preferred time in the notes. New clients get a short run-through so you're set from the first visit.`,
+    stubParagraph: undefined,
+  },
+  wynwood: {
+    slug: "wynwood",
+    name: "Wynwood",
+    metaTitle: "ARX Training & Red Light Therapy Wynwood | Uplifted Studio",
+    metaDescription:
+      "ARX Wynwood, red light therapy Wynwood, personal training Wynwood, fitness studio Wynwood. Uplifted at Upper Buena Vista—minutes from Wynwood. Book ARX, red light, Shiftwave.",
+    isStub: false,
+    address: STUDIO_ADDRESS,
+    mapUrl: MAP_URL,
+    bookUrl: BOOK_URL,
+    intro: `Wynwood is murals, galleries, creative energy—people who move and recover hard. Wynwood doesn't have in-studio ARX and red light under one roof. We do. 5026 NE 2nd Ave #303, five to ten minutes north in Upper Buena Vista. Many of our clients drive in from Wynwood for ARX, red light, Shiftwave, and the supplements we use. Same neighborhood vibe; serious strength and recovery.`,
+    serviceArea: `We're in Upper Buena Vista; Wynwood is right in our backyard. Wynwood clients drive in for ARX, red light, Shiftwave, and supplements—before or after work, or a weekend block. NE 2nd Ave and Biscayne put you here in under ten minutes; many combine a session with a coffee or Design District errands. We're the only studio in Miami-Dade with ARX and Shiftwave together. We also serve Midtown, Edgewater, Brickell, Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside. Supplements in-studio and online.`,
+    drivingDirections: [
+      {
+        from: "Wynwood (NE 2nd Ave / NW 2nd Ave)",
+        directions:
+          "Head north on NE 2nd Ave (or NW 2nd Ave) toward Upper Buena Vista. The studio is at 5026 NE 2nd Ave #303, on the second floor with clear signage. Allow 5–10 minutes depending on where you start in Wynwood.",
+      },
+      {
+        from: "Wynwood (Biscayne Blvd)",
+        directions:
+          "Head north on Biscayne Blvd (US-1). Turn left onto NE 2nd Ave; the studio is at 5026 NE 2nd Ave #303 in Upper Buena Vista. Typically 8–12 minutes.",
+      },
+      {
+        from: "Wynwood (I-95)",
+        directions:
+          "Take I-95 north to the 79th St exit (or 62nd St). Head east to NE 2nd Ave, then south to 5026 NE 2nd Ave #303. Alternatively, take the 36th St exit and work east to NE 2nd Ave. Allow 10–15 minutes.",
+      },
+      {
+        from: "Brickell",
+        directions:
+          "Head north on Biscayne Blvd (US-1). Continue past the Venetian Causeway; Upper Buena Vista is on your left. Turn left onto NE 2nd Ave; the studio is at 5026 NE 2nd Ave #303. Allow about 15–20 minutes depending on traffic.",
+      },
+      {
+        from: "Miami Beach",
+        directions:
+          "Cross the Venetian or Julia Tuttle Causeway to the mainland. From the Julia Tuttle, take NE 2nd Ave south; 5026 NE 2nd Ave #303 is in Upper Buena Vista. From the Venetian, head west to Biscayne Blvd, then north to NE 2nd Ave. Typically 20–30 minutes.",
+      },
+      {
+        from: "Miami International Airport (MIA)",
+        directions:
+          "Take the Airport Expressway (SR 112) east to I-95 north, then exit at 79th St or take NE 2nd Ave north. Alternatively, take Le Jeune Rd north and then east to NE 2nd Ave. Allow 25–40 minutes with traffic.",
+      },
+    ],
+    neighborhoodContent: `Wynwood has its own identity—street art, galleries, cafes. No ARX and red light in one place in the neighborhood. Our Wynwood clients drive five to ten minutes for the full setup. UBV is walkable—cafes, easy parking. Second floor, clear signage. In and out in under an hour for ARX plus red light, or red light only. No crowded floor. Only spot in the area with ARX and Shiftwave together.`,
+    responseTimes: `We reply within 24 hours, usually same day. Book online for the fastest slot; same-day and next-day often open, especially for red light. ARX and Shiftwave by appointment—book at least a day ahead for weekends. From Wynwood you're 5–10 minutes; put your preferred time in the notes. New clients get a short run-through so you're set from the first visit.`,
+    stubParagraph: undefined,
+  },
+  midtown: {
+    slug: "midtown",
+    name: "Midtown",
+    metaTitle: "ARX Training & Red Light Therapy Midtown Miami | Uplifted Studio",
+    metaDescription:
+      "ARX Midtown Miami, red light therapy Midtown, personal training Midtown, fitness studio Midtown. Uplifted at Upper Buena Vista—minutes from Midtown. Book ARX, red light, Shiftwave.",
+    isStub: false,
+    address: STUDIO_ADDRESS,
+    mapUrl: MAP_URL,
+    bookUrl: BOOK_URL,
+    intro: `Midtown Miami is retail, dining, residential—people who want efficient training and recovery close to home. Midtown doesn't have in-studio ARX and red light under one roof. We do. 5026 NE 2nd Ave #303, five to twelve minutes in Upper Buena Vista. Many of our clients drive in from Midtown for ARX, red light, Shiftwave, and the supplements we use. Short drive.`,
+    serviceArea: `We're in Upper Buena Vista; Midtown is a core part of who we serve. Midtown clients drive in for ARX, red light, Shiftwave, and supplements—before or after work, or a weekend block. NE 1st Ave and NE 2nd Ave put you here in under fifteen minutes; many combine a session with Wynwood or Design District errands. We're the only studio in Miami-Dade with ARX and Shiftwave together. We also serve Wynwood, Edgewater, Brickell, Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside. Supplements in-studio and online.`,
+    drivingDirections: [
+      {
+        from: "Midtown Miami (NE 1st Ave / 36th St)",
+        directions:
+          "Head south on NE 1st Ave or NE 2nd Ave toward Upper Buena Vista. Cross 36th St; the studio is at 5026 NE 2nd Ave #303, on the second floor with clear signage. Allow 5–12 minutes depending on where you start in Midtown.",
+      },
+      {
+        from: "Midtown Miami (Biscayne Blvd)",
+        directions:
+          "Head south on Biscayne Blvd (US-1). Turn left onto NE 2nd Ave; the studio is at 5026 NE 2nd Ave #303 in Upper Buena Vista. Typically 8–15 minutes.",
+      },
+      {
+        from: "Wynwood",
+        directions:
+          "Head north on NE 2nd Ave (or NW 2nd Ave) toward Upper Buena Vista. The studio is at 5026 NE 2nd Ave #303. Allow 5–10 minutes.",
+      },
+      {
+        from: "Edgewater",
+        directions:
+          "Head west to Biscayne Blvd (US-1), then north. Turn left onto NE 2nd Ave; the studio is at 5026 NE 2nd Ave #303. Alternatively, take NE 2nd Ave north from the western edge of Edgewater. Allow 10–15 minutes.",
+      },
+      {
+        from: "Brickell",
+        directions:
+          "Head north on Biscayne Blvd (US-1). Continue past the Venetian Causeway; Upper Buena Vista is on your left. Turn left onto NE 2nd Ave; the studio is at 5026 NE 2nd Ave #303. Allow about 15–20 minutes depending on traffic.",
+      },
+      {
+        from: "Miami International Airport (MIA)",
+        directions:
+          "Take the Airport Expressway (SR 112) east to I-95 north, then exit at 79th St or take NE 2nd Ave north. Alternatively, take Le Jeune Rd north and then east to NE 2nd Ave. Allow 25–40 minutes with traffic.",
+      },
+    ],
+    neighborhoodContent: `Midtown Miami has its own identity—shops, restaurants, residential. No ARX and red light in one place in the neighborhood. Our Midtown clients drive under fifteen minutes for the full setup. UBV is walkable—cafes, easy parking. Second floor, clear signage. In and out in under an hour for ARX plus red light, or red light only. ARX, red light, Shiftwave, and the supplements we use.`,
+    responseTimes: `We reply within 24 hours, usually same day. Book online for the fastest slot; same-day and next-day often open, especially for red light. ARX and Shiftwave by appointment—book at least a day ahead for weekends. From Midtown you're 5–12 minutes; put your preferred time in the notes. New clients get a short run-through so you're set from the first visit.`,
+    stubParagraph: undefined,
+  },
+  edgewater: {
+    slug: "edgewater",
+    name: "Edgewater",
+    metaTitle: "ARX Training & Red Light Therapy Edgewater Miami | Uplifted Studio",
+    metaDescription:
+      "ARX Edgewater, red light therapy Edgewater, personal training Edgewater, fitness studio Edgewater. Uplifted at Upper Buena Vista—short drive from Edgewater. Book ARX, red light, Shiftwave.",
+    isStub: false,
+    address: STUDIO_ADDRESS,
+    mapUrl: MAP_URL,
+    bookUrl: BOOK_URL,
+    intro: `Edgewater is waterfront, high-rises, people who value efficiency—train hard, recover well. Edgewater doesn't have in-studio ARX and red light under one roof. We do. 5026 NE 2nd Ave #303, ten to fifteen minutes north in Upper Buena Vista. Many of our clients drive in from Edgewater for ARX, red light, Shiftwave, and the supplements we use. Biscayne to our door in under fifteen minutes.`,
+    serviceArea: `We're in Upper Buena Vista; Edgewater is a core part of who we serve. Edgewater clients drive in for ARX, red light, Shiftwave, and supplements—before or after work, or a weekend block. Biscayne Blvd and NE 2nd Ave put you here in ten to fifteen minutes; many combine a session with Wynwood or Design District errands. We're the only studio in Miami-Dade with ARX and Shiftwave together. We also serve Wynwood, Midtown, Brickell, Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside. Supplements in-studio and online.`,
+    drivingDirections: [
+      {
+        from: "Edgewater (Biscayne Blvd)",
+        directions:
+          "Head north on Biscayne Blvd (US-1). Upper Buena Vista is on your left. Turn left onto NE 2nd Ave; the studio is at 5026 NE 2nd Ave #303. Allow 10–15 minutes depending on where you start in Edgewater.",
+      },
+      {
+        from: "Edgewater (NE 2nd Ave / Bayshore)",
+        directions:
+          "Head north on NE 2nd Ave (or Bayshore Dr) toward Upper Buena Vista. The studio is at 5026 NE 2nd Ave #303, on the second floor with clear signage. Typically 10–18 minutes.",
+      },
+      {
+        from: "Brickell",
+        directions:
+          "Head north on Biscayne Blvd (US-1). Continue past the Venetian Causeway; Upper Buena Vista is on your left. Turn left onto NE 2nd Ave; the studio is at 5026 NE 2nd Ave #303. Allow about 15–20 minutes depending on traffic.",
+      },
+      {
+        from: "Wynwood",
+        directions:
+          "Head north on NE 2nd Ave (or NW 2nd Ave) toward Upper Buena Vista. The studio is at 5026 NE 2nd Ave #303. Allow 5–10 minutes.",
+      },
+      {
+        from: "Miami Beach",
+        directions:
+          "Cross the Venetian or Julia Tuttle Causeway to the mainland. From the Julia Tuttle, take NE 2nd Ave south; 5026 NE 2nd Ave #303 is in Upper Buena Vista. From the Venetian, head west to Biscayne Blvd, then north to NE 2nd Ave. Typically 20–30 minutes.",
+      },
+      {
+        from: "Miami International Airport (MIA)",
+        directions:
+          "Take the Airport Expressway (SR 112) east to I-95 north, then exit at 79th St or take NE 2nd Ave north. Alternatively, take Le Jeune Rd north and then east to NE 2nd Ave. Allow 25–40 minutes with traffic.",
+      },
+    ],
+    neighborhoodContent: `Edgewater has its own identity—waterfront, high-rises, walkable. No ARX and red light in one place in the neighborhood. Our Edgewater clients drive ten to fifteen minutes for the full setup. UBV is walkable—cafes, easy parking. Second floor, clear signage. In and out in under an hour for ARX plus red light, or red light only. No crowded floor. Only spot in the area with ARX and Shiftwave together.`,
+    responseTimes: `We reply within 24 hours, usually same day. Book online for the fastest slot; same-day and next-day often open, especially for red light. ARX and Shiftwave by appointment—book at least a day ahead for weekends. From Edgewater you're 10–15 minutes; put your preferred time in the notes. New clients get a short run-through so you're set from the first visit.`,
+    stubParagraph: undefined,
+  },
+  brickell: {
+    slug: "brickell",
+    name: "Brickell",
+    metaTitle: "ARX Training & Red Light Therapy Brickell Miami | Uplifted Studio",
+    metaDescription:
+      "ARX Brickell, red light therapy Brickell, personal training Brickell, fitness studio Brickell. Uplifted at Upper Buena Vista—short drive from Brickell. Book ARX, red light, Shiftwave.",
+    isStub: false,
+    address: STUDIO_ADDRESS,
+    mapUrl: MAP_URL,
+    bookUrl: BOOK_URL,
+    intro: `Brickell is finance, high-rises, people who move fast—train hard, recover, get back to it. Brickell doesn't have in-studio ARX and red light under one roof. We do. 5026 NE 2nd Ave #303, fifteen to twenty minutes north in Upper Buena Vista. Many of our clients drive in from Brickell for ARX, red light, Shiftwave, and the supplements we use. Biscayne to our door in under twenty minutes.`,
+    serviceArea: `We're in Upper Buena Vista; Brickell is a core part of who we serve. Brickell clients drive in for ARX, red light, Shiftwave, and supplements—before or after work, or a weekend block. Biscayne Blvd (US-1) north puts you here in fifteen to twenty minutes; many combine a session with Wynwood or Design District errands. We're the only studio in Miami-Dade with ARX and Shiftwave together. We also serve Edgewater, Wynwood, Midtown, Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside. Supplements in-studio and online.`,
+    drivingDirections: [
+      {
+        from: "Brickell (Brickell Ave / Biscayne)",
+        directions:
+          "Head north on Biscayne Blvd (US-1). Continue past the Venetian Causeway; Upper Buena Vista is on your left. Turn left onto NE 2nd Ave; the studio is at 5026 NE 2nd Ave #303. Allow about 15–20 minutes depending on traffic.",
+      },
+      {
+        from: "Brickell (I-95)",
+        directions:
+          "Take I-95 north to the 79th St exit (or 62nd St). Head east to NE 2nd Ave, then south to 5026 NE 2nd Ave #303. Alternatively, take the 36th St exit and work east to NE 2nd Ave. Allow 20–30 minutes.",
+      },
+      {
+        from: "Brickell (Metromover / Downtown)",
+        directions:
+          "From downtown, head north on Biscayne Blvd (US-1) or NE 2nd Ave. Upper Buena Vista is on your left; the studio is at 5026 NE 2nd Ave #303. Plan for about 15–25 minutes.",
+      },
+      {
+        from: "Miami Beach",
+        directions:
+          "Cross the Venetian or Julia Tuttle Causeway to the mainland. From the Julia Tuttle, take NE 2nd Ave south; 5026 NE 2nd Ave #303 is in Upper Buena Vista. From the Venetian, head west to Biscayne Blvd, then north to NE 2nd Ave. Typically 20–30 minutes.",
+      },
+      {
+        from: "Coconut Grove",
+        directions:
+          "Take US-1 (South Dixie Hwy) north or Le Jeune Rd north to the Design District area, then east to NE 2nd Ave. Alternatively, take I-95 north to the 79th St exit, then south on NE 2nd Ave. The studio is in Upper Buena Vista; allow 15–25 minutes.",
+      },
+      {
+        from: "Miami International Airport (MIA)",
+        directions:
+          "Take the Airport Expressway (SR 112) east to I-95 north, then exit at 79th St or take NE 2nd Ave north. Alternatively, take Le Jeune Rd north and then east to NE 2nd Ave. Allow 25–40 minutes with traffic.",
+      },
+    ],
+    neighborhoodContent: `Brickell has its own identity—towers, finance, pace. No ARX and red light in one place in the neighborhood. Our Brickell clients drive fifteen to twenty minutes for the full setup. UBV is walkable—cafes, easy parking. Second floor, clear signage. In and out in under an hour for ARX plus red light, or red light only. No crowded floor. Only spot in the area with ARX and Shiftwave together.`,
+    responseTimes: `We reply within 24 hours, usually same day. Book online for the fastest slot; same-day and next-day often open, especially for red light. ARX and Shiftwave by appointment—book at least a day ahead for weekends. From Brickell you're 15–20 minutes; put your preferred time in the notes. New clients get a short run-through so you're set from the first visit.`,
     stubParagraph: undefined,
   },
 };

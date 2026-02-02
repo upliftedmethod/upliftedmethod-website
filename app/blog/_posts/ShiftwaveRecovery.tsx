@@ -54,7 +54,7 @@ export default function ShiftwaveRecoveryBody() {
 
       <h2>Where to try it</h2>
       <p>
-        If you’re in Miami and want to see what Shiftwave is like, we’re in Upper Buena Vista with the Shiftwave chair, ARX, and red light. You can read more about our <Link href="/shiftwave" className="font-medium text-primary hover:underline">Shiftwave offering</Link> and our <Link href="/services" className="font-medium text-primary hover:underline">services</Link>, or check our <Link href="/locations/upper-buena-vista" className="font-medium text-primary hover:underline">Upper Buena Vista</Link> location page for address and directions. Book a session and feel the difference—no hype, just clear protocol and a recovery studio that fits how you train.
+        If you’re in Miami and want to see what Shiftwave is like, we’re in Upper Buena Vista with the Shiftwave chair, ARX, and red light. You can read more about our <Link href="/shiftwave" className="font-medium text-primary hover:underline">Shiftwave offering</Link> and our <Link href="/services" className="font-medium text-primary hover:underline">services</Link>, or check our <Link href="/locations/fl/miami/upper-buena-vista" className="font-medium text-primary hover:underline">Upper Buena Vista</Link> location page for address and directions. Book a session and feel the difference—no hype, just clear protocol and a recovery studio that fits how you train.
       </p>
     </div>
   );

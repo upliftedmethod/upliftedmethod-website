@@ -69,7 +69,7 @@ export default function RedLightTherapyBenefitsBody() {
 
       <h2>Where to try it</h2>
       <p>
-        If you’re in Miami and want to see how red light fits into your recovery, we’re in Upper Buena Vista with full-body RLT on the EnergyLounger. You can book red light only or pair it with ARX or Shiftwave the same day. More on our <Link href="/red-light-therapy" className="font-medium text-primary hover:underline">red light therapy</Link> offering and our <Link href="/locations/upper-buena-vista" className="font-medium text-primary hover:underline">Upper Buena Vista studio</Link> on the site. No hype—just a clear protocol, real equipment, and the option to stack it with strength and recovery in one stop.
+        If you’re in Miami and want to see how red light fits into your recovery, we’re in Upper Buena Vista with full-body RLT on the EnergyLounger. You can book red light only or pair it with ARX or Shiftwave the same day. More on our <Link href="/red-light-therapy" className="font-medium text-primary hover:underline">red light therapy</Link> offering and our <Link href="/locations/fl/miami/upper-buena-vista" className="font-medium text-primary hover:underline">Upper Buena Vista studio</Link> on the site. No hype—just a clear protocol, real equipment, and the option to stack it with strength and recovery in one stop.
       </p>
     </div>
   );
