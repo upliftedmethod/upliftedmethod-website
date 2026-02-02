@@ -50,7 +50,7 @@ export default function ARXPage() {
         <ul className="mt-4 list-inside list-disc space-y-2 text-neutral-600">
           <li><strong>No time for long workouts.</strong> You want real strength gains without 60–90 minute sessions. ARX delivers a 20-minute workout that fits a busy schedule—same stimulus, fraction of the time.</li>
           <li><strong>Plateaued on fixed weights.</strong> Barbells and machines give the same load through the rep. ARX adapts through the entire range of motion so weak points get challenged and strong points don&apos;t coast.</li>
-          <li><strong>Want personal training without the circus.</strong> You want a focused environment, not a crowded floor. Our 270 sq ft studio is built for one-on-one or small-group ARX.</li>
+          <li><strong>Want personal training without the circus.</strong> You want a focused environment, not a crowded floor. Our private, boutique studio is built for one-on-one or small-group ARX.</li>
           <li><strong>Recovery matters as much as lifting.</strong> Many clients combine ARX with our red light therapy and Shiftwave so strength and recovery live under one roof.</li>
         </ul>
       </section>

@@ -63,7 +63,7 @@ export const LOCATIONS: Record<LocationSlug, LocationContent> = {
     mapUrl: MAP_URL,
     bookUrl: BOOK_URL,
     intro: `Upper Buena Vista is where Uplifted lives. Our studio at 5026 NE 2nd Ave #303 has ARX Alpha, ARX Omni, the EnergyLounger red light bed, and Shiftwave—strength and recovery in one place. Clients from across Miami-Dade come here to train, recover, and grab the supplements we use. We opened October 2024. If you're looking for in-studio ARX, red light therapy, or a recovery studio in Upper Buena Vista or nearby, this is it.`,
-    serviceArea: `We're in Upper Buena Vista and serve the immediate area—Buena Vista, Edgewater, Wynwood, Design District, Midtown, Little Haiti—plus clients who drive in from Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, and Surfside. We're the only studio in Miami-Dade with ARX and Shiftwave under one roof. Same address, same equipment, every time. Supplements in-studio and online. Small space on purpose: one-on-one or small-group. ARX first, then red light and Shiftwave for recovery, plus the supplements we use and recommend.`,
+    serviceArea: `We're in Upper Buena Vista and serve the immediate area—Buena Vista, Edgewater, Wynwood, Design District, Midtown, Little Haiti—plus clients who drive in from Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, and Surfside. We're the only studio in Miami-Dade with ARX and Shiftwave under one roof. Same address, same equipment, every time. Supplements in-studio and online. Private, intimate space on purpose: one-on-one or small-group. ARX first, then red light and Shiftwave for recovery, plus the supplements we use and recommend.`,
     drivingDirections: [
       {
         from: "Brickell",

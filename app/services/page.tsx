@@ -15,7 +15,7 @@ const SERVICES = [
     id: "studio",
     title: "In-Studio Training (Upper Buena Vista)",
     short: "ARX Alpha + ARX Omni. One space, serious results.",
-    body: "Our 270 sq ft space at Upper Buena Vista has ARX Alpha, ARX Omni, EnergyLounger red light bed, and Shiftwave chair. Come in for strength, recovery, or both. ARX adaptive resistance packs a lot of work into a short session—no big gym, no wasted minutes.",
+    body: "Our private, boutique studio at Upper Buena Vista has ARX Alpha, ARX Omni, EnergyLounger red light bed, and Shiftwave chair. Come in for strength, recovery, or both. ARX adaptive resistance packs a lot of work into a short session—no big gym, no wasted minutes.",
     cta: "Book a session",
     detailHref: null as string | null,
   },

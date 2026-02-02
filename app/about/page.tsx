@@ -15,7 +15,7 @@ export default function AboutPage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">About Uplifted</h1>
       <p className="mt-4 text-lg text-neutral-600">
-        Uplifted started in early 2023 with ARX adaptive resistance and recovery in Miami. Our studio at Upper Buena Vista opened in October 2024: 270 sq ft with ARX Alpha, ARX Omni, red light therapy, and the supplements we trust. Strength, recovery, and education under one roof.
+        Uplifted started in early 2023 with ARX adaptive resistance and recovery in Miami. Our studio at Upper Buena Vista opened in October 2024—a private, boutique space with ARX Alpha, ARX Omni, red light therapy, Shiftwave, and the supplements we trust. Strength, recovery, and education under one roof.
       </p>
 
       <section className="mt-10">

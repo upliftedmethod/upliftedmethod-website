@@ -46,15 +46,24 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
         <h2 className="section-heading text-center">What We Offer</h2>
         <p className="mx-auto mt-4 max-w-2xl text-center text-neutral-600">
-          ARX adaptive resistance, red light therapy, and recovery at Upper Buena Vista. We also offer education and supplements so you can get more out of both.
+          ARX adaptive resistance, Shiftwave recovery, and red light therapy at Upper Buena Vista—one private studio in Miami.
         </p>
         <div className="mt-12 grid gap-8 sm:grid-cols-3">
           <div className="rounded-2xl border border-neutral-200 bg-white p-8 shadow-sm">
-            <h3 className="text-xl font-bold text-primary">In-Studio Training</h3>
+            <h3 className="text-xl font-bold text-primary">ARX</h3>
             <p className="mt-2 text-neutral-600">
-              ARX Alpha and ARX Omni in our 270 sq ft space at Upper Buena Vista. You get a lot of work done in a short session.
+              ARX Alpha and ARX Omni in our boutique studio at Upper Buena Vista. You get a lot of work done in a short session.
             </p>
-            <Link href="/services#studio" className="mt-4 inline-block font-medium text-primary hover:underline">
+            <Link href="/arx" className="mt-4 inline-block font-medium text-primary hover:underline">
+              Learn more →
+            </Link>
+          </div>
+          <div className="rounded-2xl border border-neutral-200 bg-white p-8 shadow-sm">
+            <h3 className="text-xl font-bold text-primary">Shiftwave</h3>
+            <p className="mt-2 text-neutral-600">
+              Vibration and sound to regulate the nervous system. Book it alone or add it to ARX and red light in the same visit.
+            </p>
+            <Link href="/shiftwave" className="mt-4 inline-block font-medium text-primary hover:underline">
               Learn more →
             </Link>
           </div>
@@ -63,17 +72,8 @@ export default function HomePage() {
             <p className="mt-2 text-neutral-600">
               EnergyLounger red light bed for recovery, skin, and wellness. Book it alone or add it to a training session.
             </p>
-            <Link href="/services#red-light" className="mt-4 inline-block font-medium text-primary hover:underline">
+            <Link href="/red-light-therapy" className="mt-4 inline-block font-medium text-primary hover:underline">
               Learn more →
-            </Link>
-          </div>
-          <div className="rounded-2xl border border-neutral-200 bg-white p-8 shadow-sm">
-            <h3 className="text-xl font-bold text-primary">Supplements</h3>
-            <p className="mt-2 text-neutral-600">
-              Supplements we stand behind for performance and recovery. Shop online—same picks we use at the studio.
-            </p>
-            <Link href="/shop" className="mt-4 inline-block font-medium text-primary hover:underline">
-              Shop →
             </Link>
           </div>
         </div>

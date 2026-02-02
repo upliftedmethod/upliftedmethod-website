@@ -12,9 +12,10 @@ const REVIEW_COUNT = 54;
 export function Footer() {
   return (
     <footer className="border-t border-neutral-200 bg-neutral-50">
-      <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
-        <div className="mb-8 space-y-3 text-center text-sm text-neutral-600">
-          <div className="flex flex-wrap justify-center gap-x-6 gap-y-1">
+      {/* Trust strip — visible band at top of footer */}
+      <div className="border-b border-neutral-200 bg-white px-4 py-4 sm:px-6">
+        <div className="mx-auto max-w-6xl space-y-3 text-center text-sm">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-neutral-700">
             <span>We reply within 24 hours</span>
             <span className="text-neutral-400" aria-hidden>·</span>
             <span>Studio opened October 2024</span>
@@ -23,7 +24,7 @@ export function Footer() {
               href={GBP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-primary"
+              className="font-medium text-primary hover:underline"
             >
               5.0 on Google · {REVIEW_COUNT} five-star reviews
             </a>
@@ -33,6 +34,8 @@ export function Footer() {
             <span>Same-day booking often available</span>
           </div>
         </div>
+      </div>
+      <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <Logo className="text-lg" />
