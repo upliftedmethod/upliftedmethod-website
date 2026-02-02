@@ -71,7 +71,7 @@ export default function RedLightTherapyPage() {
       <section className="mt-12">
         <h2 className="text-xl font-bold text-neutral">Why Choose Us</h2>
         <ul className="mt-4 list-inside list-disc space-y-2 text-neutral-600">
-          <li><strong>Built for people who train.</strong> We&apos;re a strength and recovery studio—RLT for athletes and lifters. Not a generic spa.</li>
+          <li><strong>Built for people who train.</strong> We&apos;re a personal training and recovery studio—RLT for athletes and anyone doing strength work. Not a generic spa.</li>
           <li><strong>Full-body, real equipment.</strong> The EnergyLounger delivers proper intensity and coverage. Recovery and skin in one session.</li>
           <li><strong>One location.</strong> ARX, RLT, and Shiftwave at our Upper Buena Vista studio. No driving all over town.</li>
           <li><strong>Honest positioning.</strong> We don&apos;t overclaim. RLT as part of a serious recovery offering—protocol and consistency, not hype.</li>

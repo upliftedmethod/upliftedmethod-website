@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "ARX Training Miami | In-Studio Adaptive Resistance | Upper Buena Vista",
   description:
-    "In-studio ARX training Miami at Upper Buena Vista. ARX Alpha and ARX Omni—efficient strength training, 20-minute workouts. ARX training near me for Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.",
+    "ARX personal training Miami at Upper Buena Vista. ARX Alpha and ARX Omni—guided 20-minute strength sessions. Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.",
   alternates: { canonical: "/arx" },
 };
 
@@ -25,7 +25,7 @@ export default function ARXPage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">ARX Adaptive Resistance</h1>
       <p className="mt-4 text-lg text-neutral-600">
-        ARX (Adaptive Resistance Exercise) adapts as you move—so every rep counts. We have ARX Alpha and ARX Omni at our Upper Buena Vista studio. Serious work in less time. No big-gym grind.
+        ARX (Adaptive Resistance Exercise) adapts as you move—so every rep counts. Every session is personal training: guided by a coach on ARX Alpha and ARX Omni at our Upper Buena Vista studio. Twenty minutes, real work, no big-gym grind.
       </p>
 
       <section className="mt-12">

@@ -7,11 +7,11 @@ import { LocalBusinessSchema } from "@/components/LocalBusinessSchema";
 export const metadata: Metadata = {
   metadataBase: new URL("https://upliftedmethod.com"),
   title: {
-    default: "Fitness Studio Miami | ARX, Red Light & Supplements | Upper Buena Vista",
+    default: "ARX Personal Training Miami | Red Light & Recovery | Upper Buena Vista",
     template: "%s | Uplifted",
   },
   description:
-    "Personal training and fitness studio at Upper Buena Vista, Miami. ARX, red light therapy, recovery. Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.",
+    "ARX personal training Miami at Upper Buena Vista. Red light therapy, Shiftwave recovery, supplements. Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.",
   keywords: [
     "ARX fitness Miami",
     "personal trainer Upper Buena Vista",

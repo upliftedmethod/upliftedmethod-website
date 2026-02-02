@@ -24,7 +24,7 @@ export default function ShiftwavePage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">Shiftwave Recovery</h1>
       <p className="mt-4 text-lg text-neutral-600">
-        Shiftwave uses whole-body vibration, breathwork, and audio (plus optional light) to settle your nervous system—so you can recover and reset. At our Upper Buena Vista studio you sit in the chair, we set the protocol, you recover. Same visit as ARX and red light. One place.
+        Shiftwave uses whole-body vibration, breathwork, and audio (plus optional light) to settle your nervous system—so you can recover and reset. At our Upper Buena Vista studio you sit in the chair, we set the protocol, you recover. Book it after your ARX personal training session or on its own. Same visit as red light. One place.
       </p>
 
       <section className="mt-12">
@@ -71,7 +71,7 @@ export default function ShiftwavePage() {
       <section className="mt-12">
         <h2 className="text-xl font-bold text-neutral">Why Choose Us</h2>
         <ul className="mt-4 list-inside list-disc space-y-2 text-neutral-600">
-          <li><strong>Recovery studio, not a side offering.</strong> We&apos;re built for people who train and recover. Shiftwave is part of that—not a spa add-on.</li>
+          <li><strong>Recovery studio, not a side offering.</strong> We&apos;re built for people who do personal training and recovery. Shiftwave is part of that—not a spa add-on.</li>
           <li><strong>One place.</strong> ARX, red light, and Shiftwave in one studio. No driving between gym, red light spot, and recovery chair.</li>
           <li><strong>Real equipment, clear protocol.</strong> We use the Shiftwave chair as intended and tailor sessions to your goals. No gimmicks.</li>
           <li><strong>Honest positioning.</strong> We don&apos;t overpromise. Shiftwave is a tool for circulation, relaxation, and recovery—protocol and consistency, not hype.</li>

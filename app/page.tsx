@@ -28,7 +28,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="btn-accent w-full sm:w-auto"
             >
-              Book a Session
+              Try Your First Session Free
             </a>
             <Link href="/shop" className="inline-flex items-center gap-2 rounded-lg border-2 border-white/80 bg-white/10 px-6 py-3 font-semibold backdrop-blur hover:bg-white/20">
               Shop Supplements
@@ -76,6 +76,25 @@ export default function HomePage() {
               Learn more →
             </Link>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-16 sm:px-6 sm:py-20">
+        <div className="mx-auto max-w-3xl">
+          <h2 className="section-heading text-center">Personal Training with ARX</h2>
+          <p className="mt-4 text-center text-neutral-600">
+            Yes—this is personal training. Every ARX session is one-on-one or semi-private, guided by Eric. You get a certified coach who knows the equipment, your goals, and how to keep you safe. No crowded floor, no guessing. Twenty minutes, twice a week, is enough to get stronger and lift your energy—whether you&apos;re a busy parent, an executive with no time to waste, or someone who wants to stay strong for the long run (and maybe keep up with the grandkids).
+          </p>
+          <p className="mt-4 text-center">
+            <a
+              href={BOOK_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
+              Complimentary ARX session
+            </a>
+          </p>
         </div>
       </section>
 
@@ -170,6 +189,30 @@ export default function HomePage() {
             Studio address & directions
           </Link>
         </p>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 py-16 sm:px-6 sm:py-20">
+        <h2 className="section-heading text-center">FAQs</h2>
+        <dl className="mt-8 space-y-6">
+          <div>
+            <dt className="font-semibold text-neutral-900">Is this personal training?</dt>
+            <dd className="mt-2 text-neutral-600">
+              Yes. Every ARX session is guided by Eric—one-on-one or semi-private. You work with a coach who programs your session, watches your form, and adjusts the load. It&apos;s personal training with adaptive resistance, not a class or a solo gym hour.
+            </dd>
+          </div>
+          <div>
+            <dt className="font-semibold text-neutral-900">How is ARX different from traditional personal training?</dt>
+            <dd className="mt-2 text-neutral-600">
+              ARX machines adapt to you rep by rep, so you get the right resistance at every point in the movement. That means efficient, safe strength work in about 20 minutes—no plates to load, no guesswork. You still get a personal trainer guiding the session; the tech just makes the work more precise and time-efficient.
+            </dd>
+          </div>
+          <div>
+            <dt className="font-semibold text-neutral-900">Safe for injuries or aging?</dt>
+            <dd className="mt-2 text-neutral-600">
+              ARX is low-impact and adjustable. We work with clients who have had injuries, joint limits, or just want to train without beating themselves up. If you&apos;re not sure, we can talk through it before your first session—or come in for a complimentary session and see how it feels.
+            </dd>
+          </div>
+        </dl>
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
