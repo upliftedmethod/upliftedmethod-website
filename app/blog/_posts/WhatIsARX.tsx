@@ -17,7 +17,7 @@ export default function WhatIsARXBody() {
       </p>
 
       <p>
-        The two main platforms you’ll see in studios are ARX Alpha and ARX Omni. Both use the same adaptive principle; they differ in how you interact with them—handles, foot plates, range of exercises. Coaches program exercises and loads to match your goals (strength, hypertrophy, endurance) and adjust as you progress. So when people ask “what is ARX training,” the answer isn’t just “a machine.” It’s a style of strength training built around adaptive resistance and short, intense sessions.
+        The two main platforms you’ll see in studios are ARX Alpha and ARX Omni. Both use the same adaptive principle; they differ in how you interact with them—handles, foot plates, range of exercises. Coaches program exercises and loads to match your goals (strength, hypertrophy, endurance) and adjust as you progress. So when people ask “what is ARX training,” the answer isn’t just “a machine.” It’s a style of personal training built around adaptive resistance and short, intense sessions.
       </p>
 
       <h2>Why efficient strength training matters</h2>
@@ -31,7 +31,7 @@ export default function WhatIsARXBody() {
 
       <h2>ARX Miami: where it shows up</h2>
       <p>
-        ARX isn’t in every gym. It’s mostly in studios and training spaces that focus on one-on-one or small-group work. In Miami, you’ll find in-studio ARX at places like ours in Upper Buena Vista—a dedicated space with ARX Alpha and ARX Omni, coaches who program and cue, and the option to add red light or other recovery in the same visit. People come from Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, and Surfside because they want serious strength work without the big-gym hassle. ARX Miami, in that sense, isn’t a single location; it’s a type of offering. Studio-based, coach-led, time-efficient.
+        ARX isn’t in every gym. It’s mostly in studios and training spaces that focus on one-on-one or small-group work. In Miami, you’ll find in-studio ARX personal training at places like ours in Upper Buena Vista—a dedicated space with ARX Alpha and ARX Omni, coaches who program and cue, and the option to add red light or other recovery in the same visit. People come from Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, and Surfside because they want serious strength work without the big-gym hassle. ARX Miami, in that sense, isn’t a single location; it’s a type of offering. Studio-based, coach-led, time-efficient.
       </p>
 
       <h2>What a typical session looks like</h2>

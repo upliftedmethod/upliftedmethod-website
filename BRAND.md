@@ -7,7 +7,20 @@ You have a PDF (from a .ai file) with colors, logo, etc. Here’s how to use it 
 - **Tagline:** “Lift your energy”—physical, mental, and spiritual. More energy for life.
 - **Audience:** Stressed young professionals, busy executives, busy parents, older folks avoiding decline. Don’t narrow to one segment; energy and capability are the through-line.
 - **Voice:** Young, energetic, premium. Longevity and “stay strong for family” where they fit, but brand stays modern and capable, not “senior fitness” or dated.
-- **Reference:** `data/resources/local-domination-blueprint/phase6-pt-framing-checklist.md` (tagline & audience); `data/projects/Uplifted/summary.md` (business context).
+- **Design inspiration:** [Othership](https://www.othership.us/) — super clean, minimal, warm. Lots of breathing room, scannable sections, no clutter. Aim for "Othership-level clean" without copying. See `data/resources/local-domination-blueprint/othership-inspiration.md` for extracted patterns (pillars, testimonial format, guide language).
+
+**Reference:** `data/resources/local-domination-blueprint/phase6-pt-framing-checklist.md` (tagline & audience); `data/projects/Uplifted/summary.md` (business context).
+
+### Copy standards (site + listings)
+
+Use these for all public copy—website pages, GBP, Bing, Yelp, Apple, Facebook, etc.:
+
+- **Benefit-led:** Lead with outcomes (energy, recovery, capability), not feature lists or neighborhood stuffing.
+- **Humanization first:** Read aloud; if it sounds templated or scammy, rewrite. No superlatives (“only in Miami,” “best,” etc.); SEO comes from naming modalities and location clearly.
+- **Branded:** “Lift your energy,” transformational wellness, Upper Buena Vista / Miami. Shiftwave = nervous system recovery (say what it does, don’t boast).
+- **Ready-to-use copy** for listings (descriptions, “From the business,” Bing long description): `data/resources/local-domination-blueprint/listing-copy-guide.md`. Adapt short/long versions per platform; keep NAP and service area in form fields only, not in public description text.
+
+When adding or editing site pages, run them through these standards and the listing guide for consistency.
 
 ---
 

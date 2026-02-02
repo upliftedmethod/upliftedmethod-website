@@ -36,5 +36,8 @@ Thumbs.db
 # Vercel
 .vercel
 
+# Lighthouse
+.lighthouse-*.json
+
 # TypeScript
 next-env.d.ts

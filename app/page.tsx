@@ -28,7 +28,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="btn-accent w-full sm:w-auto"
             >
-              Try Your First Session Free
+              Try Your First Guided Session Free
             </a>
             <Link href="/shop" className="inline-flex items-center gap-2 rounded-lg border-2 border-white/80 bg-white/10 px-6 py-3 font-semibold backdrop-blur hover:bg-white/20">
               Shop Supplements
@@ -39,6 +39,15 @@ export default function HomePage() {
             >
               {PHONE}
             </a>
+          </div>
+          <div className="mt-12 flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-sm font-medium text-white/90">
+            <span>20 minutes</span>
+            <span>·</span>
+            <span>Coach-led</span>
+            <span>·</span>
+            <span>One studio</span>
+            <span>·</span>
+            <span>Recovery included</span>
           </div>
         </div>
       </section>
@@ -83,7 +92,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-3xl">
           <h2 className="section-heading text-center">Personal Training with ARX</h2>
           <p className="mt-4 text-center text-neutral-600">
-            Yes—this is personal training. Every ARX session is one-on-one or semi-private, guided by Eric. You get a certified coach who knows the equipment, your goals, and how to keep you safe. No crowded floor, no guessing. Twenty minutes, twice a week, is enough to get stronger and lift your energy—whether you&apos;re a busy parent, an executive with no time to waste, or someone who wants to stay strong for the long run (and maybe keep up with the grandkids).
+            Yes—this is personal training. Every session is with one of our certified trainers—one-on-one or semi-private—so you get real attention, not a crowded floor. Certified guidance on the equipment, your goals, and how to keep you safe—no guessing. Twenty minutes, twice a week, is enough to get stronger and lift your energy. Same whether you&apos;re a busy parent, an executive with no time to waste, or someone who wants to stay strong for the long run and keep up with the grandkids. Safe for 50+; we work with clients who&apos;d rather not beat themselves up.
           </p>
           <p className="mt-4 text-center">
             <a
@@ -92,7 +101,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Complimentary ARX session
+              Complimentary ARX Personal Training Session
             </a>
           </p>
         </div>
@@ -115,7 +124,7 @@ export default function HomePage() {
           </p>
           <h2 className="section-heading mt-10 text-center">What Clients Say</h2>
           <p className="mx-auto mt-4 max-w-2xl text-center text-neutral-600">
-            What people say after training and recovering here. More on Google.
+            Kind words from those who train and recover here. More on Google.
           </p>
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <blockquote className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
@@ -197,7 +206,7 @@ export default function HomePage() {
           <div>
             <dt className="font-semibold text-neutral-900">Is this personal training?</dt>
             <dd className="mt-2 text-neutral-600">
-              Yes. Every ARX session is guided by Eric—one-on-one or semi-private. You work with a coach who programs your session, watches your form, and adjusts the load. It&apos;s personal training with adaptive resistance, not a class or a solo gym hour.
+              Yes. Every ARX session is guided by one of our certified trainers—one-on-one or semi-private. You work with a coach who programs your session, watches your form, and adjusts the load. It&apos;s personal training with adaptive resistance, not a class or a solo gym hour.
             </dd>
           </div>
           <div>

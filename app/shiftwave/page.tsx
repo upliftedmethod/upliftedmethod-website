@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Shiftwave Recovery Miami | Vibration & Sound | Upper Buena Vista",
   description:
     "Shiftwave recovery Miami at Upper Buena Vista. Vibration and sound for nervous-system recovery in-studio. Pairs with ARX and red light therapy.",
+  alternates: { canonical: "/shiftwave" },
 };
 
 const BOOK_URL = "https://upliftedmethod.as.me/schedule/550c1c04";
@@ -35,7 +36,7 @@ export default function ShiftwavePage() {
         <ul className="mt-4 list-inside list-disc space-y-2 text-neutral-600">
           <li><strong>Shiftwave chair session</strong> — Full access to our Shiftwave recovery chair at the studio. You sit or recline while the system runs; typical sessions are in the 15–30 minute range depending on your goals and schedule.</li>
           <li><strong>Protocol selection</strong> — We choose the right intensity and duration for you—recovery after training, general wellness, or both. We tailor to your needs.</li>
-          <li><strong>Standalone or stacked</strong> — Book Shiftwave only or pair it with ARX and red light in the same visit. One location for strength and recovery.</li>
+          <li><strong>Standalone or stacked</strong> — Book Shiftwave only or pair it with ARX and red light in the same visit. One location for strength and recovery. Want full recovery in one block? See our <Link href="/recovery-stack" className="font-medium text-primary hover:underline">Recovery Stack</Link> (Shiftwave + red light). Want strength the same day? See <Link href="/arx-and-red-light" className="font-medium text-primary hover:underline">ARX + Red Light</Link>.</li>
           <li><strong>Quiet, focused environment</strong> — Our recovery studio is the same space as our ARX and red light setup—calm, private, no crowded gym or spa noise.</li>
           <li><strong>Education on how Shiftwave works</strong> — We explain what the chair does, how it fits with training and red light, and how to use it for ongoing recovery.</li>
         </ul>

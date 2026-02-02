@@ -54,6 +54,8 @@ export function Logo({ className = "" }: { className?: string }) {
         alt="Uplifted"
         width={180}
         height={40}
+        sizes="(max-width: 768px) 120px, 180px"
+        priority
         className="h-10 w-auto max-w-[180px] object-contain object-left"
         onError={handleError}
       />

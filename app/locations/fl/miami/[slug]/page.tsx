@@ -59,12 +59,12 @@ function FullLocationPage({ location }: { location: LocationContent }) {
         >
           Open in Google Maps →
         </a>
-        <div className="mt-6 rounded-xl overflow-hidden border border-neutral-200 bg-neutral-100">
+        <div className="mt-6 min-h-[280px] w-full rounded-xl overflow-hidden border border-neutral-200 bg-neutral-100">
           <iframe
             src="https://www.google.com/maps?q=5026+NE+2nd+Ave+303+Miami+FL+33137&output=embed"
             width="100%"
             height="280"
-            style={{ border: 0 }}
+            style={{ border: 0, minHeight: 280 }}
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

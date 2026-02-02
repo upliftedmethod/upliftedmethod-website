@@ -18,6 +18,7 @@ const SERVICES = [
     body: "Our studio at Upper Buena Vista has ARX Alpha, ARX Omni, the EnergyLounger red light bed, and Shiftwave. Come in for strength, recovery, or both. ARX adapts as you move—you get real work done in a short session. No big gym, no wasted time.",
     cta: "Book a session",
     detailHref: null as string | null,
+    ctaHref: null as string | null,
   },
   {
     id: "red-light",
@@ -26,6 +27,7 @@ const SERVICES = [
     body: "Our EnergyLounger red light bed is at the studio. Recovery, skin, or both. Book it alone or stack it with a session. Ask about packages.",
     cta: "Book red light",
     detailHref: "/red-light-therapy",
+    ctaHref: null as string | null,
   },
   {
     id: "arx",
@@ -34,6 +36,7 @@ const SERVICES = [
     body: "ARX (Adaptive Resistance Exercise) adapts as you move—so you're under load at every point in the rep. We use ARX Alpha and ARX Omni at Upper Buena Vista. Twenty minutes, real work.",
     cta: "Try ARX",
     detailHref: "/arx",
+    ctaHref: null as string | null,
   },
   {
     id: "shiftwave",
@@ -42,6 +45,34 @@ const SERVICES = [
     body: "Shiftwave uses whole-body vibration, breathwork, and audio—circulation, relaxation, recovery. Book it alone or pair it with ARX and red light the same day at our Upper Buena Vista studio.",
     cta: "Book Shiftwave",
     detailHref: "/shiftwave",
+    ctaHref: null as string | null,
+  },
+  {
+    id: "arx-red-light",
+    title: "ARX + Red Light",
+    short: "Strength and recovery in one visit.",
+    body: "Twenty minutes of ARX, twenty minutes of red light on the EnergyLounger. One check-in, one block. No second stop. Book the combo at Upper Buena Vista.",
+    cta: "Book ARX + Red Light",
+    detailHref: "/arx-and-red-light",
+    ctaHref: null as string | null,
+  },
+  {
+    id: "recovery-stack",
+    title: "Recovery Stack",
+    short: "Shiftwave + red light in one visit.",
+    body: "Nervous-system recovery and full-body red light in one block. Add ARX the same day for strength and full recovery. One location, Upper Buena Vista.",
+    cta: "Book Recovery Stack",
+    detailHref: "/recovery-stack",
+    ctaHref: null as string | null,
+  },
+  {
+    id: "supplements",
+    title: "Recovery Supplements",
+    short: "Support strength, recovery, and energy.",
+    body: "Curated supplements that pair with ARX, red light, and Shiftwave. In-studio or shop online. No junk—options we’d take ourselves.",
+    cta: "Shop supplements",
+    detailHref: "/supplements",
+    ctaHref: "/shop",
   },
 ];
 
@@ -60,14 +91,20 @@ export default function ServicesPage() {
             <p className="mt-2 text-lg font-medium text-neutral-700">{service.short}</p>
             <p className="mt-4 text-neutral-600">{service.body}</p>
             <div className="mt-6 flex flex-wrap items-center gap-4">
-              <a
-                href={BOOK_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary inline-block"
-              >
-                {service.cta}
-              </a>
+              {service.ctaHref ? (
+                <Link href={service.ctaHref} className="btn-primary inline-block">
+                  {service.cta}
+                </Link>
+              ) : (
+                <a
+                  href={BOOK_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-primary inline-block"
+                >
+                  {service.cta}
+                </a>
+              )}
               {service.detailHref && (
                 <Link href={service.detailHref} className="font-medium text-primary hover:underline">
                   Learn more →

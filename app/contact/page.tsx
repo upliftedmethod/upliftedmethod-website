@@ -55,14 +55,14 @@ export default function ContactPage() {
           href={MAP_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="block rounded-2xl overflow-hidden border border-neutral-200 bg-neutral-100 focus:ring-2 focus:ring-primary focus:ring-offset-2"
+          className="block rounded-2xl overflow-hidden border border-neutral-200 bg-neutral-100 focus:ring-2 focus:ring-primary focus:ring-offset-2 min-h-[320px] w-full"
           title="Open Uplifted studio in Google Maps"
         >
           <iframe
             src="https://www.google.com/maps?q=5026+NE+2nd+Ave+303+Miami+FL+33137&output=embed"
             width="100%"
             height="320"
-            style={{ border: 0 }}
+            style={{ border: 0, minHeight: 320 }}
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

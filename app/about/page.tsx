@@ -36,6 +36,13 @@ export default function AboutPage() {
       </section>
 
       <section className="mt-10">
+        <h2 className="text-xl font-bold text-neutral">Your coaches</h2>
+        <p className="mt-2 text-neutral-600">
+          Every ARX session is guided by one of our certified trainers—one-on-one or semi-private. You get a coach who programs your session, watches your form, and adjusts the load. No crowded floor, no guessing. Same for red light and Shiftwave: we’re here to make sure you get the session you need. Boutique personal training in Miami, without the big-gym vibe.
+        </p>
+      </section>
+
+      <section className="mt-10">
         <h2 className="text-xl font-bold text-neutral">Why Uplifted</h2>
         <p className="mt-2 text-neutral-600">
           We put our money in one place: ARX, red light, and supplements we believe in. Training, recovery, and the education to back it up.
@@ -44,7 +51,7 @@ export default function AboutPage() {
 
       <div className="mt-12">
         <a href={BOOK_URL} target="_blank" rel="noopener noreferrer" className="btn-primary">
-          Book a Session
+          Complimentary ARX Personal Training Session
         </a>
         <span className="ml-4">
           <Link href="/contact" className="font-medium text-primary hover:underline">

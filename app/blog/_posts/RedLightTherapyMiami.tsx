@@ -31,7 +31,7 @@ export default function RedLightTherapyMiamiBody() {
       </p>
 
       <p>
-        Fourth: fit with the rest of your routine. If you train—ARX, lifting, whatever—do they offer red light in the same place? A lot of people want strength and recovery in one stop. That’s why we’re a recovery studio: ARX, red light, and Shiftwave in the same building. You don’t have to drive to a gym, then a red light spot, then home. One trip.
+        Fourth: fit with the rest of your routine. If you do personal training—ARX, lifting, whatever—do they offer red light in the same place? A lot of people want strength and recovery in one stop. That’s why we’re a recovery studio: ARX, red light, and Shiftwave in the same building. You don’t have to drive to a gym, then a red light spot, then home. One trip.
       </p>
 
       <h2>Red light therapy Miami: where we fit</h2>

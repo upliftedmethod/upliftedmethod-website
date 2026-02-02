@@ -6,6 +6,9 @@ import { LocalBusinessSchema } from "@/components/LocalBusinessSchema";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://upliftedmethod.com"),
+  ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION && {
+    verification: { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION },
+  }),
   title: {
     default: "ARX Personal Training Miami | Red Light & Recovery | Upper Buena Vista",
     template: "%s | Uplifted",

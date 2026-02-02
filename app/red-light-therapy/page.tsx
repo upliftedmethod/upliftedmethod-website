@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Red Light Therapy Miami | RLT & Recovery | Upper Buena Vista",
   description:
     "Red light therapy Miami and red light therapy near me—we're in Upper Buena Vista. LED RLT for recovery, skin, wellness. Best red light therapy Upper Buena Vista.",
+  alternates: { canonical: "/red-light-therapy" },
 };
 
 const BOOK_URL = "https://upliftedmethod.as.me/schedule/550c1c04";
@@ -35,7 +36,7 @@ export default function RedLightTherapyPage() {
         <ul className="mt-4 list-inside list-disc space-y-2 text-neutral-600">
           <li><strong>EnergyLounger full-body session</strong> — LED red light on a dedicated bed so you get full-body exposure in one block (typically 20 minutes). We target systemic recovery and skin.</li>
           <li><strong>Session length that works</strong> — Twenty minutes is our standard. Enough for meaningful photobiomodulation; you can pair it with ARX or Shiftwave in the same visit.</li>
-          <li><strong>Standalone or add-on</strong> — Book red light only, or add it before or after ARX or Shiftwave. Same studio.</li>
+          <li><strong>Standalone or add-on</strong> — Book red light only, or add it before or after ARX or Shiftwave. Same studio. Want strength and RLT in one visit? See our <Link href="/arx-and-red-light" className="font-medium text-primary hover:underline">ARX + Red Light</Link> combo. Want full recovery? See our <Link href="/recovery-stack" className="font-medium text-primary hover:underline">Recovery Stack</Link> (Shiftwave + red light).</li>
           <li><strong>Clean, private environment</strong> — Our red light setup is in the same studio as our strength and Shiftwave equipment—calm, professional, no crowded spa vibe.</li>
           <li><strong>Education on use</strong> — We explain how red light therapy works, red light vs infrared (and when they&apos;re used together), and how RLT fits with your training and recovery goals.</li>
         </ul>

@@ -45,7 +45,7 @@ export default function MiamiLocationsPage() {
       <section className="mt-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6 sm:p-8">
         <h2 className="text-xl font-bold text-neutral">Studio: Upper Buena Vista</h2>
         <p className="mt-2 text-neutral-600">
-          We're at 5026 NE 2nd Ave #303, Miami, FL 33137. Private studio—ARX Alpha, ARX Omni, red light bed, Shiftwave. Book a session or red light.
+          We&apos;re at 5026 NE 2nd Ave #303, Miami, FL 33137. Private studio—ARX Alpha, ARX Omni, red light bed, Shiftwave. Book a session or red light.
         </p>
         <a
           href={MAP_URL}
@@ -56,12 +56,12 @@ export default function MiamiLocationsPage() {
           Open in Google Maps →
         </a>
         <p className="mt-2 text-sm text-neutral-500">{ADDRESS}</p>
-        <div className="mt-6 rounded-xl overflow-hidden border border-neutral-200 bg-neutral-100">
+        <div className="mt-6 min-h-[280px] w-full rounded-xl overflow-hidden border border-neutral-200 bg-neutral-100">
           <iframe
             src="https://www.google.com/maps?q=5026+NE+2nd+Ave+303+Miami+FL+33137&output=embed"
             width="100%"
             height="280"
-            style={{ border: 0 }}
+            style={{ border: 0, minHeight: 280 }}
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

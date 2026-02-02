@@ -38,7 +38,7 @@ export default function ARXPage() {
           <li><strong>Personalized programming</strong> — Your coach designs and adjusts your ARX workout so each 20-minute block targets strength, hypertrophy, or endurance as needed.</li>
           <li><strong>Form and technique coaching</strong> — Real-time cues so you work the muscle fully and stay safe through the full range of motion.</li>
           <li><strong>Session length that fits life</strong> — Typical sessions run ~20 minutes of actual work; total time in-studio stays tight so you can train and go.</li>
-          <li><strong>Optional add-ons</strong> — Pair ARX with red light therapy or Shiftwave recovery in the same visit when you want strength and recovery in one stop.</li>
+          <li><strong>Optional add-ons</strong> — Pair ARX with <Link href="/red-light-therapy" className="font-medium text-primary hover:underline">red light therapy</Link> or <Link href="/shiftwave" className="font-medium text-primary hover:underline">Shiftwave</Link> in the same visit. Or book our <Link href="/arx-and-red-light" className="font-medium text-primary hover:underline">ARX + Red Light</Link> combo—strength and recovery in one block.</li>
         </ul>
       </section>
 
@@ -51,7 +51,7 @@ export default function ARXPage() {
           <li><strong>No time for long workouts.</strong> You want real strength gains without 60–90 minute sessions. ARX delivers a 20-minute workout that fits a busy schedule—same stimulus, fraction of the time.</li>
           <li><strong>Plateaued on fixed weights.</strong> Barbells and machines give the same load through the rep. ARX adapts through the entire range of motion so weak points get challenged and strong points don&apos;t coast.</li>
           <li><strong>Want personal training without the circus.</strong> You want a focused environment, not a crowded floor. Our studio is built for one-on-one or small-group ARX.</li>
-          <li><strong>Recovery matters as much as lifting.</strong> Many clients stack ARX with red light and Shiftwave the same day—all in one place.</li>
+          <li><strong>Recovery matters as much as lifting.</strong> Many clients stack ARX with red light and Shiftwave the same day—all in one place. See our <Link href="/arx-and-red-light" className="font-medium text-primary hover:underline">ARX + Red Light</Link> and <Link href="/recovery-stack" className="font-medium text-primary hover:underline">Recovery Stack</Link> pages.</li>
         </ul>
       </section>
 
