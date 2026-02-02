@@ -24,7 +24,7 @@ export default function RedLightTherapyPage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">Red Light Therapy</h1>
       <p className="mt-4 text-lg text-neutral-600">
-        Red light therapy (RLT)—also called photobiomodulation—uses specific wavelengths of light to support recovery, skin, and wellness. If you're looking for red light therapy near me, we're in Upper Buena Vista on the EnergyLounger full-body bed. Train with us or elsewhere; RLT fits either way.
+        Red light therapy (RLT)—also called photobiomodulation—uses specific wavelengths of light to support recovery, skin, and wellness. If you&apos;re looking for red light therapy near me, we&apos;re in Upper Buena Vista on the EnergyLounger full-body bed. Train with us or elsewhere; RLT fits either way.
       </p>
 
       <section className="mt-12">

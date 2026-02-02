@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -48,9 +49,11 @@ export function Logo({ className = "" }: { className?: string }) {
 
   return (
     <Link href="/" className={`relative block ${className}`}>
-      <img
+      <Image
         src={src}
         alt="Uplifted"
+        width={180}
+        height={40}
         className="h-10 w-auto max-w-[180px] object-contain object-left"
         onError={handleError}
       />
