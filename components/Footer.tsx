@@ -40,7 +40,7 @@ export function Footer() {
           <div>
             <Logo className="text-lg" />
             <p className="mt-1 text-sm text-neutral-600">
-              In-studio ARX training, red light therapy & supplements. Upper Buena Vista, Miami.
+              ARX training, red light, supplements. Upper Buena Vista, Miami.
             </p>
           </div>
           <div>

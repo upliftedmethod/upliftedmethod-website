@@ -13,8 +13,8 @@ const WAIVER_TEXT =
 export default function EnergyLoungerWaiverPage() {
   return (
     <div className="mx-auto max-w-2xl px-4 py-12 sm:px-6 sm:py-16">
-      <h1 className="section-heading">Complete the Waiver Below to</h1>
-      <h2 className="mt-1 text-2xl font-bold text-primary">Experience EnergyLounger</h2>
+      <h1 className="section-heading">EnergyLounger Waiver</h1>
+      <p className="mt-2 text-neutral-600">Complete the form below before your session.</p>
       <div className="mt-8">
         <WaiverForm
           title="EnergyLounger"

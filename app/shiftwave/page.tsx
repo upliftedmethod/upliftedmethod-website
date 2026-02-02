@@ -24,7 +24,7 @@ export default function ShiftwavePage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">Shiftwave Recovery</h1>
       <p className="mt-4 text-lg text-neutral-600">
-        Shiftwave uses whole-body vibration, guided breathwork, and audio (plus optional light) to help regulate the nervous system—so you can settle, recover, and reset. At Uplifted we offer Shiftwave recovery Miami in our Upper Buena Vista studio: you sit in the chair, we set the protocol, you recover. Same visit as ARX and red light so strength and recovery live under one roof.
+        Shiftwave uses whole-body vibration, breathwork, and audio (plus optional light) to settle your nervous system—so you can recover and reset. At our Upper Buena Vista studio you sit in the chair, we set the protocol, you recover. Same visit as ARX and red light. One place.
       </p>
 
       <section className="mt-12">
@@ -50,7 +50,7 @@ export default function ShiftwavePage() {
           <li><strong>Recovery doesn&apos;t keep up with training.</strong> You&apos;re doing ARX or other strength work but soreness and fatigue linger. Shiftwave can help circulation and relaxation so you train consistently without burning out.</li>
           <li><strong>Too many stops for one routine.</strong> You want strength, red light, and nervous-system recovery but don&apos;t want to drive to three places. We offer Shiftwave Miami alongside ARX and red light in one studio—one trip.</li>
           <li><strong>Stress and tension outside the gym.</strong> Shiftwave isn&apos;t just for athletes. Many use it for general relaxation—sit in the chair, let the protocol run, walk out feeling reset.</li>
-          <li><strong>Unclear what &quot;recovery&quot; actually means.</strong> We spell it out: how Shiftwave works, how it fits with your training and red light, and what to expect session to session.</li>
+          <li><strong>Unclear what &quot;recovery&quot; actually means.</strong> We spell it out: how Shiftwave works, how it fits with training and red light, and what to expect.</li>
         </ul>
       </section>
 
@@ -71,9 +71,9 @@ export default function ShiftwavePage() {
       <section className="mt-12">
         <h2 className="text-xl font-bold text-neutral">Why Choose Us</h2>
         <ul className="mt-4 list-inside list-disc space-y-2 text-neutral-600">
-          <li><strong>Recovery studio, not a side offering.</strong> We&apos;re built for people who train and recover—Shiftwave Miami is part of that. Not a spa add-on; it&apos;s core to how we do recovery at Upper Buena Vista.</li>
-          <li><strong>One place for strength and recovery.</strong> ARX, red light, and Shiftwave in one studio. No driving between gym, red light spot, and recovery chair—everything in one trip.</li>
-          <li><strong>Real equipment, clear protocol.</strong> We use the Shiftwave chair as intended and tailor sessions to your goals. No gimmicks, no overclaim.</li>
+          <li><strong>Recovery studio, not a side offering.</strong> We&apos;re built for people who train and recover. Shiftwave is part of that—not a spa add-on.</li>
+          <li><strong>One place.</strong> ARX, red light, and Shiftwave in one studio. No driving between gym, red light spot, and recovery chair.</li>
+          <li><strong>Real equipment, clear protocol.</strong> We use the Shiftwave chair as intended and tailor sessions to your goals. No gimmicks.</li>
           <li><strong>Honest positioning.</strong> We don&apos;t overpromise. Shiftwave is a tool for circulation, relaxation, and recovery—protocol and consistency, not hype.</li>
         </ul>
       </section>
@@ -111,7 +111,7 @@ export default function ShiftwavePage() {
       <section className="mt-12">
         <h2 className="text-xl font-bold text-neutral">Service Area</h2>
         <p className="mt-2 text-neutral-600">
-          Uplifted is based in <strong>Upper Buena Vista</strong>. All Shiftwave sessions happen in-studio here. We serve clients from Miami and the surrounding neighborhoods: Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, and Surfside. One central location—ARX, red light, and Shiftwave in one visit. For address and directions, see <Link href="/locations" className="font-medium text-primary hover:underline">Locations</Link>.
+          We&apos;re in <strong>Upper Buena Vista</strong>. All Shiftwave sessions happen here. Clients drive in from Miami and the surrounding areas—Key Biscayne, Grove, Gables, Pinecrest, Beach, Surfside. One place: ARX, red light, Shiftwave in one visit. Address and directions: <Link href="/locations" className="font-medium text-primary hover:underline">Locations</Link>.
         </p>
         <p className="mt-2 text-sm text-neutral-500">
           Neighborhoods we serve: {NEIGHBORHOODS.join(", ")}.

@@ -19,7 +19,7 @@ export default function HomePage() {
             Lift Your Energy
           </h1>
           <p className="mt-4 text-lg text-white/95 sm:text-xl">
-            Personal training and red light therapy at Upper Buena Vista. ARX, recovery, supplements—one studio in Miami.
+            One studio in Upper Buena Vista: ARX training, red light, recovery, and the supplements we actually use. No franchise, no runaround.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
@@ -46,13 +46,13 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
         <h2 className="section-heading text-center">What We Offer</h2>
         <p className="mx-auto mt-4 max-w-2xl text-center text-neutral-600">
-          Recovery studio Miami and gym Upper Buena Vista in one place. ARX, Shiftwave, red light—no big box, no runaround.
+          One place: ARX for strength, Shiftwave and red light for recovery. The equipment and coaching we believe in—no big-box vibe, no sales pitch.
         </p>
         <div className="mt-12 grid gap-8 sm:grid-cols-3">
           <div className="rounded-2xl border border-neutral-200 bg-white p-8 shadow-sm">
             <h3 className="text-xl font-bold text-primary">ARX</h3>
             <p className="mt-2 text-neutral-600">
-              ARX Alpha and ARX Omni in our boutique studio at Upper Buena Vista. You get a lot of work done in a short session.
+              ARX Alpha and ARX Omni at our studio. Twenty minutes. Real work.
             </p>
             <Link href="/arx" className="mt-4 inline-block font-medium text-primary hover:underline">
               Learn more →
@@ -61,7 +61,7 @@ export default function HomePage() {
           <div className="rounded-2xl border border-neutral-200 bg-white p-8 shadow-sm">
             <h3 className="text-xl font-bold text-primary">Shiftwave</h3>
             <p className="mt-2 text-neutral-600">
-              Vibration and sound to regulate the nervous system. Book it alone or add it to ARX and red light in the same visit.
+              Vibration and sound to settle your nervous system. Book it solo or stack it with ARX and red light the same day.
             </p>
             <Link href="/shiftwave" className="mt-4 inline-block font-medium text-primary hover:underline">
               Learn more →
@@ -70,7 +70,7 @@ export default function HomePage() {
           <div className="rounded-2xl border border-neutral-200 bg-white p-8 shadow-sm">
             <h3 className="text-xl font-bold text-primary">Red Light Therapy</h3>
             <p className="mt-2 text-neutral-600">
-              EnergyLounger red light bed for recovery, skin, and wellness. Book it alone or add it to a training session.
+              Full-body red light on the EnergyLounger. Recovery, skin, or both. Book it alone or right after a session.
             </p>
             <Link href="/red-light-therapy" className="mt-4 inline-block font-medium text-primary hover:underline">
               Learn more →
@@ -96,7 +96,7 @@ export default function HomePage() {
           </p>
           <h2 className="section-heading mt-10 text-center">What Clients Say</h2>
           <p className="mx-auto mt-4 max-w-2xl text-center text-neutral-600">
-            Honest feedback from people who train and recover here. All reviews are on Google—see our profile for more.
+            What people say after training and recovering here. More on Google.
           </p>
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <blockquote className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
@@ -152,7 +152,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
         <h2 className="section-heading text-center">Where We Are</h2>
         <p className="mx-auto mt-4 max-w-2xl text-center text-neutral-600">
-          We’re at Upper Buena Vista in Miami. Many of our clients drive in from Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, and Surfside.
+          We’re in Upper Buena Vista. Most of our clients drive in from the Key, Grove, Gables, Pinecrest, Beach, and Surfside.
         </p>
         <div className="mt-10 flex flex-wrap justify-center gap-3">
           {["Key Biscayne", "Coconut Grove", "Coral Gables", "Pinecrest", "Miami Beach", "Surfside", "Miami"].map((area) => (
@@ -175,7 +175,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
         <h2 className="section-heading text-center">Learn & Shop</h2>
         <p className="mx-auto mt-4 max-w-xl text-center text-neutral-600">
-          Guides on training, recovery, and supplements. A shop for the products we use and recommend.
+          Guides on how we train and recover—and a shop for the same supplements we use in-studio.
         </p>
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <Link href="/blog" className="btn-primary">

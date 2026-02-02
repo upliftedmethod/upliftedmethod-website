@@ -1,10 +1,11 @@
 import { MetadataRoute } from "next";
+import { getAllPosts } from "@/app/blog/posts";
 
 const BASE_URL = "https://upliftedmethod.com";
 
 /**
  * Indexable pages only. Excludes /forms/* (noindex).
- * Add /red-light-therapy and /shiftwave when those pages exist.
+ * Blog post URLs included from posts registry.
  */
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
@@ -16,7 +17,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/locations`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/services`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/shop`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/red-light-therapy`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/shiftwave`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
   ];
 
-  return staticPages;
+  const blogPosts: MetadataRoute.Sitemap = getAllPosts().map((post) => ({
+    url: `${BASE_URL}/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...blogPosts];
 }

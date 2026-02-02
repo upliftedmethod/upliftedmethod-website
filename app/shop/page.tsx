@@ -13,7 +13,7 @@ export default function ShopPage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">Shop Supplements</h1>
       <p className="mt-4 text-lg text-neutral-600">
-        Supplements for recovery and strength training—the same products we use at the studio. Our supplement store serves Miami and the neighborhoods we train. Online ordering will be available soon.
+        The same products we use at the studio—recovery and strength. We serve Miami and the neighborhoods we train. Online ordering coming soon.
       </p>
 
       <section className="mt-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-8">
@@ -41,7 +41,7 @@ export default function ShopPage() {
       </div>
 
       <p className="mt-8 text-center text-sm text-neutral-500">
-        Secure checkout when the store launches.
+        Secure checkout when we launch.
       </p>
     </div>
   );

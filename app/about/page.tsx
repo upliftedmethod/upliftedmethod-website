@@ -15,30 +15,30 @@ export default function AboutPage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">About Uplifted</h1>
       <p className="mt-4 text-lg text-neutral-600">
-        Uplifted started in early 2023 with ARX adaptive resistance and recovery in Miami. Our studio at Upper Buena Vista opened in October 2024—a private, boutique space for personal training (ARX), red light therapy, Shiftwave, and the supplements we trust. Strength, recovery, and education under one roof.
+        Uplifted started in early 2023 with ARX and recovery in Miami. We opened our studio at Upper Buena Vista in October 2024—one private space for ARX training, red light, Shiftwave, and the supplements we actually use. Strength, recovery, and the education to back it up.
       </p>
 
       <section className="mt-10">
         <h2 className="text-xl font-bold text-neutral">What we do</h2>
         <ul className="mt-4 list-disc space-y-2 pl-6 text-neutral-600">
-          <li><strong>In-studio training (Upper Buena Vista):</strong> ARX Alpha and ARX Omni. You get a lot of work done in a short session.</li>
-          <li><strong>Red light therapy:</strong> EnergyLounger red light bed for recovery, skin, and wellness.</li>
-          <li><strong>Supplements:</strong> Products we stand behind for performance and recovery—shop online or in-studio.</li>
-          <li><strong>Education:</strong> Blog and guides on training, recovery, and nutrition so you can decide what works for you.</li>
+          <li><strong>In-studio training (Upper Buena Vista):</strong> ARX Alpha and ARX Omni. Twenty minutes, real work.</li>
+          <li><strong>Red light therapy:</strong> EnergyLounger full-body bed. Recovery, skin, or both.</li>
+          <li><strong>Supplements:</strong> What we use ourselves—shop online or at the studio.</li>
+          <li><strong>Education:</strong> Guides on training, recovery, and nutrition so you can choose what fits.</li>
         </ul>
       </section>
 
       <section className="mt-10">
         <h2 className="text-xl font-bold text-neutral">Who we serve</h2>
         <p className="mt-2 text-neutral-600">
-          Busy parents, professionals, anyone who wants real progress without the hassle of a big gym. Clients from Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside, and Miami train and recover at our studio.
+          Busy parents, professionals—anyone who wants results without the big-gym grind. Most of our clients drive in from the Key, Grove, Gables, Pinecrest, Beach, Surfside, and Miami.
         </p>
       </section>
 
       <section className="mt-10">
         <h2 className="text-xl font-bold text-neutral">Why Uplifted</h2>
         <p className="mt-2 text-neutral-600">
-          We put our money in one space and one standard: ARX, red light, and supplements that actually help you reach your goals. Training, recovery, and the content to back it up.
+          We put our money in one place: ARX, red light, and supplements we believe in. Training, recovery, and the education to back it up.
         </p>
       </section>
 

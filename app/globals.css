@@ -26,4 +26,22 @@ body {
   .section-heading {
     @apply text-3xl font-bold tracking-tight text-neutral sm:text-4xl;
   }
+  .prose-custom p {
+    @apply text-neutral-600;
+  }
+  .prose-custom p + p {
+    @apply mt-4;
+  }
+  .prose-custom ul {
+    @apply mt-4 list-inside list-disc space-y-2 text-neutral-600;
+  }
+  .prose-custom ol {
+    @apply mt-4 list-decimal list-inside space-y-2 text-neutral-600;
+  }
+  .prose-custom h2 {
+    @apply mt-10 text-xl font-bold text-neutral;
+  }
+  .prose-custom h3 {
+    @apply mt-6 text-lg font-bold text-neutral;
+  }
 }

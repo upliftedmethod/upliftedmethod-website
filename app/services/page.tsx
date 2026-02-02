@@ -14,32 +14,32 @@ const SERVICES = [
   {
     id: "studio",
     title: "In-Studio Training (Upper Buena Vista)",
-    short: "ARX Alpha + ARX Omni. One space, serious results.",
-    body: "Our private, boutique studio at Upper Buena Vista has ARX Alpha, ARX Omni, EnergyLounger red light bed, and Shiftwave chair. Come in for strength, recovery, or both. ARX adaptive resistance packs a lot of work into a short session—no big gym, no wasted minutes.",
+    short: "ARX Alpha and ARX Omni. Twenty minutes, real work.",
+    body: "Our studio at Upper Buena Vista has ARX Alpha, ARX Omni, the EnergyLounger red light bed, and Shiftwave. Come in for strength, recovery, or both. ARX adapts as you move—you get real work done in a short session. No big gym, no wasted time.",
     cta: "Book a session",
     detailHref: null as string | null,
   },
   {
     id: "red-light",
     title: "Red Light Therapy",
-    short: "Recovery and wellness on the EnergyLounger.",
-    body: "Use our EnergyLounger red light bed at the studio for recovery, skin, and wellness. Book it alone or add it to a training session. Ask about packages.",
+    short: "Full-body red light on the EnergyLounger.",
+    body: "Our EnergyLounger red light bed is at the studio. Recovery, skin, or both. Book it alone or stack it with a session. Ask about packages.",
     cta: "Book red light",
     detailHref: "/red-light-therapy",
   },
   {
     id: "arx",
     title: "ARX Adaptive Resistance",
-    short: "Strength training that adapts to you.",
-    body: "ARX (Adaptive Resistance Exercise) packs a lot of muscle work into a short session. The machine adapts in real time so every rep counts. We use ARX Alpha and ARX Omni at Upper Buena Vista.",
+    short: "The machine adapts so every rep counts.",
+    body: "ARX (Adaptive Resistance Exercise) adapts as you move—so you're under load at every point in the rep. We use ARX Alpha and ARX Omni at Upper Buena Vista. Twenty minutes, real work.",
     cta: "Try ARX",
     detailHref: "/arx",
   },
   {
     id: "shiftwave",
     title: "Shiftwave Recovery",
-    short: "Vibration and sound to regulate the nervous system.",
-    body: "Shiftwave uses whole-body vibration, guided breathwork, and audio to help regulate the nervous system—circulation, relaxation, recovery. Use it alone or pair it with ARX and red light in the same visit at our Upper Buena Vista studio.",
+    short: "Vibration and sound to settle your nervous system.",
+    body: "Shiftwave uses whole-body vibration, breathwork, and audio—circulation, relaxation, recovery. Book it alone or pair it with ARX and red light the same day at our Upper Buena Vista studio.",
     cta: "Book Shiftwave",
     detailHref: "/shiftwave",
   },
@@ -50,7 +50,7 @@ export default function ServicesPage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">Services</h1>
       <p className="mt-4 text-lg text-neutral-600">
-        Miami personal training and recovery in one spot. Personal training (ARX), red light, and recovery at Upper Buena Vista—strength and the education to back it.
+        One spot: ARX training, red light, and recovery at Upper Buena Vista. Strength and the education to back it.
       </p>
 
       <div className="mt-12 space-y-16">

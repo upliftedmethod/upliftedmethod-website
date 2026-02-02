@@ -18,7 +18,7 @@ export default function ContactPage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">Contact</h1>
       <p className="mt-4 text-lg text-neutral-600">
-        Call, email, or book a session online. We respond quickly.
+        Call, email, or book online. We usually reply the same day.
       </p>
 
       <div className="mt-12 grid gap-8 sm:grid-cols-2">
@@ -79,7 +79,7 @@ export default function ContactPage() {
       <div className="mt-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6 sm:p-8">
         <h2 className="font-bold text-neutral">Book a session</h2>
         <p className="mt-2 text-neutral-600">
-          Schedule your first session, red light appointment, or follow-up. Booking runs through Acuity.
+          Book your first session, a red light slot, or a follow-up. We use Acuity for scheduling.
         </p>
         <a
           href={BOOK_URL}

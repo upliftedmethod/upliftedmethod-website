@@ -24,18 +24,18 @@ export default function RedLightTherapyPage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">Red Light Therapy</h1>
       <p className="mt-4 text-lg text-neutral-600">
-        Red light therapy (RLT)—also called photobiomodulation—uses specific wavelengths of light to support recovery, skin, and wellness. If you&apos;re looking for red light therapy near me, we&apos;re in Upper Buena Vista on the EnergyLounger full-body bed. Train with us or elsewhere; RLT fits either way.
+        Red light therapy (RLT)—photobiomodulation—uses specific wavelengths of light to support recovery, skin, and wellness. We&apos;re in Upper Buena Vista on the EnergyLounger full-body bed. Train with us or elsewhere; RLT fits either way.
       </p>
 
       <section className="mt-12">
         <h2 className="text-xl font-bold text-neutral">What&apos;s Included</h2>
         <p className="mt-2 text-neutral-600">
-          Every red light session is designed to be effective and straightforward.
+          Sessions are straightforward. Full-body exposure, about twenty minutes.
         </p>
         <ul className="mt-4 list-inside list-disc space-y-2 text-neutral-600">
           <li><strong>EnergyLounger full-body session</strong> — LED red light on a dedicated bed so you get full-body exposure in one block (typically 20 minutes). We target systemic recovery and skin.</li>
           <li><strong>Session length that works</strong> — Twenty minutes is our standard. Enough for meaningful photobiomodulation; you can pair it with ARX or Shiftwave in the same visit.</li>
-          <li><strong>Standalone or add-on</strong> — Book red light only, or add it before or after ARX or Shiftwave. Recovery lounge Miami and recovery lounge Upper Buena Vista in one place.</li>
+          <li><strong>Standalone or add-on</strong> — Book red light only, or add it before or after ARX or Shiftwave. Same studio.</li>
           <li><strong>Clean, private environment</strong> — Our red light setup is in the same studio as our strength and Shiftwave equipment—calm, professional, no crowded spa vibe.</li>
           <li><strong>Education on use</strong> — We explain how red light therapy works, red light vs infrared (and when they&apos;re used together), and how RLT fits with your training and recovery goals.</li>
         </ul>
@@ -49,7 +49,7 @@ export default function RedLightTherapyPage() {
         <ul className="mt-4 list-inside list-disc space-y-2 text-neutral-600">
           <li><strong>Recovery lags behind training.</strong> You&apos;re doing strength or ARX but don&apos;t have a consistent recovery habit. RLT can help reduce soreness and support tissue repair so you can train again sooner.</li>
           <li><strong>Skin and wellness in one stop.</strong> You want full-body and skin benefits without a separate spa trip. Our RLT sessions cover both in the same studio where you train.</li>
-          <li><strong>Athletes who need more than ice and rest.</strong> RLT fits into a serious training schedule—recovery after workout, muscle recovery, and stacking it with strength work are all part of what we offer.</li>
+          <li><strong>Athletes who need more than ice and rest.</strong> RLT fits into a serious training schedule. Stack it with strength work the same day.</li>
           <li><strong>Confusion about red light vs infrared.</strong> We clarify how RLT works and the difference between red light and infrared so you know what you&apos;re getting.</li>
         </ul>
       </section>
@@ -71,10 +71,10 @@ export default function RedLightTherapyPage() {
       <section className="mt-12">
         <h2 className="text-xl font-bold text-neutral">Why Choose Us</h2>
         <ul className="mt-4 list-inside list-disc space-y-2 text-neutral-600">
-          <li><strong>Built for people who train.</strong> We&apos;re a recovery and strength studio—RLT for athletes and lifters who want it to fit their schedule. Not a generic spa; we speak training and recovery.</li>
-          <li><strong>Full-body, real equipment.</strong> Our EnergyLounger delivers RLT at proper intensity and coverage. Recovery and skin in one session.</li>
-          <li><strong>One location for strength and recovery.</strong> At our Upper Buena Vista studio you can do ARX, RLT, and Shiftwave without driving all over town.</li>
-          <li><strong>Honest positioning.</strong> We don&apos;t overclaim. We offer RLT as part of a serious recovery offering—protocol and consistency, not hype.</li>
+          <li><strong>Built for people who train.</strong> We&apos;re a strength and recovery studio—RLT for athletes and lifters. Not a generic spa.</li>
+          <li><strong>Full-body, real equipment.</strong> The EnergyLounger delivers proper intensity and coverage. Recovery and skin in one session.</li>
+          <li><strong>One location.</strong> ARX, RLT, and Shiftwave at our Upper Buena Vista studio. No driving all over town.</li>
+          <li><strong>Honest positioning.</strong> We don&apos;t overclaim. RLT as part of a serious recovery offering—protocol and consistency, not hype.</li>
         </ul>
       </section>
 
@@ -96,7 +96,7 @@ export default function RedLightTherapyPage() {
           <div>
             <dt className="font-semibold text-neutral">Can I do red light therapy after a workout?</dt>
             <dd className="mt-1 text-neutral-600">
-              Yes. Red light therapy after workout and red light recovery after workout are common. Many clients do RLT right after ARX or strength training to support muscle recovery and reduce soreness. We can schedule back-to-back so you get training and red light in one visit.
+              Yes. Many clients do RLT right after ARX or strength training—recovery and soreness support. We can schedule back-to-back so you get training and red light in one visit.
             </dd>
           </div>
           <div>
@@ -111,7 +111,7 @@ export default function RedLightTherapyPage() {
       <section className="mt-12">
         <h2 className="text-xl font-bold text-neutral">Service Area</h2>
         <p className="mt-2 text-neutral-600">
-          Uplifted is in <strong>Upper Buena Vista</strong>. All RLT happens in-studio here. We serve clients from across Miami and the surrounding areas: Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, and Surfside. For address and directions, see <Link href="/locations" className="font-medium text-primary hover:underline">Locations</Link>.
+          We&apos;re in <strong>Upper Buena Vista</strong>. All RLT happens here. Clients drive in from Miami and the surrounding areas—Key Biscayne, Grove, Gables, Pinecrest, Beach, Surfside. Address and directions: <Link href="/locations" className="font-medium text-primary hover:underline">Locations</Link>.
         </p>
         <p className="mt-2 text-sm text-neutral-500">
           Neighborhoods we serve: {NEIGHBORHOODS.join(", ")}.
