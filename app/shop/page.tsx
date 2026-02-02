@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Supplements Miami | Recovery & Wellness | Uplifted",
   description:
-    "Wellness and recovery supplements Miami. Performance and recovery at Upper Buena Vista. Same standards as our in-studio. Shop online or in-studio.",
+    "Supplement store Miami—wellness and recovery supplements, supplements for recovery and strength training. Upper Buena Vista. Same standards as in-studio. Shop online or in-studio.",
   alternates: { canonical: "/shop" },
 };
 
@@ -13,7 +13,7 @@ export default function ShopPage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">Shop Supplements</h1>
       <p className="mt-4 text-lg text-neutral-600">
-        Supplements we stand behind for performance and recovery—the same products we use at the studio. Online ordering will be available soon.
+        Supplements for recovery and strength training—the same products we use at the studio. Our supplement store serves Miami and the neighborhoods we train. Online ordering will be available soon.
       </p>
 
       <section className="mt-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-8">

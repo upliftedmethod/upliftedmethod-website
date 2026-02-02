@@ -19,7 +19,7 @@ export default function HomePage() {
             Lift Your Energy
           </h1>
           <p className="mt-4 text-lg text-white/95 sm:text-xl">
-            ARX training and red light therapy at Upper Buena Vista. Strength, recovery, supplements—one studio in Miami.
+            Personal training and red light therapy at Upper Buena Vista. ARX, recovery, supplements—one studio in Miami.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
@@ -46,7 +46,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
         <h2 className="section-heading text-center">What We Offer</h2>
         <p className="mx-auto mt-4 max-w-2xl text-center text-neutral-600">
-          ARX adaptive resistance, Shiftwave recovery, and red light therapy at Upper Buena Vista—one private studio in Miami.
+          Recovery studio Miami and gym Upper Buena Vista in one place. ARX, Shiftwave, red light—no big box, no runaround.
         </p>
         <div className="mt-12 grid gap-8 sm:grid-cols-3">
           <div className="rounded-2xl border border-neutral-200 bg-white p-8 shadow-sm">

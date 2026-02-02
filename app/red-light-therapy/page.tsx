@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Red Light Therapy Miami | RLT & Recovery | Upper Buena Vista",
   description:
-    "Red light therapy Miami at Upper Buena Vista. LED red light therapy for recovery, skin, and wellness. RLT Miami—red light therapy for athletes, post workout, and strength training. Best red light therapy Upper Buena Vista.",
+    "Red light therapy Miami and red light therapy near me—we're in Upper Buena Vista. LED RLT for recovery, skin, wellness. Best red light therapy Upper Buena Vista.",
 };
 
 const BOOK_URL = "https://upliftedmethod.as.me/schedule/550c1c04";
@@ -24,7 +24,7 @@ export default function RedLightTherapyPage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">Red Light Therapy</h1>
       <p className="mt-4 text-lg text-neutral-600">
-        Red light therapy (RLT)—also called photobiomodulation—uses specific wavelengths of light to support recovery, skin, and wellness. At Uplifted we offer RLT in our Upper Buena Vista studio on the EnergyLounger full-body bed. Whether you train with us or elsewhere, RLT fits into a recovery-focused routine.
+        Red light therapy (RLT)—also called photobiomodulation—uses specific wavelengths of light to support recovery, skin, and wellness. If you're looking for red light therapy near me, we're in Upper Buena Vista on the EnergyLounger full-body bed. Train with us or elsewhere; RLT fits either way.
       </p>
 
       <section className="mt-12">

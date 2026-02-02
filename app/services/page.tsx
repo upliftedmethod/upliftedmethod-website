@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Services",
+  title: "Services | Personal Training, Red Light & Recovery | Upper Buena Vista",
   description:
-    "In-studio ARX training, red light therapy, and recovery at Upper Buena Vista, Miami. Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.",
+    "Recovery studio Miami and fitness studio Upper Buena Vista. Miami personal training (ARX), red light therapy, recovery. Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.",
   alternates: { canonical: "/services" },
 };
 
@@ -50,7 +50,7 @@ export default function ServicesPage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">Services</h1>
       <p className="mt-4 text-lg text-neutral-600">
-        ARX training, red light therapy, and recovery at Upper Buena Vista. Strength, recovery, and the education to back both.
+        Miami personal training and recovery in one spot. Personal training (ARX), red light, and recovery at Upper Buena Vista—strength and the education to back it.
       </p>
 
       <div className="mt-12 space-y-16">

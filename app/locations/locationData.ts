@@ -57,7 +57,7 @@ export const LOCATIONS: Record<LocationSlug, LocationContent> = {
     name: "Upper Buena Vista",
     metaTitle: "ARX Training, Red Light & Recovery | Upper Buena Vista, Miami",
     metaDescription:
-      "Uplifted studio at Upper Buena Vista: ARX training, red light therapy, Shiftwave. 5026 NE 2nd Ave. Serving Miami, Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.",
+      "Fitness studio Upper Buena Vista: ARX training, red light therapy, Shiftwave. 5026 NE 2nd Ave. Serving Miami, Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.",
     isStub: false,
     address: STUDIO_ADDRESS,
     mapUrl: MAP_URL,
@@ -105,7 +105,7 @@ export const LOCATIONS: Record<LocationSlug, LocationContent> = {
     name: "Key Biscayne",
     metaTitle: "ARX Training & Red Light Therapy Key Biscayne | Uplifted Studio",
     metaDescription:
-      "ARX Key Biscayne, red light therapy Key Biscayne, personal training Key Biscayne. Uplifted studio at Upper Buena Vista—short drive from the Key. Book ARX, red light, Shiftwave.",
+      "ARX Key Biscayne, red light therapy Key Biscayne, personal training Key Biscayne, fitness studio Key Biscayne. Uplifted at Upper Buena Vista—short drive from the Key. Book ARX, red light, Shiftwave.",
     isStub: false,
     address: STUDIO_ADDRESS,
     mapUrl: MAP_URL,
@@ -153,7 +153,7 @@ export const LOCATIONS: Record<LocationSlug, LocationContent> = {
     name: "Coconut Grove",
     metaTitle: "ARX Training & Red Light Therapy Coconut Grove | Uplifted Studio",
     metaDescription:
-      "ARX Coconut Grove, red light therapy Coconut Grove, personal training Coconut Grove. Uplifted studio at Upper Buena Vista—quick drive from the Grove. Book ARX, red light, Shiftwave.",
+      "ARX Coconut Grove, red light therapy Coconut Grove, personal training Coconut Grove, fitness studio Coconut Grove. Uplifted at Upper Buena Vista—quick drive from the Grove. Book ARX, red light, Shiftwave.",
     isStub: false,
     address: STUDIO_ADDRESS,
     mapUrl: MAP_URL,
@@ -201,7 +201,7 @@ export const LOCATIONS: Record<LocationSlug, LocationContent> = {
     name: "Coral Gables",
     metaTitle: "ARX Training & Red Light Therapy Coral Gables | Uplifted Studio",
     metaDescription:
-      "ARX Coral Gables, red light therapy Coral Gables, personal training Coral Gables. Uplifted studio at Upper Buena Vista—central to South Florida. Book ARX, red light, Shiftwave.",
+      "ARX Coral Gables, red light therapy Coral Gables, personal training Coral Gables, fitness studio Coral Gables. Uplifted at Upper Buena Vista—central to South Florida. Book ARX, red light, Shiftwave.",
     isStub: false,
     address: STUDIO_ADDRESS,
     mapUrl: MAP_URL,
@@ -249,7 +249,7 @@ export const LOCATIONS: Record<LocationSlug, LocationContent> = {
     name: "Pinecrest",
     metaTitle: "ARX Training & Red Light Therapy Pinecrest | Uplifted Studio",
     metaDescription:
-      "ARX training Pinecrest, red light therapy Pinecrest, personal training Pinecrest. Uplifted studio at Upper Buena Vista—short drive from Pinecrest. Book ARX, red light, Shiftwave.",
+      "ARX training Pinecrest, red light therapy Pinecrest, personal training Pinecrest, fitness studio Pinecrest. Uplifted at Upper Buena Vista—short drive from Pinecrest. Book ARX, red light, Shiftwave.",
     isStub: false,
     address: STUDIO_ADDRESS,
     mapUrl: MAP_URL,
@@ -297,7 +297,7 @@ export const LOCATIONS: Record<LocationSlug, LocationContent> = {
     name: "Miami Beach",
     metaTitle: "ARX Training & Red Light Therapy Miami Beach | Uplifted Studio",
     metaDescription:
-      "ARX Miami Beach, red light therapy Miami Beach, personal training Miami Beach. Uplifted studio at Upper Buena Vista—cross the bay to train and recover. Book ARX, red light, Shiftwave.",
+      "ARX Miami Beach, red light therapy Miami Beach, personal training Miami Beach, fitness studio Miami Beach. Uplifted at Upper Buena Vista—cross the bay to train and recover. Book ARX, red light, Shiftwave.",
     isStub: false,
     address: STUDIO_ADDRESS,
     mapUrl: MAP_URL,
@@ -393,7 +393,7 @@ export const LOCATIONS: Record<LocationSlug, LocationContent> = {
     name: "Bay Point",
     metaTitle: "ARX Training & Red Light Therapy Bay Point | Uplifted Studio",
     metaDescription:
-      "ARX Bay Point, red light therapy Bay Point, personal training Bay Point. Uplifted studio at Upper Buena Vista—minutes from Bay Point. Book ARX, red light, Shiftwave.",
+      "ARX Bay Point, red light therapy Bay Point, personal training Bay Point, fitness studio Bay Point. Uplifted at Upper Buena Vista—minutes from Bay Point. Book ARX, red light, Shiftwave.",
     isStub: false,
     address: STUDIO_ADDRESS,
     mapUrl: MAP_URL,
@@ -489,7 +489,7 @@ export const LOCATIONS: Record<LocationSlug, LocationContent> = {
     name: "Miami Shores",
     metaTitle: "ARX Training & Red Light Therapy Miami Shores | Uplifted Studio",
     metaDescription:
-      "ARX Miami Shores, red light therapy Miami Shores, personal training Miami Shores. Uplifted studio at Upper Buena Vista—short drive from Miami Shores. Book ARX, red light, Shiftwave.",
+      "ARX Miami Shores, red light therapy Miami Shores, personal training Miami Shores, fitness studio Miami Shores. Uplifted at Upper Buena Vista—short drive from Miami Shores. Book ARX, red light, Shiftwave.",
     isStub: false,
     address: STUDIO_ADDRESS,
     mapUrl: MAP_URL,

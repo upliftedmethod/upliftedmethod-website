@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Uplifted | Studio at Upper Buena Vista, Miami",
   description:
-    "In-studio ARX training, red light therapy, and supplements at Upper Buena Vista, Miami. Founded 2023. Strength, recovery, education. Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.",
+    "Personal training and red light therapy at Upper Buena Vista, Miami. ARX, Shiftwave, supplements. Founded 2023. Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.",
   alternates: { canonical: "/about" },
 };
 
@@ -15,7 +15,7 @@ export default function AboutPage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">About Uplifted</h1>
       <p className="mt-4 text-lg text-neutral-600">
-        Uplifted started in early 2023 with ARX adaptive resistance and recovery in Miami. Our studio at Upper Buena Vista opened in October 2024—a private, boutique space with ARX Alpha, ARX Omni, red light therapy, Shiftwave, and the supplements we trust. Strength, recovery, and education under one roof.
+        Uplifted started in early 2023 with ARX adaptive resistance and recovery in Miami. Our studio at Upper Buena Vista opened in October 2024—a private, boutique space for personal training (ARX), red light therapy, Shiftwave, and the supplements we trust. Strength, recovery, and education under one roof.
       </p>
 
       <section className="mt-10">

@@ -11,10 +11,11 @@ export const metadata: Metadata = {
     template: "%s | Uplifted",
   },
   description:
-    "Fitness studio and gym at Upper Buena Vista, Miami. ARX training, red light therapy, recovery studio. Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.",
+    "Personal training and fitness studio at Upper Buena Vista, Miami. ARX, red light therapy, recovery. Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.",
   keywords: [
     "ARX fitness Miami",
     "personal trainer Upper Buena Vista",
+    "personal training Miami",
     "red light therapy Miami",
     "fitness studio Key Biscayne",
     "in-studio training Miami",
