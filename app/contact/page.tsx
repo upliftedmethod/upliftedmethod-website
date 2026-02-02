@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Contact | Book a Session | Upper Buena Vista, Miami",
@@ -75,6 +76,13 @@ export default function ContactPage() {
           </a>
         </p>
       </div>
+
+      <p className="mt-8 text-neutral-600">
+        We serve clients from Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside, and across Miami.{" "}
+        <Link href="/locations/fl/miami" className="font-medium text-primary hover:underline">
+          See all communities we serve →
+        </Link>
+      </p>
 
       <div className="mt-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6 sm:p-8">
         <h2 className="font-bold text-neutral">Book a session</h2>

@@ -5,12 +5,7 @@ import { useState } from "react";
 import { Logo } from "./Logo";
 
 const NAV = [
-  { href: "/", label: "Home" },
   { href: "/services", label: "Services" },
-  { href: "/arx", label: "ARX" },
-  { href: "/red-light-therapy", label: "Red Light" },
-  { href: "/shiftwave", label: "Shiftwave" },
-  { href: "/locations/fl/miami", label: "Locations" },
   { href: "/blog", label: "Blog" },
   { href: "/shop", label: "Shop" },
   { href: "/about", label: "About" },
@@ -25,22 +20,24 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-neutral-200 bg-white/95 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
-        <Logo />
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-6 px-4 py-3 sm:px-6">
+        <div className="flex-shrink-0 mr-4 sm:mr-6">
+          <Logo />
+        </div>
 
         <nav className="hidden items-center gap-6 md:flex">
           {NAV.map(({ href, label }) => (
             <Link
               key={href}
               href={href}
-              className="text-neutral-600 hover:text-primary"
+              className="whitespace-nowrap text-neutral-600 hover:text-primary"
             >
               {label}
             </Link>
           ))}
           <a
             href={`tel:${PHONE}`}
-            className="text-neutral-700 font-medium hover:text-primary"
+            className="whitespace-nowrap text-neutral-700 font-medium hover:text-primary"
           >
             {PHONE}
           </a>
@@ -48,7 +45,7 @@ export function Header() {
             href={BOOK_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary"
+            className="btn-primary whitespace-nowrap"
           >
             Book Now
           </a>
