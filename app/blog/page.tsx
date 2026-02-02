@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Blog & Guides",
+  title: "Blog & Guides | ARX, Red Light & Recovery | Miami",
   description:
-    "Guides and articles on ARX training, red light therapy, recovery, and supplements. Miami fitness at Upper Buena Vista.",
+    "Guides on what is ARX training, red light therapy benefits, Shiftwave recovery, supplements for recovery. Efficient strength training and wellness. Upper Buena Vista, Miami.",
+  alternates: { canonical: "/blog" },
 };
 
 export default function BlogPage() {
@@ -18,10 +19,10 @@ export default function BlogPage() {
       <section className="mt-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-8">
         <h2 className="text-xl font-bold text-neutral">What’s coming</h2>
         <p className="mt-2 text-neutral-600">
-          We’re adding guides on ARX adaptive resistance, red light therapy, recovery, and how to choose supplements that support your goals.
+          We’re adding guides on ARX adaptive resistance, red light therapy, recovery, and how to choose supplements that fit your goals.
         </p>
         <p className="mt-4 text-neutral-600">
-          Topics we’ll cover: what is ARX, how red light supports recovery, supplement basics for performance, and Miami-area fitness and recovery. Check back soon or follow us for updates.
+          Topics we’ll cover: what ARX is, how red light supports recovery, supplement basics for performance, and Miami-area fitness and recovery. Check back soon or follow us for updates.
         </p>
       </section>
 

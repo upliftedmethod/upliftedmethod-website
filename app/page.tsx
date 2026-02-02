@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 const BOOK_URL = "https://upliftedmethod.as.me/schedule/550c1c04";
 const PHONE = "305-419-3133";
+const GBP_URL = "https://maps.app.goo.gl/Gs4SNHc7kvhpzEHz7";
+const REVIEW_COUNT = 54;
 
 export default function HomePage() {
   return (
@@ -12,7 +19,7 @@ export default function HomePage() {
             Lift Your Energy
           </h1>
           <p className="mt-4 text-lg text-white/95 sm:text-xl">
-            ARX training and red light therapy at Upper Buena Vista. In-studio strength, recovery, and supplements—one place in Miami.
+            ARX training and red light therapy at Upper Buena Vista. Strength, recovery, supplements—one studio in Miami.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
@@ -39,13 +46,13 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
         <h2 className="section-heading text-center">What We Offer</h2>
         <p className="mx-auto mt-4 max-w-2xl text-center text-neutral-600">
-          In-studio ARX adaptive resistance, red light therapy, and recovery at Upper Buena Vista—plus education and supplements to support your results.
+          ARX adaptive resistance, red light therapy, and recovery at Upper Buena Vista. We also offer education and supplements so you can get more out of both.
         </p>
         <div className="mt-12 grid gap-8 sm:grid-cols-3">
           <div className="rounded-2xl border border-neutral-200 bg-white p-8 shadow-sm">
             <h3 className="text-xl font-bold text-primary">In-Studio Training</h3>
             <p className="mt-2 text-neutral-600">
-              ARX Alpha and ARX Omni at our 270 sq ft space in Upper Buena Vista. Maximum engagement in minimal time.
+              ARX Alpha and ARX Omni in our 270 sq ft space at Upper Buena Vista. You get a lot of work done in a short session.
             </p>
             <Link href="/services#studio" className="mt-4 inline-block font-medium text-primary hover:underline">
               Learn more →
@@ -54,7 +61,7 @@ export default function HomePage() {
           <div className="rounded-2xl border border-neutral-200 bg-white p-8 shadow-sm">
             <h3 className="text-xl font-bold text-primary">Red Light Therapy</h3>
             <p className="mt-2 text-neutral-600">
-              EnergyLounger red light bed for recovery, skin, and wellness. Standalone or add-on to training.
+              EnergyLounger red light bed for recovery, skin, and wellness. Book it alone or add it to a training session.
             </p>
             <Link href="/services#red-light" className="mt-4 inline-block font-medium text-primary hover:underline">
               Learn more →
@@ -63,7 +70,7 @@ export default function HomePage() {
           <div className="rounded-2xl border border-neutral-200 bg-white p-8 shadow-sm">
             <h3 className="text-xl font-bold text-primary">Supplements</h3>
             <p className="mt-2 text-neutral-600">
-              Curated supplements to support performance and recovery. Shop online—same standards as the studio.
+              Supplements we stand behind for performance and recovery. Shop online—same picks we use at the studio.
             </p>
             <Link href="/shop" className="mt-4 inline-block font-medium text-primary hover:underline">
               Shop →
@@ -74,9 +81,22 @@ export default function HomePage() {
 
       <section className="bg-neutral-50 px-4 py-16 sm:px-6 sm:py-20">
         <div className="mx-auto max-w-6xl">
-          <h2 className="section-heading text-center">What Clients Say</h2>
+          <p className="text-center">
+            <a
+              href={GBP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-lg border border-neutral-200 bg-white px-4 py-2.5 text-sm font-medium text-neutral-700 shadow-sm hover:border-primary hover:text-primary"
+            >
+              <span className="text-amber-500">★★★★★</span>
+              <span>5.0 on Google</span>
+              <span className="text-neutral-400">·</span>
+              <span>{REVIEW_COUNT} five-star reviews</span>
+            </a>
+          </p>
+          <h2 className="section-heading mt-10 text-center">What Clients Say</h2>
           <p className="mx-auto mt-4 max-w-2xl text-center text-neutral-600">
-            Real results from real people. All reviews from Google—see more on our profile.
+            Honest feedback from people who train and recover here. All reviews are on Google—see our profile for more.
           </p>
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <blockquote className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
@@ -118,7 +138,7 @@ export default function HomePage() {
           </div>
           <p className="mt-10 text-center">
             <a
-              href="https://maps.app.goo.gl/p3efA9a9p5QLzyiK9"
+              href={GBP_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium text-primary hover:underline"
@@ -132,7 +152,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
         <h2 className="section-heading text-center">Where We Are</h2>
         <p className="mx-auto mt-4 max-w-2xl text-center text-neutral-600">
-          Upper Buena Vista, Miami. Clients from Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, and Surfside train and recover here.
+          We’re at Upper Buena Vista in Miami. Many of our clients drive in from Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, and Surfside.
         </p>
         <div className="mt-10 flex flex-wrap justify-center gap-3">
           {["Key Biscayne", "Coconut Grove", "Coral Gables", "Pinecrest", "Miami Beach", "Surfside", "Miami"].map((area) => (
@@ -155,7 +175,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
         <h2 className="section-heading text-center">Learn & Shop</h2>
         <p className="mx-auto mt-4 max-w-xl text-center text-neutral-600">
-          Guides on training, recovery, and supplements—plus a shop for the products we trust.
+          Guides on training, recovery, and supplements. A shop for the products we use and recommend.
         </p>
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <Link href="/blog" className="btn-primary">

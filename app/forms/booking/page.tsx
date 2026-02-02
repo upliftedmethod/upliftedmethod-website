@@ -12,7 +12,7 @@ export default function BookingPage() {
   return (
     <div className="mx-auto max-w-2xl px-4 py-12 sm:px-6 sm:py-16 text-center">
       <h1 className="section-heading">Thank You!</h1>
-      <p className="mt-4 text-lg text-neutral-600">Enjoy your experience.</p>
+      <p className="mt-4 text-lg text-neutral-600">We'll see you at the studio.</p>
       <a
         href={BOOK_URL}
         target="_blank"

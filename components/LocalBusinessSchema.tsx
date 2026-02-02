@@ -1,7 +1,61 @@
 /**
  * LocalBusiness + FitnessCenter schema for Uplifted.
- * Studio-first: Upper Buena Vista, ARX, red light, supplements.
+ * Studio-first: Upper Buena Vista, ARX, red light, Shiftwave, supplements.
+ * Service catalog: ARX training, red light therapy, Shiftwave, supplements (schema.org Service / hasOfferCatalog).
  */
+const BASE_URL = "https://upliftedmethod.com";
+
+const serviceCatalog = {
+  "@type": "OfferCatalog",
+  name: "Uplifted services",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      item: {
+        "@type": "Service",
+        name: "ARX Training",
+        description: "In-studio ARX adaptive resistance training at Upper Buena Vista, Miami. ARX Alpha and ARX Omni for maximum muscle engagement in minimal time.",
+        provider: { "@id": `${BASE_URL}/#organization` },
+        url: `${BASE_URL}/arx`,
+      },
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      item: {
+        "@type": "Service",
+        name: "Red Light Therapy",
+        description: "Red light therapy for recovery, skin, and wellness. EnergyLounger red light bed at Upper Buena Vista studio. Available as standalone or add-on to training.",
+        provider: { "@id": `${BASE_URL}/#organization` },
+        url: `${BASE_URL}/red-light-therapy`,
+      },
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      item: {
+        "@type": "Service",
+        name: "Shiftwave",
+        description: "Shiftwave recovery sessions at Upper Buena Vista, Miami. Vibration and recovery technology for athletes and active clients.",
+        provider: { "@id": `${BASE_URL}/#organization` },
+        url: `${BASE_URL}/shiftwave`,
+      },
+    },
+    {
+      "@type": "ListItem",
+      position: 4,
+      item: {
+        "@type": "Service",
+        name: "Supplements",
+        description: "Curated supplements for performance and recovery. Wellness and recovery supplements—shop in-studio or online at Upper Buena Vista, Miami.",
+        provider: { "@id": `${BASE_URL}/#organization` },
+        url: `${BASE_URL}/shop`,
+      },
+    },
+  ],
+};
+
 export function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
@@ -12,7 +66,7 @@ export function LocalBusinessSchema() {
         name: "Uplifted",
         description:
           "In-studio ARX training, red light therapy, and supplements at Upper Buena Vista, Miami. Strength, recovery, and education.",
-        url: "https://upliftedmethod.com",
+        url: BASE_URL,
         telephone: "+1-305-419-3133",
         email: "hello@upliftedmethod.com",
         address: {
@@ -42,6 +96,7 @@ export function LocalBusinessSchema() {
         ],
         hasMap: "https://maps.app.goo.gl/56eP3f4aPunMey1F7",
         image: "https://upliftedmethod.com/brand/logo.svg",
+        hasOfferCatalog: serviceCatalog,
       },
       {
         "@type": "FitnessCenter",
@@ -49,7 +104,7 @@ export function LocalBusinessSchema() {
         name: "Uplifted",
         parentOrganization: { "@id": "https://upliftedmethod.com/#organization" },
         description: "ARX adaptive resistance training and in-studio sessions at Upper Buena Vista, Miami. Red light therapy and recovery. Supplements and education.",
-        url: "https://upliftedmethod.com",
+        url: BASE_URL,
         telephone: "+1-305-419-3133",
         address: {
           "@type": "PostalAddress",
@@ -69,6 +124,7 @@ export function LocalBusinessSchema() {
           "Miami",
         ],
         hasMap: "https://maps.app.goo.gl/56eP3f4aPunMey1F7",
+        hasOfferCatalog: serviceCatalog,
       },
     ],
   };

@@ -6,11 +6,33 @@ const EMAIL = "hello@upliftedmethod.com";
 const ADDRESS = "5026 NE 2nd Ave #303, Miami, FL 33137";
 const BOOK_URL = "https://upliftedmethod.as.me/schedule/550c1c04";
 const MAP_URL = "https://maps.app.goo.gl/56eP3f4aPunMey1F7";
+const GBP_URL = "https://maps.app.goo.gl/Gs4SNHc7kvhpzEHz7";
+const REVIEW_COUNT = 54;
 
 export function Footer() {
   return (
     <footer className="border-t border-neutral-200 bg-neutral-50">
       <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+        <div className="mb-8 space-y-3 text-center text-sm text-neutral-600">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-1">
+            <span>We reply within 24 hours</span>
+            <span className="text-neutral-400" aria-hidden>·</span>
+            <span>Studio opened October 2024</span>
+            <span className="text-neutral-400" aria-hidden>·</span>
+            <a
+              href={GBP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary"
+            >
+              5.0 on Google · {REVIEW_COUNT} five-star reviews
+            </a>
+          </div>
+          <div className="flex flex-wrap justify-center gap-x-5 gap-y-1 text-neutral-500">
+            <span>ARX and Shiftwave under one roof</span>
+            <span>Same-day booking often available</span>
+          </div>
+        </div>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <Logo className="text-lg" />
@@ -20,6 +42,11 @@ export function Footer() {
           </div>
           <div>
             <h3 className="font-semibold text-neutral">Contact</h3>
+            <p className="mt-2 text-sm text-neutral-600">
+              <Link href="/contact" className="font-medium text-primary hover:underline">
+                Questions? Contact us
+              </Link>
+            </p>
             <ul className="mt-2 space-y-1 text-sm text-neutral-600">
               <li>
                 <a href={`tel:${PHONE}`} className="hover:text-primary">
@@ -54,7 +81,7 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-neutral">Book a session</h3>
             <p className="mt-2 text-sm text-neutral-600">
-              Schedule your first session or red light therapy.
+              Book your first session or red light.
             </p>
             <a
               href={BOOK_URL}
