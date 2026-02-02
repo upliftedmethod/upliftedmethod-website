@@ -155,7 +155,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
         <h2 className="section-heading text-center">Learn & Shop</h2>
         <p className="mx-auto mt-4 max-w-xl text-center text-neutral-600">
-          Educational content on training, recovery, and supplements—and a shop for the products we trust. Built for SEO and for you.
+          Guides on training, recovery, and supplements—plus a shop for the products we trust.
         </p>
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <Link href="/blog" className="btn-primary">

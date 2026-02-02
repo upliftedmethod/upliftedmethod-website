@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Shop Supplements",
   description:
-    "Curated supplements for performance and recovery. Uplifted Method—same standards as our Upper Buena Vista studio. Headless Shopify storefront.",
+    "Curated supplements for performance and recovery. Uplifted Method—same standards as our Upper Buena Vista studio.",
 };
 
 export default function ShopPage() {
@@ -12,13 +12,13 @@ export default function ShopPage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">Shop Supplements</h1>
       <p className="mt-4 text-lg text-neutral-600">
-        Curated supplements to support performance and recovery—the same products we trust at the studio. Our storefront is powered by Shopify and will be fully connected soon.
+        Curated supplements to support performance and recovery—the same products we trust at the studio. Online ordering will be available soon.
       </p>
 
       <section className="mt-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-8">
         <h2 className="text-xl font-bold text-neutral">Store coming soon</h2>
         <p className="mt-2 text-neutral-600">
-          We’re building a headless Shopify storefront so you can shop supplements on upliftedmethod.com with a seamless checkout experience. Same quality we recommend in-studio—available online.
+          We’re adding an online shop so you can order the same supplements we recommend in-studio, with secure checkout.
         </p>
         <p className="mt-4 text-neutral-600">
           In the meantime: book a session or red light at the studio, and we’ll point you to the products we use and trust. Or get in touch for recommendations.
@@ -40,7 +40,7 @@ export default function ShopPage() {
       </div>
 
       <p className="mt-8 text-center text-sm text-neutral-500">
-        Checkout will be at checkout.upliftedmethod.com (secure, PCI-compliant) when the store launches.
+        Secure checkout when the store launches.
       </p>
     </div>
   );

@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Blog & Guides",
   description:
-    "Educational content on ARX training, red light therapy, recovery, and supplements. Miami fitness, Upper Buena Vista. SEO-rich guides for training and nutrition.",
+    "Guides and articles on ARX training, red light therapy, recovery, and supplements. Miami fitness at Upper Buena Vista.",
 };
 
 export default function BlogPage() {
@@ -12,16 +12,16 @@ export default function BlogPage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">Blog & Guides</h1>
       <p className="mt-4 text-lg text-neutral-600">
-        Educational content on training, recovery, and supplements—built for SEO, GEO, and LLM visibility. More articles and guides coming soon.
+        Practical guides on training, recovery, and supplements. More articles coming soon.
       </p>
 
       <section className="mt-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-8">
-        <h2 className="text-xl font-bold text-neutral">Content engine</h2>
+        <h2 className="text-xl font-bold text-neutral">What’s coming</h2>
         <p className="mt-2 text-neutral-600">
-          We’re building out guides on ARX adaptive resistance, red light therapy, recovery protocols, and supplement choices. Each piece is written to rank for search and to be useful to both humans and AI—so when people (or LLMs) look for answers, Uplifted shows up as a source.
+          We’re adding guides on ARX adaptive resistance, red light therapy, recovery, and how to choose supplements that support your goals.
         </p>
         <p className="mt-4 text-neutral-600">
-          Topics we’ll cover: what is ARX, how red light supports recovery, how to choose supplements for performance, Miami-area fitness and recovery, and more. Check back soon or follow us for updates.
+          Topics we’ll cover: what is ARX, how red light supports recovery, supplement basics for performance, and Miami-area fitness and recovery. Check back soon or follow us for updates.
         </p>
       </section>
 
