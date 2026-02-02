@@ -76,32 +76,55 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl">
           <h2 className="section-heading text-center">What Clients Say</h2>
           <p className="mx-auto mt-4 max-w-2xl text-center text-neutral-600">
-            Real results from real people. More testimonials and stories live on our blog and in-studio.
+            Real results from real people. All reviews from Google—see more on our profile.
           </p>
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <blockquote className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
               <p className="text-neutral-700">
-                &ldquo;The ARX sessions are efficient and effective. I get more done in 20 minutes here than I used to in an hour at a big gym.&rdquo;
+                &ldquo;Uplifted has completely redefined my expectations of what a premium wellness center can be. The equipment is revolutionary, and the ShiftWave chairs alone are worth the visit—like a deep meditation and massage combined.&rdquo;
               </p>
-              <footer className="mt-4 text-sm text-neutral-500">— In-studio client, Miami</footer>
+              <footer className="mt-4 text-sm text-neutral-500">— Nick Mennell</footer>
             </blockquote>
             <blockquote className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
               <p className="text-neutral-700">
-                &ldquo;Red light after training has become non-negotiable. I recover faster and feel better.&rdquo;
+                &ldquo;I walked in by chance and found it life-changing. A full-body workout in 20 minutes, or the ShiftWave chair to relax and reset your nervous system in minutes. I only wish I could come every day!&rdquo;
               </p>
-              <footer className="mt-4 text-sm text-neutral-500">— In-studio client, Coconut Grove</footer>
+              <footer className="mt-4 text-sm text-neutral-500">— Kelly Phoenix</footer>
             </blockquote>
             <blockquote className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
               <p className="text-neutral-700">
-                &ldquo;Clean space, no BS. Exactly what I needed.&rdquo;
+                &ldquo;Red Light Therapy, ShiftWave, then a full workout on the Omni—all in one visit. I&apos;ve never felt so strong in just 20 minutes. This place is a game-changer for body and mind.&rdquo;
               </p>
-              <footer className="mt-4 text-sm text-neutral-500">— In-studio client, Key Biscayne</footer>
+              <footer className="mt-4 text-sm text-neutral-500">— Elisha Mercer</footer>
+            </blockquote>
+            <blockquote className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
+              <p className="text-neutral-700">
+                &ldquo;From red light therapy to ARX adaptive resistance and Shiftwave—you can walk out as a better version of yourself. So thankful for my first visit; I plan to be back regularly.&rdquo;
+              </p>
+              <footer className="mt-4 text-sm text-neutral-500">— William Kragie</footer>
+            </blockquote>
+            <blockquote className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
+              <p className="text-neutral-700">
+                &ldquo;A cozy, boutique gym in Upper Buena Vista. Perfect for quick, effective sessions that deliver noticeable results. Eric brings a positive, uplifting vibe; the community is friendly and welcoming.&rdquo;
+              </p>
+              <footer className="mt-4 text-sm text-neutral-500">— Lorena Quijano La Rotta</footer>
+            </blockquote>
+            <blockquote className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
+              <p className="text-neutral-700">
+                &ldquo;The chair&apos;s vibrations synchronized with guided meditation—immersive and deeply relaxing. I left feeling lighter, calmer, and more energized. Highly recommend for a unique wellness experience in Miami.&rdquo;
+              </p>
+              <footer className="mt-4 text-sm text-neutral-500">— Ihsan Colak</footer>
             </blockquote>
           </div>
           <p className="mt-10 text-center">
-            <Link href="/blog" className="font-medium text-primary hover:underline">
-              Read more on the blog →
-            </Link>
+            <a
+              href="https://maps.app.goo.gl/p3efA9a9p5QLzyiK9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-primary hover:underline"
+            >
+              See all reviews on Google →
+            </a>
           </p>
         </div>
       </section>
