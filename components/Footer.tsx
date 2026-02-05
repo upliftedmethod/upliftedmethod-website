@@ -73,11 +73,13 @@ export function Footer() {
             <ul className="mt-2 space-y-1 text-sm text-neutral-600">
               <li><Link href="/" className="hover:text-primary">Home</Link></li>
               <li><Link href="/services" className="hover:text-primary">Services</Link></li>
+              <li><Link href="/locations" className="hover:text-primary">Locations</Link></li>
               <li><Link href="/blog" className="hover:text-primary">Blog</Link></li>
               <li><Link href="/shop" className="hover:text-primary">Shop</Link></li>
               <li><Link href="/about" className="hover:text-primary">About</Link></li>
               <li><Link href="/contact" className="hover:text-primary">Contact</Link></li>
               <li><Link href="/arx" className="hover:text-primary">ARX</Link></li>
+              <li><Link href="/red-light-therapy" className="hover:text-primary">Red Light Therapy</Link></li>
             </ul>
           </div>
           <div>
