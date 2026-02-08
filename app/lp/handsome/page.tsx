@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { HandsomeCohortForm } from "@/components/HandsomeCohortForm";
 
 export const metadata: Metadata = {
   title: "Handsome Cohort | 6-Week MMW Peak | Uplifted Miami",
