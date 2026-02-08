@@ -24,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/arx-and-red-light`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/recovery-stack`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/supplements`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/lp/handsome`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
   ];
 
   const blogPosts: MetadataRoute.Sitemap = getAllPosts().map((post) => ({
