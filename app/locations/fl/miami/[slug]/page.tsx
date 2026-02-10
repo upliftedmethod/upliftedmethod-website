@@ -37,6 +37,7 @@ function FullLocationPage({ location }: { location: LocationContent }) {
     intro = "",
     serviceArea = "",
     drivingDirections = [],
+    whyClientsCome,
     neighborhoodContent = "",
     responseTimes = "",
   } = location;
@@ -83,7 +84,10 @@ function FullLocationPage({ location }: { location: LocationContent }) {
       </section>
 
       <section className="mt-10">
-        <h2 className="text-xl font-bold text-neutral">Driving directions from major landmarks</h2>
+        <h2 className="text-xl font-bold text-neutral">How to get here from {name}</h2>
+        <p className="mt-2 text-neutral-600">
+          Directions from common starting points in and around {name} to our studio at 5026 NE 2nd Ave #303.
+        </p>
         <ul className="mt-4 space-y-6">
           {drivingDirections.map((d) => (
             <li key={d.from} className="border-l-4 border-primary pl-4">
@@ -93,6 +97,17 @@ function FullLocationPage({ location }: { location: LocationContent }) {
           ))}
         </ul>
       </section>
+
+      {whyClientsCome && whyClientsCome.length > 0 && (
+        <section className="mt-10">
+          <h2 className="text-xl font-bold text-neutral">Why {name} clients come to Uplifted</h2>
+          <ul className="mt-4 list-disc space-y-2 pl-6 text-neutral-600">
+            {whyClientsCome.map((bullet, i) => (
+              <li key={i}>{bullet}</li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section className="mt-10">
         <h2 className="text-xl font-bold text-neutral">Neighborhood</h2>

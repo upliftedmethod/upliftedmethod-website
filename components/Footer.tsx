@@ -7,7 +7,7 @@ const ADDRESS = "5026 NE 2nd Ave #303, Miami, FL 33137";
 const BOOK_URL = "https://upliftedmethod.as.me/schedule/550c1c04";
 const MAP_URL = "https://maps.app.goo.gl/56eP3f4aPunMey1F7";
 const GBP_URL = "https://maps.app.goo.gl/Gs4SNHc7kvhpzEHz7";
-const REVIEW_COUNT = 54;
+const REVIEW_COUNT = 59;
 
 export function Footer() {
   return (
