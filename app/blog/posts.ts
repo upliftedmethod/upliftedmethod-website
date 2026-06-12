@@ -14,7 +14,7 @@ export const posts: PostMeta[] = [
   {
     slug: "what-is-arx-training",
     title: "What Is ARX Training? Strength That Matches Your Effort in Real Life",
-    description: "ARX (Adaptive Resistance Exercise) matches resistance to your force output in real time. What it is, how the machines work, research on results, and why busy adults in Miami use short coach-led sessions.",
+    description: "ARX (Adaptive Resistance Exercise) matches resistance to your force output in real time. What it is, how the machines work, research on results, and why busy adults in Miami use short coach-led sessions.
     date: "2024-11-01",
     excerpt: "ARX adapts resistance to your exact strength output on every rep. Here is how the machines work, what the research shows, and why short sessions fit Miami schedules.",
   },
@@ -150,7 +150,7 @@ export const posts: PostMeta[] = [
     title: "Personal Training for Busy Professionals in Miami",
     description: "Personal training for busy professionals in Miami: executive fitness, short sessions, and training that fits a packed schedule.",
     date: "2026-02-02",
-    excerpt: "Busy professionals need training that fits. Here’s how coach-led, focused sessions work in Miami.",
+    excerpt: "Coach-led sessions with adaptive resistance built for packed Miami schedules. Research shows greater strength gains and real-world results from busy professionals who train here.",
   },
 ];
 
