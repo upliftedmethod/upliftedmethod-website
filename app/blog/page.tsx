@@ -5,7 +5,7 @@ import { getAllPosts } from "./posts";
 export const metadata: Metadata = {
   title: "Blog & Guides | ARX, Red Light & Recovery | Miami",
   description:
-    "Guides on what is ARX training, red light therapy benefits, Shiftwave recovery, supplements for recovery. Efficient strength training and wellness. Upper Buena Vista, Miami.",
+    "Guides on ARX training, red light therapy benefits, Shiftwave recovery, and efficient strength training at Upper Buena Vista, Miami.",
   alternates: { canonical: "/blog" },
 };
 
@@ -24,18 +24,15 @@ export default function BlogPage() {
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="section-heading">Blog & Guides</h1>
       <p className="mt-4 text-lg text-neutral-600">
-        Guides on how we train and recover—and how to choose supplements that fit.
+        Practical guides on ARX training, red light therapy, recovery, and efficient strength work at our Upper Buena Vista studio.
       </p>
 
       <section className="mt-12 space-y-10">
         {posts.length === 0 ? (
           <div className="rounded-2xl border border-neutral-200 bg-neutral-50 p-8">
-            <h2 className="text-xl font-bold text-neutral">What’s coming</h2>
+            <h2 className="text-xl font-bold text-neutral">Coming soon</h2>
             <p className="mt-2 text-neutral-600">
-              We’re adding guides on ARX, red light therapy, recovery, and supplements that fit your goals.
-            </p>
-            <p className="mt-4 text-neutral-600">
-              Topics we’ll cover: what ARX is, how red light supports recovery, supplement basics for performance, and Miami-area fitness and recovery. Check back soon or follow us for updates.
+              We’re publishing guides on ARX, red light therapy, recovery, and training efficiency.
             </p>
           </div>
         ) : (
@@ -71,10 +68,6 @@ export default function BlogPage() {
       <p className="mt-10 text-center">
         <Link href="/" className="font-medium text-primary hover:underline">
           Back to home
-        </Link>
-        <span className="mx-2">·</span>
-        <Link href="/shop" className="font-medium text-primary hover:underline">
-          Shop supplements
         </Link>
       </p>
     </div>
