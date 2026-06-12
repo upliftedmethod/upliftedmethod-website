@@ -105,10 +105,10 @@ export const posts: PostMeta[] = [
   },
   {
     slug: "personal-training-for-beginners-miami",
-    title: "Personal Training for Beginners in Miami",
-    description: "Personal training for beginners in Miami: what to expect, how to start, and where to find coach-led sessions that fit new trainees.",
+    title: "Personal Training for Beginners in Miami: What to Expect",
+    description: "Personal training for beginners in Miami: what to expect from coach-led sessions, how adaptive resistance removes intimidation, and practical first steps for new trainees.",
     date: "2025-09-09",
-    excerpt: "Starting strength training with a coach makes the first steps safer and clearer. Here’s what beginners can expect in Miami.",
+    excerpt: "Starting strength training feels uncertain at first. A coach makes the process clear and safe. Here is what beginners can expect in Miami sessions built around focused guidance.",
   },
   {
     slug: "20-minute-workouts-busy-parents",
