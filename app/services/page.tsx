@@ -4,7 +4,8 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Services | Personal Training, Red Light & Recovery | Upper Buena Vista",
   description:
-    "Recovery studio Miami and fitness studio Upper Buena Vista. Miami personal training (ARX), red light therapy, recovery. Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.",
+    "Recovery studio Miami and fitness studio Upper Buena Vista. Miami personal training (ARX), red light therapy, recovery. Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.
+  },
   alternates: { canonical: "/services" },
 };
 
@@ -69,10 +70,10 @@ const SERVICES = [
     id: "supplements",
     title: "Recovery Supplements",
     short: "Support strength, recovery, and energy.",
-    body: "Curated supplements that pair with ARX, red light, and Shiftwave. In-studio or shop online. No junk—options we’d take ourselves.",
-    cta: "Shop supplements",
+    body: "Curated supplements that pair with ARX, red light, and Shiftwave. The ones we actually use in the studio. Ask us during your session for recommendations.",
+    cta: "Ask about supplements",
     detailHref: "/supplements",
-    ctaHref: "/shop",
+    ctaHref: null as string | null,
   },
 ];
 
@@ -118,11 +119,6 @@ export default function ServicesPage() {
       <p className="mt-16 text-center">
         <Link href="/locations/fl/miami" className="font-medium text-primary hover:underline">
           Studio address & directions →
-        </Link>
-      </p>
-      <p className="mt-2 text-center">
-        <Link href="/shop" className="font-medium text-primary hover:underline">
-          Shop supplements →
         </Link>
       </p>
     </div>

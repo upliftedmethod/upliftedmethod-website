@@ -4,7 +4,8 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Uplifted | Studio at Upper Buena Vista, Miami",
   description:
-    "Personal training and red light therapy at Upper Buena Vista, Miami. ARX, Shiftwave, supplements. Founded 2023. Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.",
+    "Personal training and red light therapy at Upper Buena Vista, Miami. ARX, Shiftwave, supplements. Founded 2023. Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.
+  },
   alternates: { canonical: "/about" },
 };
 
@@ -23,7 +24,7 @@ export default function AboutPage() {
         <ul className="mt-4 list-disc space-y-2 pl-6 text-neutral-600">
           <li><strong>In-studio training (Upper Buena Vista):</strong> ARX Alpha and ARX Omni. Twenty minutes, real work.</li>
           <li><strong>Red light therapy:</strong> EnergyLounger full-body bed. Recovery, skin, or both.</li>
-          <li><strong>Supplements:</strong> What we use ourselves—shop online or at the studio.</li>
+          <li><strong>Supplements:</strong> The specific products we use in-studio to support recovery and results. Ask us during your session.</li>
           <li><strong>Education:</strong> Guides on training, recovery, and nutrition so you can choose what fits.</li>
         </ul>
       </section>
@@ -56,11 +57,6 @@ export default function AboutPage() {
         <span className="ml-4">
           <Link href="/contact" className="font-medium text-primary hover:underline">
             Get in touch
-          </Link>
-        </span>
-        <span className="ml-4">
-          <Link href="/shop" className="font-medium text-primary hover:underline">
-            Shop supplements
           </Link>
         </span>
       </div>

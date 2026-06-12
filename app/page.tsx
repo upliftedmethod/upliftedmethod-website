@@ -30,9 +30,6 @@ export default function HomePage() {
             >
               Try Your First Guided Session Free
             </a>
-            <Link href="/shop" className="inline-flex items-center gap-2 rounded-lg border-2 border-white/80 bg-white/10 px-6 py-3 font-semibold backdrop-blur hover:bg-white/20">
-              Shop Supplements
-            </Link>
             <a
               href={`tel:${PHONE}`}
               className="inline-flex items-center gap-2 rounded-lg border-2 border-white/80 bg-white/10 px-6 py-3 font-semibold backdrop-blur hover:bg-white/20"
@@ -225,16 +222,16 @@ export default function HomePage() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
-        <h2 className="section-heading text-center">Learn & Shop</h2>
+        <h2 className="section-heading text-center">Learn & Recover</h2>
         <p className="mx-auto mt-4 max-w-xl text-center text-neutral-600">
-          Guides on how we train and recover—and a shop for the same supplements we use in-studio.
+          Guides on how we train and recover at the studio.
         </p>
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <Link href="/blog" className="btn-primary">
             Blog & Guides
           </Link>
           <Link href="/shop" className="rounded-lg border-2 border-neutral-300 px-6 py-3 font-semibold text-neutral-700 hover:border-primary hover:text-primary">
-            Shop Supplements
+            Supplements We Use
           </Link>
           <a href={BOOK_URL} target="_blank" rel="noopener noreferrer" className="rounded-lg border-2 border-neutral-300 px-6 py-3 font-semibold text-neutral-700 hover:border-primary hover:text-primary">
             Book a Session
