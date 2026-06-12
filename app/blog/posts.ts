@@ -1,4 +1,4 @@
-/**
+ /**
  * Blog post metadata. Body is rendered by the [slug] page via postContents.
  */
 export type PostMeta = {
@@ -133,10 +133,10 @@ export const posts: PostMeta[] = [
   },
   {
     slug: "recovery-studio-miami-what-to-look-for",
-    title: "Recovery Studio Miami: What to Look For",
-    description: "Recovery studio Miami: what to look for in a recovery lounge or studio. Equipment, protocol, and fit with your training.",
+    title: "How to Choose a Recovery Studio in Miami (What Actually Matters)",
+    description: "How to choose a recovery studio in Miami. What to look for in equipment specs, protocols, environment, and staff expertise. Practical guidance drawn from work with busy professionals and parents who train hard.",
     date: "2025-12-14",
-    excerpt: "Not all recovery spots are the same. Here’s what matters when you’re choosing a recovery studio in Miami.",
+    excerpt: "Not all recovery spots are the same. Here is what actually matters when choosing equipment, protocols, and environment in Miami.",
   },
   {
     slug: "photobiomodulation-explained",
@@ -153,17 +153,3 @@ export const posts: PostMeta[] = [
     excerpt: "Coach-led sessions with adaptive resistance built for packed Miami schedules. Research shows greater strength gains and real-world results from busy professionals who train here.",
   },
 ];
-
-export function getAllPosts(): PostMeta[] {
-  return [...posts].sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
-  );
-}
-
-export function getPost(slug: string): PostMeta | undefined {
-  return posts.find((p) => p.slug === slug);
-}
-
-export function getAllSlugs(): string[] {
-  return posts.map((p) => p.slug);
-}
