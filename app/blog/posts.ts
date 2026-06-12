@@ -14,7 +14,7 @@ export const posts: PostMeta[] = [
   {
     slug: "what-is-arx-training",
     title: "What Is ARX Training? Strength That Matches Your Effort in Real Life",
-    description: "ARX (Adaptive Resistance Exercise) matches resistance to your force output in real time. What it is, how the machines work, research on results, and why busy adults in Miami use short coach-led sessions.
+    description: "ARX (Adaptive Resistance Exercise) matches resistance to your force output in real time. What it is, how the machines work, research on results, and why busy adults in Miami use short coach-led sessions.",
     date: "2024-11-01",
     excerpt: "ARX adapts resistance to your exact strength output on every rep. Here is how the machines work, what the research shows, and why short sessions fit Miami schedules.",
   },
