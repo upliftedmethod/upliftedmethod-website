@@ -1,14 +1,13 @@
 import Link from "next/link";
 
 /**
- * Post: What Is ARX Training? (~1,200–1,500 words)
- * Keywords: what is ARX training, ARX Miami, efficient strength training.
+ * Post: What Is ARX Training? Efficient Strength in Less Time
  */
 export default function WhatIsARXBody() {
   return (
     <div className="prose-custom">
       <p>
-        If you’ve heard about ARX from a friend or seen it in Miami studios, you’re probably wondering what it actually is. Another machine? A class? ARX stands for Adaptive Resistance Exercise. The equipment adjusts the load in real time as you move, so your muscles stay under tension through the whole rep—not just at the easy part. That’s what makes it efficient strength training. Especially if you don’t have an hour to spend at the gym.
+        If you’ve heard about ARX from a friend or seen it in Miami studios, you’re probably wondering what it actually is. ARX stands for Adaptive Resistance Exercise. The equipment adjusts the load in real time as you move, so your muscles stay under tension through the whole rep—not just at the easy part. That’s what makes it efficient strength training, especially if you don’t have an hour to spend at the gym.
       </p>
 
       <h2>What is ARX training, really?</h2>
@@ -29,14 +28,14 @@ export default function WhatIsARXBody() {
         A lot of people who find ARX are busy—parents, professionals, people who used to lift but can’t justify 90-minute sessions anymore. Twenty minutes of actual work, two or three times a week, can be enough to maintain or build strength when the work is this targeted. You’re not doing fluff sets or waiting for equipment. You’re on the machine, the resistance is matching you, and you’re done in 20 minutes. That’s the appeal of efficient strength training: same (or better) stimulus, fraction of the time.
       </p>
 
-      <h2>ARX Miami: where it shows up</h2>
+      <h2>ARX in Miami</h2>
       <p>
-        ARX isn’t in every gym. It’s mostly in studios and training spaces that focus on one-on-one or small-group work. In Miami, you’ll find in-studio ARX personal training at places like ours in Upper Buena Vista—a dedicated space with ARX Alpha and ARX Omni, coaches who program and cue, and the option to add red light or other recovery in the same visit. People come from Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, and Surfside because they want serious strength work without the big-gym hassle. ARX Miami, in that sense, isn’t a single location; it’s a type of offering. Studio-based, coach-led, time-efficient.
+        ARX isn’t in every gym. It’s mostly in studios and training spaces that focus on one-on-one or small-group work. In Miami, you’ll find in-studio ARX personal training at places like ours in Upper Buena Vista—a dedicated space with ARX Alpha and ARX Omni, coaches who program and cue, and the option to add red light or other recovery in the same visit. People come from Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, and Surfside because they want serious strength work without the big-gym hassle.
       </p>
 
       <h2>What a typical session looks like</h2>
       <p>
-        You show up, warm up (often brief—you’re not prepping for a max squat), and then you’re on the ARX kit. Your coach has already chosen exercises and set parameters for the day. You might do a mix of lower and upper body, or focus on one. Each rep feels hard through the full range because the machine is matching you. Sessions usually run about 20 minutes of actual work; total time in the studio might be 30–45 minutes including warm-up and cooldown. If you add red light or another recovery modality, you’re still in and out in an hour or so.
+        You show up, warm up (often brief), and then you’re on the ARX kit. Your coach has already chosen exercises and set parameters for the day. You might do a mix of lower and upper body, or focus on one. Each rep feels hard through the full range because the machine is matching you. Sessions usually run about 20 minutes of actual work; total time in the studio might be 30–45 minutes including warm-up and cooldown. If you add red light or another recovery modality, you’re still in and out in an hour or so.
       </p>
 
       <p>
