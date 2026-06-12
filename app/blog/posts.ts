@@ -41,10 +41,10 @@ export const posts: PostMeta[] = [
   },
   {
     slug: "red-light-therapy-miami",
-    title: "Red Light Therapy in Miami: What to Expect and Where to Go",
-    description: "Best red light therapy Miami options and what to expect from sessions. Full-body RLT, recovery studios, and how to choose. Upper Buena Vista and neighborhoods we serve.",
+    title: "Red Light Therapy in Miami: What to Expect and How to Use It Well",
+    description: "Red light therapy in Miami: what to expect from sessions, how to time it with training, and practical ways to stack it with strength work. Local context from clients across Key Biscayne, Coconut Grove and surrounding areas.",
     date: "2025-02-05",
-    excerpt: "Red light therapy in Miami is easier to find than it used to be. What to expect from a session, what to look for in a studio, and where we fit in.",
+    excerpt: "Red light therapy appears at more spots in Miami. What a session actually feels like, what to look for when choosing a place, and how clients stack it with ARX training in real schedules.",
   },
   // --- 15 priority posts ---
   {

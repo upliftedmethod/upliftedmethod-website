@@ -4,44 +4,70 @@ export default function RedLightTherapyMiamiBody() {
   return (
     <div className="prose-custom">
       <p>
-        Red light therapy has become more available across Miami. You can find it at med spas, wellness studios, and recovery spots. If you are looking for a place with real equipment and a clear approach, here is what matters and how we run it at our studio.
+        Red light therapy shows up more often across Miami now. You find it at med spas, recovery spots, and training studios. The real difference comes down to the equipment and how people actually fit sessions into busy weeks. Here is what clients run into and how we set it up at the studio.
       </p>
 
-      <h2>What to expect from a session</h2>
+      <h2>What a session feels like</h2>
       <p>
-        You lie on a full-body bed or sit in front of LED panels. The lights emit specific wavelengths of red and near-infrared light. You feel almost nothing. No heat. No pain. Most sessions run 15 to 20 minutes. The goal is to give cells a signal that can support recovery and other processes.
-      </p>
-
-      <p>
-        Research on photobiomodulation shows that certain wavelengths can influence cellular energy production and inflammation pathways. Results depend on wavelength, dose, and consistency.
-      </p>
-
-      <h2>What makes a good setup</h2>
-      <p>
-        Not every red light device delivers the same result. Full-body beds tend to give better systemic exposure than small panels. A clear protocol (time and frequency) matters more than vague “relax in the light” setups. The environment should let you actually rest.
+        You change if needed and lie on a full body bed. Red and near infrared LEDs run above and below you. The cycle lasts 15 to 20 minutes. Most people feel almost nothing. No strong heat. No pain. Some notice quiet time to close their eyes. Others feel a mild warmth. The lights work while you rest.
       </p>
 
       <p>
-        When you compare options in Miami, ask about the equipment and the session length. Good studios use proper wavelengths at useful power levels and give you a consistent routine.
+        First timers sometimes expect more sensation. They usually notice the shift later. Less next day tightness. Steadier energy in the following session. That pattern lines up with what research on photobiomodulation shows about recovery markers in muscle tissue.
       </p>
 
-      <h2>How we do it at the studio</h2>
+      <h2>Session expectations at places in Miami</h2>
       <p>
-        We use a full-body EnergyLounger with both red and near-infrared LEDs. Sessions run about 20 minutes. You can book red light by itself or combine it with ARX or Shiftwave the same day. Many clients do exactly that: train, then recover in one visit.
+        Full body beds give broader exposure than small panels or spot devices. Consistent session length and a clear plan matter more than extra bells and whistles. A quiet space helps because the goal is rest.
       </p>
 
       <p>
-        Clients come from Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside, and nearby areas. One stop for strength and recovery removes friction and makes consistency easier.
+        When you compare options around Miami, ask two direct questions. What wavelengths does the device use and what power density does it deliver? How long are sessions and do they have a set approach for people who train? Places that answer clearly tend to deliver more useful results than spots that treat red light as simple add on relaxation.
       </p>
 
-      <h2>Frequency and results</h2>
+      <h2>How we run sessions here</h2>
       <p>
-        Benefits usually build with regular use rather than one-off sessions. Most people start with two or three sessions per week. If recovery is your main goal, pairing it with training makes sense. If skin or general wellness is the focus, the same regular approach tends to work better.
+        We use a full body EnergyLounger with both red and near infrared LEDs. Sessions run 20 minutes. Clients finish ARX work and move straight to the bed in the same visit. No second trip through Miami traffic. The same day stack keeps everything in one place.
+      </p>
+
+      <p>
+        Clients drive in from Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside and nearby neighborhoods. Many train before work or after the day ends. Adding the recovery session in the same stop removes the need for extra travel later in the week.
+      </p>
+
+      <h2>Timing with training and how to stack it</h2>
+      <p>
+        Research shows red light can support performance when used before training and recovery when used after. Pre work may help with energy availability during the session. Post work may help with soreness signals in the following days. Both approaches appear in studies on muscle tissue.
+      </p>
+
+      <p>
+        In practice with clients here, right after ARX works well. The training block is already short. The light session gives a recovery signal while the person is changed and present. Some add a session on a lighter day if residual tightness lingers. Regular use matters more than perfect timing on every single day.
+      </p>
+
+      <p>
+        Stacking with Shiftwave in the same visit comes up often. ARX for the strength stimulus. Red light for cellular support. Shiftwave for nervous system reset. Clients who run the three together in one trip often leave more settled than when they split recovery across different days and locations.
+      </p>
+
+      <h2>Frequency that builds results</h2>
+      <p>
+        One session changes little on its own. The effect builds with repeated use over weeks. Most people start with two or three sessions per week. Those who train three days often add red light after each one. People with tighter or lighter schedules pick the days that leave them most taxed.
+      </p>
+
+      <p>
+        We see the same pattern with busy professionals and parents. They keep the routine simple. Show up. Train. Add the light if it fits that day. Go home. Over a month the steady input shows up as more consistent energy and fewer days where soreness limits the next session.
       </p>
 
       <h2>Next steps</h2>
       <p>
-        If you want to try red light therapy in Miami, you can book a session directly. Come in, experience a full-body session, and see how it feels. Adjust based on your own response and schedule.
+        If you want to try red light therapy in Miami and see how it fits with your training, book a session. Come for an ARX workout and add the 20 minute light session right after. Notice how you feel the next morning and in the following session. After a few weeks the pattern becomes clear. Keep what helps.
+      </p>
+
+      <p>
+        We sit in Upper Buena Vista at 5026 NE 2nd Ave #303. One visit can cover strength work and recovery support without extra travel across town.
+      </p>
+
+      <h2>Sources</h2>
+      <p>
+        Title: Photobiomodulation in human muscle tissue: an advantage in sports performance? Publisher: Journal of Biophotonics. Publication Date: November 2016. URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC5167494/
       </p>
     </div>
   );
