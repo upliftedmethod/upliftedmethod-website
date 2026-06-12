@@ -146,6 +146,13 @@ export const posts: PostMeta[] = [
     excerpt: "Photobiomodulation is the term for how red and near-infrared light affect cells. Here’s a clear breakdown.",
   },
   {
+    slug: "how-red-light-therapy-works",
+    title: "How Red Light Therapy Works + What It Actually Does for Recovery",
+    description: "How red light therapy works through photobiomodulation, the cellular mechanisms involved, what research shows for muscle recovery and soreness reduction, and how clients in Miami use full-body sessions alongside ARX training.",
+    date: "2026-06-12",
+    excerpt: "Red light therapy influences cellular energy production and inflammation pathways. Here is the science made practical, the evidence on recovery, and how Miami clients fit short sessions into real training schedules.",
+  },
+  {
     slug: "personal-training-busy-professionals-miami",
     title: "Personal Training for Busy Professionals in Miami",
     description: "Personal training for busy professionals in Miami: executive fitness, short sessions, and training that fits a packed schedule.",

@@ -19,6 +19,7 @@ import FitnessOver50MiamiBody from "./_posts/FitnessOver50Miami";
 import RecoveryStudioMiamiWhatToLookForBody from "./_posts/RecoveryStudioMiamiWhatToLookFor";
 import PhotobiomodulationExplainedBody from "./_posts/PhotobiomodulationExplained";
 import PersonalTrainingBusyProfessionalsMiamiBody from "./_posts/PersonalTrainingBusyProfessionalsMiami";
+import HowRedLightTherapyWorksBody from "./_posts/HowRedLightTherapyWorks";
 
 /** Maps post slug to the component that renders the post body. */
 export const postContents: Record<string, ComponentType> = {
@@ -41,5 +42,6 @@ export const postContents: Record<string, ComponentType> = {
   "fitness-over-50-miami": FitnessOver50MiamiBody,
   "recovery-studio-miami-what-to-look-for": RecoveryStudioMiamiWhatToLookForBody,
   "photobiomodulation-explained": PhotobiomodulationExplainedBody,
+  "how-red-light-therapy-works": HowRedLightTherapyWorksBody,
   "personal-training-busy-professionals-miami": PersonalTrainingBusyProfessionalsMiamiBody,
 };
