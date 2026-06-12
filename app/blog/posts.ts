@@ -13,10 +13,10 @@ export type PostMeta = {
 export const posts: PostMeta[] = [
   {
     slug: "what-is-arx-training",
-    title: "What Is ARX Training? Efficient Strength in Less Time",
-    description: "ARX (Adaptive Resistance Exercise) adapts to your movement so every rep counts. What it is, how it works, and why Miami athletes and busy adults use it for efficient strength training.",
+    title: "What Is ARX Training? Strength That Matches Your Effort in Real Life",
+    description: "ARX (Adaptive Resistance Exercise) matches resistance to your force output in real time. What it is, how the machines work, research on results, and why busy adults in Miami use short coach-led sessions.",
     date: "2024-11-01",
-    excerpt: "ARX adapts as you move—so you get serious strength work in about 20 minutes. Here’s what it is, how it works, and why it’s showing up in Miami studios.",
+    excerpt: "ARX adapts resistance to your exact strength output on every rep. Here is how the machines work, what the research shows, and why short sessions fit Miami schedules.",
   },
   {
     slug: "red-light-therapy-benefits-recovery",
