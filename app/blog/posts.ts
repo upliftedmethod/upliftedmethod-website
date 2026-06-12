@@ -1,4 +1,4 @@
- /**
+/**
  * Blog post metadata. Body is rendered by the [slug] page via postContents.
  */
 export type PostMeta = {
@@ -13,10 +13,10 @@ export type PostMeta = {
 export const posts: PostMeta[] = [
   {
     slug: "what-is-arx-training",
-    title: "What Is ARX Training? Strength That Matches Your Effort in Real Life",
-    description: "ARX (Adaptive Resistance Exercise) matches resistance to your force output in real time. What it is, how the machines work, research on results, and why busy adults in Miami use short coach-led sessions.",
+    title: "What Is ARX Training? Efficient Strength That Actually Fits Real Life",
+    description: "ARX (Adaptive Resistance Exercise) matches resistance to your force output in real time. What it is, how the machines work, research on results, and why busy adults in Miami use short coach-led sessions. Part of our consolidated guide to time-efficient strength training.",
     date: "2024-11-01",
-    excerpt: "ARX adapts resistance to your exact strength output on every rep. Here is how the machines work, what the research shows, and why short sessions fit Miami schedules.",
+    excerpt: "ARX adapts resistance to your exact strength output on every rep. Here is how the machines work, what the research shows, and why short sessions fit Miami schedules for busy professionals and parents.",
   },
   {
     slug: "red-light-therapy-benefits-recovery",
@@ -70,7 +70,7 @@ export const posts: PostMeta[] = [
   },
   {
     slug: "efficient-strength-training-miami",
-    title: "Strength Training in Miami That Fits Tight Schedules",
+    title: "Efficient Strength Training in Miami (Without Wasting Hours)",
     description: "Strength training in Miami that fits tight schedules. How short, high-tension sessions with adaptive resistance build real progress for busy professionals and parents without long gym hours.",
     date: "2025-05-12",
     excerpt: "You do not need hours in the gym to get stronger. Here is how focused strength sessions work and where to find them in Miami.",
@@ -120,43 +120,43 @@ export const posts: PostMeta[] = [
   {
     slug: "red-light-therapy-for-athletes",
     title: "Red Light Therapy for Athletes",
-    description: "Red light therapy for athletes in Miami: recovery between sessions, what the research says, and how to stack it with training.",
-    date: "2025-10-27",
-    excerpt: "Athletes use red light to recover faster and stay consistent. How it fits into a training week and where to find it in Miami.",
+    description: "Red light therapy for athletes in Miami: recovery between sessions, what to expect, and how to stack with strength work.",
+    date: "2025-10-20",
+    excerpt: "Athletes need recovery that keeps them training consistently. How red light supports that process in real Miami routines.",
   },
   {
     slug: "fitness-over-50-miami",
     title: "Fitness Over 50 in Miami: Staying Strong and Capable",
-    description: "Strength training for longevity, joint health, and independence after 50. How focused work supports daily capability for active adults in Miami.",
-    date: "2026-06-12",
-    excerpt: "Staying strong after 50 keeps you capable for family, travel, and movement. Research and real sessions in Miami show what builds lasting results.",
+    description: "Strength training for longevity, joint health, and maintaining independence in Miami. How ARX and smart programming support clients over 50.",
+    date: "2025-11-05",
+    excerpt: "Staying strong as you age does not require long gym sessions. Practical strength work for Miami adults focused on capability and independence.",
   },
   {
     slug: "recovery-studio-miami-what-to-look-for",
     title: "How to Choose a Recovery Studio in Miami (What Actually Matters)",
-    description: "How to choose a recovery studio in Miami. What to look for in equipment specs, protocols, environment, and staff expertise. Practical guidance drawn from work with busy professionals and parents who train hard.",
-    date: "2025-12-14",
-    excerpt: "Not all recovery spots are the same. Here is what actually matters when choosing equipment, protocols, and environment in Miami.",
+    description: "What to look for in equipment, protocols, and environment when choosing a recovery studio in Miami. Focus on real results over marketing.",
+    date: "2025-11-15",
+    excerpt: "Not every recovery studio delivers the same value. Here is what actually matters when you evaluate options in Miami.",
   },
   {
     slug: "photobiomodulation-explained",
     title: "Photobiomodulation Explained",
-    description: "Photobiomodulation explained: the science behind red light therapy. Wavelengths, mechanisms, and what it means for Miami clients.",
-    date: "2026-01-07",
-    excerpt: "Photobiomodulation is the term for how red and near-infrared light affect cells. Here’s a clear breakdown.",
+    description: "The science of photobiomodulation and how specific light wavelengths support recovery at the cellular level.",
+    date: "2025-12-01",
+    excerpt: "Light at certain wavelengths interacts with cells in measurable ways. Here is the practical explanation.",
   },
   {
     slug: "how-red-light-therapy-works",
     title: "How Red Light Therapy Works + What It Actually Does for Recovery",
-    description: "How red light therapy works through photobiomodulation, the cellular mechanisms involved, what research shows for muscle recovery and soreness reduction, and how clients in Miami use full-body sessions alongside ARX training.",
-    date: "2026-06-12",
-    excerpt: "Red light therapy influences cellular energy production and inflammation pathways. Here is the science made practical, the evidence on recovery, and how Miami clients fit short sessions into real training schedules.",
+    description: "How red light therapy works, the mechanisms behind recovery benefits, and real-world application for training clients in Miami.",
+    date: "2025-12-10",
+    excerpt: "Red light therapy supports recovery through specific biological pathways. What the evidence shows and how we use it with ARX clients.",
   },
   {
     slug: "personal-training-busy-professionals-miami",
     title: "Personal Training for Busy Professionals in Miami",
-    description: "Personal training for busy professionals in Miami: executive fitness, short sessions, and training that fits a packed schedule.",
-    date: "2026-02-02",
-    excerpt: "Coach-led sessions with adaptive resistance built for packed Miami schedules. Research shows greater strength gains and real-world results from busy professionals who train here.",
+    description: "High-impact, time-efficient training for executives and busy professionals in Miami. ARX sessions built around demanding schedules.",
+    date: "2025-12-20",
+    excerpt: "Busy professionals need training that delivers results without stealing hours from work and family. Here is how focused sessions work in Miami.",
   },
 ];

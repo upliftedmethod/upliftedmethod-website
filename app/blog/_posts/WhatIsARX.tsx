@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 /**
- * Post: What Is ARX Training? Strength That Matches Your Effort in Real Life
+ * Post: What Is ARX Training? Efficient Strength That Actually Fits Real Life
  */
 export default function WhatIsARXBody() {
   return (
@@ -42,22 +42,47 @@ export default function WhatIsARXBody() {
       </p>
 
       <p>
-        Clients often pair the strength work with a recovery add-on the same day. Red light or Shiftwave fits into the same stop without turning the outing into an all-afternoon event. The whole package stays practical for people who want consistent training but refuse to let it dominate their calendar.
+        These focused sessions form the foundation for how we serve busy professionals and parents who want consistent strength work without long gym hours. <Link href="/blog/efficient-strength-training-miami" className="font-medium text-primary hover:underline">Efficient strength training in Miami</Link> and <Link href="/blog/20-minute-workouts-busy-parents" className="font-medium text-primary hover:underline">short workouts designed for busy parents</Link> build on the same principle.
+      </p>
+
+      <p>
+        Clients often pair the strength work with a recovery add-on the same day. <Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave</Link> or <Link href="/blog/how-red-light-therapy-works" className="font-medium text-primary hover:underline">red light therapy</Link> fits into the same stop without turning the outing into an all-afternoon event. The whole package stays practical for people who want consistent training but refuse to let it dominate their calendar.
       </p>
 
       <h2>Who gets the most from it</h2>
       <p>
-        Beginners appreciate the built-in safety and coaching. The machine will not let you drop a weight or lose control. The coach stays close to cue form and adjust the plan. People returning after time off or dealing with old limitations find the controlled environment lets them load tissues without the variables of free weights. Experienced lifters use it to target sticking points precisely because the resistance never lets up where they are strongest.
+        Beginners appreciate the built-in safety and coaching. The machine will not let you drop a weight or lose control. The coach stays close to cue form and adjust the plan. People returning after time off or dealing with old limitations find the controlled environment lets them load tissues without the variables of free weights. <Link href="/blog/safe-strength-training-miami" className="font-medium text-primary hover:underline">Safe strength training when you have injuries or limitations</Link> and <Link href="/blog/personal-training-for-beginners-miami" className="font-medium text-primary hover:underline">personal training for beginners in Miami</Link> cover this in more detail.
       </p>
 
       <p>
-        Older adults and those focused on staying capable as they age also respond well. The measurable progress on screen gives objective proof that the work pays off, which helps with long-term consistency. I see this across neighborhoods from Key Biscayne to Coral Gables to Miami Beach. People who once thought serious strength training required too much time now treat two or three short sessions a week as non-negotiable.
+        Older adults and those focused on staying capable as they age also respond well. The measurable progress on screen gives objective proof that the work pays off, which helps with long-term consistency. I see this across neighborhoods from Key Biscayne to Coral Gables to Miami Beach. People who once thought serious strength training required too much time now treat two or three short sessions a week as non-negotiable. <Link href="/blog/fitness-over-50-miami" className="font-medium text-primary hover:underline">Fitness over 50 in Miami</Link> explores the longevity angle further.
       </p>
+
+      <h2>Keep exploring</h2>
+      <p>
+        These topics connect directly. Read the related posts to see how ARX fits into a full routine.
+      </p>
+      <ul>
+        <li><Link href="/blog/efficient-strength-training-miami" className="font-medium text-primary hover:underline">Efficient Strength Training in Miami (Without Wasting Hours)</Link></li>
+        <li><Link href="/blog/20-minute-workouts-busy-parents" className="font-medium text-primary hover:underline">20-Minute Workouts That Work for Busy Parents</Link></li>
+        <li><Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave Recovery: What It Is and How It Fits With Training</Link></li>
+        <li><Link href="/blog/how-red-light-therapy-works" className="font-medium text-primary hover:underline">How Red Light Therapy Works + What It Actually Does for Recovery</Link></li>
+        <li><Link href="/blog/recovery-studio-miami-what-to-look-for" className="font-medium text-primary hover:underline">How to Choose a Recovery Studio in Miami</Link></li>
+      </ul>
 
       <h2>Next steps if you want to try it</h2>
       <p>
         If you live or work in Miami and want to feel what this kind of focused strength session is like, reach out. We run ARX sessions from the Upper Buena Vista studio and through our mobile setup that serves many parts of the city. You can read more about the approach on our <Link href="/arx" className="font-medium text-primary hover:underline">ARX page</Link> or book directly and experience the difference in person. No long commitment required to start. Just a clear look at what modern strength training can feel like when the resistance actually matches your effort.
       </p>
+
+      <h2>References</h2>
+      <ul className="text-sm">
+        <li>
+          <a href="https://ijrep.org/personalized-adaptive-resistance-training-is-superior-to-traditional-resistance-exercise-a-randomized-controlled-trial/" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">
+            Personalized, Adaptive Resistance Training is Superior to Traditional Resistance Exercise – A Randomized, Controlled Trial
+          </a>. Dalleck LC, et al. International Journal of Research in Exercise Physiology. 2021.
+        </li>
+      </ul>
     </div>
   );
 }
