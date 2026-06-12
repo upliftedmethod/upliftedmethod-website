@@ -1,1 +1,53 @@
-import { Metadata } from 'next'\n\nexport const metadata: Metadata = {\n  title: 'Starter Offer | Uplifted Method',\n  description: 'Essential energy elevation package. $3,000',\n}\n\nexport default function StarterPage() {\n  return (\n    &lt;div className=&quot;min-h-screen bg-gradient-to-b from-slate-50 to-white py-20 px-4 md:px-8&quot;&gt;\n      &lt;div className=&quot;max-w-4xl mx-auto&quot;&gt;\n        &lt;h1 className=&quot;text-4xl md:text-5xl font-bold text-gray-900 mb-8 text-center&quot;&gt;\n          Starter Package\n        &lt;/h1&gt;\n        &lt;div className=&quot;text-center mb-12&quot;&gt;\n          &lt;div className=&quot;text-5xl font-bold text-teal-600 mb-4&quot;&gt;$3,000&lt;/div&gt;\n          &lt;p className=&quot;text-xl text-gray-600&quot;&gt;\n            Essential introduction to energy elevation\n          &lt;/p&gt;\n        &lt;/div&gt;\n        \n        &lt;div className=&quot;bg-white rounded-3xl shadow-xl p-12 mb-12&quot;&gt;\n          &lt;h2 className=&quot;text-3xl font-bold text-gray-900 mb-8&quot;&gt;What You Get&lt;/h2&gt;\n          &lt;ul className=&quot;space-y-4 text-lg&quot;&gt;\n            &lt;li className=&quot;flex items-start&quot;&gt;\n              &lt;span className=&quot;w-8 h-8 bg-teal-100 rounded-xl flex items-center justify-center font-bold text-teal-600 mr-4 flex-shrink-0&quot;&gt;1&lt;/span&gt;\n              4x Shiftwave sessions (nervous system reset)\n            &lt;/li&gt;\n            &lt;li className=&quot;flex items-start&quot;&gt;\n              &lt;span className=&quot;w-8 h-8 bg-teal-100 rounded-xl flex items-center justify-center font-bold text-teal-600 mr-4 flex-shrink-0&quot;&gt;2&lt;/span&gt;\n              ARX strength assessment + protocol\n            &lt;/li&gt;\n            &lt;li className=&quot;flex items-start&quot;&gt;\n              &lt;span className=&quot;w-8 h-8 bg-teal-100 rounded-xl flex items-center justify-center font-bold text-teal-600 mr-4 flex-shrink-0&quot;&gt;3&lt;/span&gt;\n              Red light therapy intro pack\n            &lt;/li&gt;\n            &lt;li className=&quot;flex items-start&quot;&gt;\n              &lt;span className=&quot;w-8 h-8 bg-teal-100 rounded-xl flex items-center justify-center font-bold text-teal-600 mr-4 flex-shrink-0&quot;&gt;4&lt;/span&gt;\n              Personalized energy roadmap\n            &lt;/li&gt;\n          &lt;/ul&gt;\n        &lt;/div&gt;\n        \n        &lt;div className=&quot;text-center&quot;&gt;\n          &lt;button className=&quot;bg-teal-600 hover:bg-teal-700 text-white font-bold py-6 px-12 rounded-2xl text-xl shadow-2xl hover:shadow-3xl transition-all duration-300 w-full md:w-auto&quot;&gt;\n            Get Started - Secure Your Spot\n          &lt;/button&gt;\n          &lt;p className=&quot;text-sm text-gray-500 mt-4&quot;&gt;\n            14-day money back guarantee • Limited availability\n          &lt;/p&gt;\n        &lt;/div&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  )\n}\n
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Starter Offer | Uplifted Method',
+  description: 'Essential energy elevation package. $3,000',
+};
+
+export default function StarterPage() {
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white py-20 px-4 md:px-8">
+      <div className="max-w-4xl mx-auto">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8 text-center">
+          Starter Package
+        </h1>
+        <div className="text-center mb-12">
+          <div className="text-5xl font-bold text-teal-600 mb-4">$3,000</div>
+          <p className="text-xl text-gray-600">Essential introduction to energy elevation</p>
+        </div>
+
+        <div className="bg-white rounded-3xl shadow-xl p-12 mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">What You Get</h2>
+          <ul className="space-y-4 text-lg">
+            <li className="flex items-start">
+              <span className="w-8 h-8 bg-teal-100 rounded-xl flex items-center justify-center font-bold text-teal-600 mr-4 flex-shrink-0">1</span>
+              4x Shiftwave sessions (nervous system reset)
+            </li>
+            <li className="flex items-start">
+              <span className="w-8 h-8 bg-teal-100 rounded-xl flex items-center justify-center font-bold text-teal-600 mr-4 flex-shrink-0">2</span>
+              ARX strength assessment + protocol
+            </li>
+            <li className="flex items-start">
+              <span className="w-8 h-8 bg-teal-100 rounded-xl flex items-center justify-center font-bold text-teal-600 mr-4 flex-shrink-0">3</span>
+              Red light therapy intro pack
+            </li>
+            <li className="flex items-start">
+              <span className="w-8 h-8 bg-teal-100 rounded-xl flex items-center justify-center font-bold text-teal-600 mr-4 flex-shrink-0">4</span>
+              Personalized energy roadmap
+            </li>
+          </ul>
+        </div>
+
+        <div className="text-center">
+          <button className="bg-teal-600 hover:bg-teal-700 text-white font-bold py-6 px-12 rounded-2xl text-xl shadow-2xl hover:shadow-3xl transition-all duration-300 w-full md:w-auto">
+            Get Started - Secure Your Spot
+          </button>
+          <p className="text-sm text-gray-500 mt-4">
+            14-day money back guarantee • Limited availability
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
