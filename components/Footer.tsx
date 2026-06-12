@@ -12,14 +12,14 @@ const REVIEW_COUNT = 75;
 export function Footer() {
   return (
     <footer className="border-t border-neutral-200 bg-neutral-50">
-      {/* Trust strip — visible band at top of footer */}
+      {/* Trust strip */}
       <div className="border-b border-neutral-200 bg-white px-4 py-4 sm:px-6">
-        <div className="mx-auto max-w-6xl space-y-3 text-center text-sm">
-          <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-neutral-700">
+        <div className="mx-auto max-w-6xl">
+          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-center text-sm text-neutral-700">
             <span>We reply within 24 hours</span>
-            <span className="text-neutral-400" aria-hidden>·</span>
+            <span className="hidden text-neutral-300 sm:inline">·</span>
             <span>Studio opened October 2024</span>
-            <span className="text-neutral-400" aria-hidden>·</span>
+            <span className="hidden text-neutral-300 sm:inline">·</span>
             <a
               href={GBP_URL}
               target="_blank"
@@ -29,12 +29,9 @@ export function Footer() {
               5.0 on Google · {REVIEW_COUNT} five-star reviews
             </a>
           </div>
-          <div className="flex flex-wrap justify-center gap-x-5 gap-y-1 text-neutral-500">
-            <span>ARX and Shiftwave under one roof</span>
-            <span>Same-day booking often available</span>
-          </div>
         </div>
       </div>
+
       <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div>
@@ -43,6 +40,7 @@ export function Footer() {
               ARX training, red light, supplements. Upper Buena Vista, Miami.
             </p>
           </div>
+
           <div>
             <h3 className="font-semibold text-neutral">Contact</h3>
             <p className="mt-2 text-sm text-neutral-600">
@@ -50,52 +48,55 @@ export function Footer() {
                 Questions? Contact us
               </Link>
             </p>
-            <ul className="mt-2 space-y-1 text-sm text-neutral-600">
+            <ul className="mt-2 space-y-1.5 text-sm text-neutral-600">
               <li>
-                <a href={`tel:${PHONE}`} className="hover:text-primary">
+                <a href={`tel:${PHONE}`} className="hover:text-primary transition-colors">
                   {PHONE}
                 </a>
               </li>
               <li>
-                <a href={`mailto:${EMAIL}`} className="hover:text-primary">
+                <a href={`mailto:${EMAIL}`} className="hover:text-primary transition-colors">
                   {EMAIL}
                 </a>
               </li>
               <li>
-                <a href={MAP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-primary">
+                <a href={MAP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                   {ADDRESS}
                 </a>
               </li>
             </ul>
           </div>
+
           <div>
             <h3 className="font-semibold text-neutral">Pages</h3>
-            <ul className="mt-2 space-y-1 text-sm text-neutral-600">
-              <li><Link href="/" className="hover:text-primary">Home</Link></li>
-              <li><Link href="/services" className="hover:text-primary">Services</Link></li>
-              <li><Link href="/locations" className="hover:text-primary">Locations</Link></li>
-              <li><Link href="/blog" className="hover:text-primary">Blog</Link></li>
-              <li><Link href="/about" className="hover:text-primary">About</Link></li>
-              <li><Link href="/contact" className="hover:text-primary">Contact</Link></li>
-              <li><Link href="/arx" className="hover:text-primary">ARX</Link></li>
-              <li><Link href="/red-light-therapy" className="hover:text-primary">Red Light Therapy</Link></li>
+            <ul className="mt-2 space-y-1.5 text-sm text-neutral-600">
+              <li><Link href="/" className="hover:text-primary transition-colors">Home</Link></li>
+              <li><Link href="/services" className="hover:text-primary transition-colors">Services</Link></li>
+              <li><Link href="/locations" className="hover:text-primary transition-colors">Locations</Link></li>
+              <li><Link href="/blog" className="hover:text-primary transition-colors">Blog</Link></li>
+              <li><Link href="/about" className="hover:text-primary transition-colors">About</Link></li>
+              <li><Link href="/contact" className="hover:text-primary transition-colors">Contact</Link></li>
+              <li><Link href="/arx" className="hover:text-primary transition-colors">ARX</Link></li>
+              <li><Link href="/red-light-therapy" className="hover:text-primary transition-colors">Red Light Therapy</Link></li>
             </ul>
           </div>
+
           <div>
             <h3 className="font-semibold text-neutral">Book a session</h3>
             <p className="mt-2 text-sm text-neutral-600">
-              Book your first session or red light.
+              Book your first session or red light at the studio.
             </p>
             <a
               href={BOOK_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary mt-3 inline-block"
+              className="btn-primary mt-4 inline-block text-sm"
             >
               Book Now
             </a>
           </div>
         </div>
+
         <div className="mt-10 border-t border-neutral-200 pt-6 text-center text-sm text-neutral-500">
           © {new Date().getFullYear()} Uplifted. All rights reserved.
         </div>
