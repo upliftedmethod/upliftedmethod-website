@@ -126,10 +126,10 @@ export const posts: PostMeta[] = [
   },
   {
     slug: "fitness-over-50-miami",
-    title: "Fitness Over 50 in Miami",
-    description: "Fitness over 50 in Miami: strength, recovery, and staying capable. Personal training and modalities that fit older adults.",
-    date: "2025-11-20",
-    excerpt: "Staying strong after 50 is about consistency and smart training. Here’s what works and where to find it in Miami.",
+    title: "Fitness Over 50 in Miami: Staying Strong and Capable",
+    description: "Strength training for longevity, joint health, and independence after 50. How focused work supports daily capability for active adults in Miami.",
+    date: "2026-06-12",
+    excerpt: "Staying strong after 50 keeps you capable for family, travel, and movement. Research and real sessions in Miami show what builds lasting results.",
   },
   {
     slug: "recovery-studio-miami-what-to-look-for",
