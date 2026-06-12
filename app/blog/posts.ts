@@ -112,10 +112,10 @@ export const posts: PostMeta[] = [
   },
   {
     slug: "20-minute-workouts-busy-parents",
-    title: "20-Minute Workouts for Busy Parents",
-    description: "20-minute workouts for busy parents: strength training that fits around kids. How Miami parents get in real work in minimal time.",
+    title: "20-Minute Workouts That Work for Busy Parents",
+    description: "20-minute workouts that work for busy parents: short, focused strength sessions designed around real parent schedules in Miami.",
     date: "2025-10-03",
-    excerpt: "Parents don’t have hours for the gym. Short, effective sessions are possible—here’s how and where in Miami.",
+    excerpt: "Parents don’t have hours for the gym. Short sessions deliver real progress when designed right—here’s how and where in Miami.",
   },
   {
     slug: "red-light-therapy-for-athletes",
@@ -150,7 +150,7 @@ export const posts: PostMeta[] = [
     title: "Personal Training for Busy Professionals in Miami",
     description: "Personal training for busy professionals in Miami: executive fitness, short sessions, and training that fits a packed schedule.",
     date: "2026-02-02",
-    excerpt: "Busy professionals need training that fits. Here’s how coach-led, time-efficient sessions work in Miami.",
+    excerpt: "Busy professionals need training that fits. Here’s how coach-led, focused sessions work in Miami.",
   },
 ];
 
