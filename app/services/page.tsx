@@ -3,9 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Services | Personal Training, Red Light & Recovery | Upper Buena Vista",
-  description:
-    "Recovery studio Miami and fitness studio Upper Buena Vista. Miami personal training (ARX), red light therapy, recovery. Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.
-  },
+  description: "Recovery studio Miami and fitness studio Upper Buena Vista. Miami personal training (ARX), red light therapy, recovery. Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.",
   alternates: { canonical: "/services" },
 };
 
