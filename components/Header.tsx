@@ -7,7 +7,6 @@ import { Logo } from "./Logo";
 const NAV = [
   { href: "/services", label: "Services" },
   { href: "/blog", label: "Blog" },
-  { href: "/shop", label: "Shop" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
@@ -72,7 +71,7 @@ export function Header() {
             ) : (
               <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
+            </svg>
             )}
           </button>
         </div>
@@ -89,8 +88,8 @@ export function Header() {
                 className="py-2 text-neutral-700 hover:text-primary"
               >
                 {label}
-              </Link>
-            ))}
+            </Link>
+            )}
             <a href={`tel:${PHONE}`} className="py-2 font-medium text-primary">
               {PHONE}
             </a>
