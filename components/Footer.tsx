@@ -2,12 +2,12 @@ import Link from "next/link";
 import { Logo } from "./Logo";
 
 const PHONE = "305-419-3133";
-const EMAIL = "hello@upliftedmethod.com";
+const EMAIL = "hi@upliftedmethod.com";
 const ADDRESS = "5026 NE 2nd Ave #303, Miami, FL 33137";
 const BOOK_URL = "https://upliftedmethod.as.me/schedule/550c1c04";
 const MAP_URL = "https://maps.app.goo.gl/56eP3f4aPunMey1F7";
 const GBP_URL = "https://maps.app.goo.gl/Gs4SNHc7kvhpzEHz7";
-const REVIEW_COUNT = 59;
+const REVIEW_COUNT = 75;
 
 export function Footer() {
   return (

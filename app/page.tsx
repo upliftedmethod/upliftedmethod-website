@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 const BOOK_URL = "https://upliftedmethod.as.me/schedule/550c1c04";
 const PHONE = "305-419-3133";
 const GBP_URL = "https://maps.app.goo.gl/Gs4SNHc7kvhpzEHz7";
-const REVIEW_COUNT = 59;
+const REVIEW_COUNT = 75;
 
 export default function HomePage() {
   return (
