@@ -3,9 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About Uplifted | Studio at Upper Buena Vista, Miami",
-  description:
-    "Personal training and red light therapy at Upper Buena Vista, Miami. ARX, Shiftwave, supplements. Founded 2023. Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.
-  },
+  description: "Personal training and red light therapy at Upper Buena Vista, Miami. ARX, Shiftwave, supplements. Founded 2023. Key Biscayne, Coconut Grove, Coral Gables, Pinecrest, Miami Beach, Surfside.",
   alternates: { canonical: "/about" },
 };
 
