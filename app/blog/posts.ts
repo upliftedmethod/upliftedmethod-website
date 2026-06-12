@@ -98,10 +98,10 @@ export const posts: PostMeta[] = [
   },
   {
     slug: "safe-strength-training-miami",
-    title: "Safe Strength Training in Miami (Injury-Friendly)",
-    description: "Safe strength training in Miami for people with injuries or limitations. How ARX and coaching keep you strong without reinjury.",
+    title: "Safe Strength Training in Miami When You Have Injuries or Limitations",
+    description: "Safe strength training in Miami when you have injuries or limitations. How ARX adaptive resistance and coaching let you build strength safely, avoid setbacks, and progress without reinjury.",
     date: "2025-08-16",
-    excerpt: "Training with an injury or limitation doesn’t mean skipping strength work. Here’s how to do it safely in Miami.",
+    excerpt: "Injuries or limitations do not have to stop strength training. Here is how adaptive resistance and smart coaching keep sessions safe and effective for Miami clients.",
   },
   {
     slug: "personal-training-for-beginners-miami",
