@@ -27,10 +27,10 @@ export const posts: PostMeta[] = [
   },
   {
     slug: "shiftwave-recovery",
-    title: "Shiftwave Recovery: What It Is and Why Recovery Studios Use It",
-    description: "Shiftwave recovery uses whole-body vibration, breathwork, and audio to support nervous-system recovery. What it is, how it works, and why recovery studio Miami clients stack it with ARX and red light.",
-    date: "2024-12-19",
-    excerpt: "Shiftwave is showing up in recovery studios and gyms. What the chair does, how it fits with training and red light, and why people in Miami use it for recovery.",
+    title: "Shiftwave Recovery: What It Is and How It Fits With Training",
+    description: "Shiftwave uses pulsed pressure waves, guided breathwork, and real-time biofeedback to regulate the nervous system. What the technology does, why it matters after strength sessions, and how Miami clients stack it with ARX and red light.",
+    date: "2025-03-15",
+    excerpt: "Shiftwave gives the nervous system a direct signal to settle after hard training or high-stress days. Here is what it does, the mechanisms, and how it fits into practical routines for busy people in Miami.",
   },
   {
     slug: "supplements-for-recovery",
