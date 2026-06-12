@@ -70,10 +70,10 @@ export const posts: PostMeta[] = [
   },
   {
     slug: "efficient-strength-training-miami",
-    title: "Efficient Strength Training in Miami",
-    description: "Efficient strength training in Miami: less time, real results. How ARX and studio training fit busy professionals and parents.",
+    title: "Strength Training in Miami That Fits Tight Schedules",
+    description: "Strength training in Miami that fits tight schedules. How short, high-tension sessions with adaptive resistance build real progress for busy professionals and parents without long gym hours.",
     date: "2025-05-12",
-    excerpt: "You don’t need hours in the gym to get stronger. Here’s how efficient strength training works and where to find it in Miami.",
+    excerpt: "You do not need hours in the gym to get stronger. Here is how focused strength sessions work and where to find them in Miami.",
   },
   {
     slug: "20-minute-workouts-that-work",
