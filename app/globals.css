@@ -18,30 +18,59 @@ body {
 
 @layer components {
   .btn-primary {
-    @apply inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 text-center;
+    @apply inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 font-semibold text-white shadow-sm transition-all duration-200 hover:bg-primary-dark hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 active:scale-[0.985] text-center;
   }
+
   .btn-accent {
-    @apply inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 font-semibold text-neutral shadow-lg transition hover:bg-accent-dark focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2;
+    @apply inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 font-semibold text-neutral shadow-sm transition-all duration-200 hover:bg-[#d88a47] hover:shadow-md focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 active:scale-[0.985];
   }
+
   .section-heading {
     @apply text-3xl font-bold tracking-tight text-neutral sm:text-4xl;
   }
-  .prose-custom p {
-    @apply text-neutral-600;
+
+  /* Improved prose styling for blog and content pages */
+  .prose-custom {
+    @apply text-[15px] leading-relaxed text-neutral-700;
   }
+
+  .prose-custom p {
+    @apply mb-4;
+  }
+
   .prose-custom p + p {
     @apply mt-4;
   }
-  .prose-custom ul {
-    @apply mt-4 list-inside list-disc space-y-2 text-neutral-600;
-  }
-  .prose-custom ol {
-    @apply mt-4 list-decimal list-inside space-y-2 text-neutral-600;
-  }
+
   .prose-custom h2 {
-    @apply mt-10 text-xl font-bold text-neutral;
+    @apply mt-10 text-2xl font-semibold tracking-tight text-neutral;
   }
+
   .prose-custom h3 {
-    @apply mt-6 text-lg font-bold text-neutral;
+    @apply mt-8 text-xl font-semibold text-neutral;
   }
+
+  .prose-custom ul,
+  .prose-custom ol {
+    @apply mt-4 mb-6 space-y-2 pl-5;
+  }
+
+  .prose-custom li {
+    @apply text-neutral-700;
+  }
+
+  .prose-custom a {
+    @apply text-primary underline-offset-2 hover:underline;
+  }
+}
+
+/* Subtle focus styles for better accessibility */
+a:focus-visible,
+button:focus-visible {
+  @apply outline-none ring-2 ring-primary ring-offset-2;
+}
+
+/* Card hover polish */
+.card-hover {
+  @apply transition-all duration-200 hover:-translate-y-px hover:shadow-md;
 }
