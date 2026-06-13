@@ -163,7 +163,7 @@ export const posts: PostMeta[] = [
 
 // Blog helper functions used by /blog, /blog/[slug], and sitemap
 export function getAllPosts() {
-  return posts;
+  return [...posts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
 export function getAllSlugs() {
