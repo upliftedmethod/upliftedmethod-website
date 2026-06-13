@@ -7,7 +7,7 @@ export default function ShiftwaveRecoveryBody() {
   return (
     <div className="prose-custom">
       <p>
-        Clients walk into the studio carrying more than just the physical load from their last ARX session. Miami days pile on meetings that run long, traffic that never lets up, and family schedules that leave little margin. They train because they want to stay strong and capable. What they often need next is a way to settle the system that controls how fast they actually recover. Shiftwave gives that signal in a direct way.
+        Clients walk into the studio carrying more than just the physical load from their last <Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">ARX session</Link>. Miami days pile on meetings that run long, traffic that never lets up, and family schedules that leave little margin. They train because they want to stay strong and capable. What they often need next is a way to settle the system that controls how fast they actually recover. Shiftwave gives that signal in a direct way.
       </p>
 
       <p>
@@ -25,7 +25,7 @@ export default function ShiftwaveRecoveryBody() {
 
       <h2>Stacking it with ARX and red light</h2>
       <p>
-        ARX creates a potent strength stimulus in a short window. Red light gives cells support for repair processes at the mitochondrial level. Shiftwave works at the level of the control system that decides how quickly the body can exit the stressed state and enter recovery mode.
+        <Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">ARX</Link> creates a potent strength stimulus in a short window. <Link href="/blog/how-red-light-therapy-works" className="font-medium text-primary hover:underline">Red light therapy</Link> gives cells support for repair processes at the mitochondrial level. Shiftwave works at the level of the control system that decides how quickly the body can exit the stressed state and enter recovery mode.
       </p>
 
       <p>
@@ -56,8 +56,20 @@ export default function ShiftwaveRecoveryBody() {
 
       <h2>Next steps</h2>
       <p>
-        If you want to test how Shiftwave fits with your training, ask about adding it to an ARX visit or booking it on its own. We keep the process simple and the timing realistic for people who live and work in Miami. You can book a session through our site or read more about the full approach we use with clients across the city. The aim stays consistent. Do the work that matters. Recover well enough to keep showing up without paying a hidden price.
+        If you want to test how Shiftwave fits with your training, ask about adding it to an ARX visit or booking it on its own. We keep the process simple and the timing realistic for people who live and work in Miami. You can <a href="https://upliftedmethod.as.me" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">book a session</a> through our site or read more about the full approach we use with clients across the city. The aim stays consistent. Do the work that matters. Recover well enough to keep showing up without paying a hidden price.
       </p>
+
+      <h2>Keep exploring</h2>
+      <p>
+        These topics connect directly. Read the related posts to see how Shiftwave fits with strength training and other recovery options.
+      </p>
+      <ul>
+        <li><Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">What Is ARX Training? Efficient Strength That Actually Fits Real Life</Link></li>
+        <li><Link href="/blog/how-red-light-therapy-works" className="font-medium text-primary hover:underline">How Red Light Therapy Works + What It Actually Does for Recovery</Link></li>
+        <li><Link href="/blog/red-light-therapy-miami" className="font-medium text-primary hover:underline">Red Light Therapy in Miami: What to Expect and How to Use It Well</Link></li>
+        <li><Link href="/blog/best-supplements-for-recovery" className="font-medium text-primary hover:underline">Best Supplements for Recovery (Without the Hype)</Link></li>
+        <li><Link href="/blog/recovery-studio-miami-what-to-look-for" className="font-medium text-primary hover:underline">How to Choose a Recovery Studio in Miami (What Actually Matters)</Link></li>
+      </ul>
     </div>
   );
 }

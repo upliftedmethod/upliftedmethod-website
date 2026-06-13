@@ -13,7 +13,7 @@ export default function BestSupplementsForRecoveryBody() {
       </p>
 
       <p>
-        I work with busy professionals and parents across Miami every week. They train hard in short ARX sessions, juggle full schedules, and deal with heat and humidity that add extra stress. The clients who stay consistent and feel good between sessions keep their supplement list short and targeted. Here is what I actually recommend beyond solid protein intake, backed by research and what shows up in practice.
+        I work with busy professionals and parents across Miami every week. They train hard in short <Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">ARX sessions</Link>, juggle full schedules, and deal with heat and humidity that add extra stress. The clients who stay consistent and feel good between sessions keep their supplement list short and targeted. Here is what I actually recommend beyond solid protein intake, backed by research and what shows up in practice.
       </p>
 
       <h2>Start with the foundation</h2>
@@ -74,7 +74,7 @@ export default function BestSupplementsForRecoveryBody() {
 
       <h2>How it fits real Miami schedules</h2>
       <p>
-        Short ARX sessions leave room for recovery habits that do not consume hours. Clients often finish a session, use red light therapy to support tissue level recovery, then Shiftwave to help the nervous system settle. Daily supplements run quietly in the background.
+        Short ARX sessions leave room for recovery habits that do not consume hours. Clients often finish a session, use <Link href="/blog/how-red-light-therapy-works" className="font-medium text-primary hover:underline">red light therapy</Link> to support tissue level recovery, then <Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave</Link> to help the nervous system settle. Daily supplements run quietly in the background.
       </p>
       <p>
         One parent client trains early before school drop off. She takes creatine and methylated B in the morning, magnesium in the evening, and collagen in a post session shake. She reports less stiffness and better ability to keep up with her kids on non-training days. A professional client who travels packs single serve versions of creatine, colostrum, and B-complex. Both keep progress steady without complicated stacks.
@@ -88,8 +88,20 @@ export default function BestSupplementsForRecoveryBody() {
         We stock quality versions of these core supplements at the studio in Upper Buena Vista, including options from Upgraded Formulas and ARMRA. No markup games. No long sales pitches. Clients from Coconut Grove, Key Biscayne, Coral Gables, and across Miami stop in for training and pick up what fits their plan. Clear guidance based on research and what works with real people who train hard and live full lives.
       </p>
       <p>
-        Questions about your current routine or how these fit your specific situation? Reach out or come by. We keep the focus on what actually supports consistent training and daily life in Miami.
+        Questions about your current routine or how these fit your specific situation? <a href="https://upliftedmethod.as.me" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">Book a session</a> or come by. We keep the focus on what actually supports consistent training and daily life in Miami.
       </p>
+
+      <h2>Keep exploring</h2>
+      <p>
+        These topics connect directly. Read the related posts to see how supplements fit into a full routine with training and other recovery tools.
+      </p>
+      <ul>
+        <li><Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">What Is ARX Training? Efficient Strength That Actually Fits Real Life</Link></li>
+        <li><Link href="/blog/how-red-light-therapy-works" className="font-medium text-primary hover:underline">How Red Light Therapy Works + What It Actually Does for Recovery</Link></li>
+        <li><Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave Recovery: What It Is and How It Fits With Training</Link></li>
+        <li><Link href="/blog/red-light-therapy-miami" className="font-medium text-primary hover:underline">Red Light Therapy in Miami: What to Expect and How to Use It Well</Link></li>
+        <li><Link href="/blog/recovery-studio-miami-what-to-look-for" className="font-medium text-primary hover:underline">How to Choose a Recovery Studio in Miami (What Actually Matters)</Link></li>
+      </ul>
 
       <h2>Sources</h2>
       <ul>

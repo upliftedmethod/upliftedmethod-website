@@ -40,7 +40,7 @@ export default function HowRedLightTherapyWorksBody() {
 
       <h2>How we apply it at the studio</h2>
       <p>
-        At Uplifted in Upper Buena Vista we run 20-minute sessions on a full-body EnergyLounger that combines red and near-infrared LEDs. Clients often finish an ARX set and move straight to the bed. No second trip across town. The protocol stays simple: lie down, relax, let the lights run their cycle. Most people feel nothing during the session. The difference shows up in the hours and days that follow.
+        At Uplifted in Upper Buena Vista we run 20-minute sessions on a full-body EnergyLounger that combines red and near-infrared LEDs. Clients often finish an <Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">ARX</Link> set and move straight to the bed. No second trip across town. The protocol stays simple: lie down, relax, let the lights run their cycle. Most people feel nothing during the session. The difference shows up in the hours and days that follow.
       </p>
 
       <p>
@@ -61,8 +61,20 @@ export default function HowRedLightTherapyWorksBody() {
       </p>
 
       <p>
-        If you train in Miami and want to try stacking it with strength work, <Link href="/contact" className="font-medium text-primary hover:underline">reach out</Link> or book directly. We sit at 5026 NE 2nd Ave #303 in Upper Buena Vista. One visit can include ARX and red light back to back.
+        If you train in Miami and want to try stacking it with strength work, <a href="https://upliftedmethod.as.me" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">book a session</a> directly. We sit at 5026 NE 2nd Ave #303 in Upper Buena Vista. One visit can include ARX and red light back to back.
       </p>
+
+      <h2>Keep exploring</h2>
+      <p>
+        These topics connect directly. Read the related posts to see how red light therapy fits with strength training and other recovery tools.
+      </p>
+      <ul>
+        <li><Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">What Is ARX Training? Efficient Strength That Actually Fits Real Life</Link></li>
+        <li><Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave Recovery: What It Is and How It Fits With Training</Link></li>
+        <li><Link href="/blog/red-light-therapy-miami" className="font-medium text-primary hover:underline">Red Light Therapy in Miami: What to Expect and How to Use It Well</Link></li>
+        <li><Link href="/blog/best-supplements-for-recovery" className="font-medium text-primary hover:underline">Best Supplements for Recovery (Without the Hype)</Link></li>
+        <li><Link href="/blog/recovery-studio-miami-what-to-look-for" className="font-medium text-primary hover:underline">How to Choose a Recovery Studio in Miami (What Actually Matters)</Link></li>
+      </ul>
 
       <h2>Sources</h2>
       <p>

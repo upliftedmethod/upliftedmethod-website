@@ -27,7 +27,7 @@ export default function RedLightTherapyMiamiBody() {
 
       <h2>How we run sessions here</h2>
       <p>
-        We use a full body EnergyLounger with both red and near infrared LEDs. Sessions run 20 minutes. Clients finish ARX work and move straight to the bed in the same visit. No second trip through Miami traffic. The same day stack keeps everything in one place.
+        We use a full body EnergyLounger with both red and near infrared LEDs. Sessions run 20 minutes. Clients finish <Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">ARX work</Link> and move straight to the bed in the same visit. No second trip through Miami traffic. The same day stack keeps everything in one place.
       </p>
 
       <p>
@@ -44,7 +44,7 @@ export default function RedLightTherapyMiamiBody() {
       </p>
 
       <p>
-        Stacking with Shiftwave in the same visit comes up often. ARX for the strength stimulus. Red light for cellular support. Shiftwave for nervous system reset. Clients who run the three together in one trip often leave more settled than when they split recovery across different days and locations.
+        Stacking with <Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave</Link> in the same visit comes up often. ARX for the strength stimulus. Red light for cellular support. Shiftwave for nervous system reset. Clients who run the three together in one trip often leave more settled than when they split recovery across different days and locations.
       </p>
 
       <h2>Frequency that builds results</h2>
@@ -58,12 +58,24 @@ export default function RedLightTherapyMiamiBody() {
 
       <h2>Next steps</h2>
       <p>
-        If you want to try red light therapy in Miami and see how it fits with your training, book a session. Come for an ARX workout and add the 20 minute light session right after. Notice how you feel the next morning and in the following session. After a few weeks the pattern becomes clear. Keep what helps.
+        If you want to try red light therapy in Miami and see how it fits with your training, <a href="https://upliftedmethod.as.me" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">book a session</a>. Come for an ARX workout and add the 20 minute light session right after. Notice how you feel the next morning and in the following session. After a few weeks the pattern becomes clear. Keep what helps.
       </p>
 
       <p>
         We sit in Upper Buena Vista at 5026 NE 2nd Ave #303. One visit can cover strength work and recovery support without extra travel across town.
       </p>
+
+      <h2>Keep exploring</h2>
+      <p>
+        These topics connect directly. Read the related posts to see how red light therapy fits into real Miami schedules with strength training and nervous system recovery.
+      </p>
+      <ul>
+        <li><Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">What Is ARX Training? Efficient Strength That Actually Fits Real Life</Link></li>
+        <li><Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave Recovery: What It Is and How It Fits With Training</Link></li>
+        <li><Link href="/blog/how-red-light-therapy-works" className="font-medium text-primary hover:underline">How Red Light Therapy Works + What It Actually Does for Recovery</Link></li>
+        <li><Link href="/blog/best-supplements-for-recovery" className="font-medium text-primary hover:underline">Best Supplements for Recovery (Without the Hype)</Link></li>
+        <li><Link href="/blog/recovery-studio-miami-what-to-look-for" className="font-medium text-primary hover:underline">How to Choose a Recovery Studio in Miami (What Actually Matters)</Link></li>
+      </ul>
 
       <h2>Sources</h2>
       <p>
