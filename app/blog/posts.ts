@@ -160,3 +160,16 @@ export const posts: PostMeta[] = [
     excerpt: "Busy professionals need training that delivers results without stealing hours from work and family. Here is how focused sessions work in Miami.",
   },
 ];
+
+// Blog helper functions used by /blog, /blog/[slug], and sitemap
+export function getAllPosts() {
+  return posts;
+}
+
+export function getAllSlugs() {
+  return posts.map((post) => post.slug);
+}
+
+export function getPost(slug: string) {
+  return posts.find((post) => post.slug === slug);
+}
