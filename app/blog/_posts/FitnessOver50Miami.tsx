@@ -30,7 +30,7 @@ export default function FitnessOver50MiamiBody() {
 
       <h2>What actually works in sessions</h2>
       <p>
-        Programs that hold up use resistance that adapts to the person in front of you. Machines or methods that change load based on effort let you work hard without forcing positions that aggravate old issues. Fixed heavy weights often push the body into ranges it no longer tolerates well.
+        Programs that hold up use resistance that adapts to the person in front of you. <Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">Machines or methods</Link> that change load based on effort let you work hard without forcing positions that aggravate old issues. Fixed heavy weights often push the body into ranges it no longer tolerates well.
       </p>
 
       <p>
@@ -43,11 +43,11 @@ export default function FitnessOver50MiamiBody() {
 
       <h2>How recovery supports the work</h2>
       <p>
-        Strength sessions create the stimulus. Recovery lets the body absorb it. Some clients add red light after training. Others use nervous system tools to settle. Both fit in one visit. The strength work remains the foundation.
+        Strength sessions create the stimulus. Recovery lets the body absorb it. Some clients add <Link href="/blog/how-red-light-therapy-works" className="font-medium text-primary hover:underline">red light</Link> after training. Others use nervous system tools like <Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave</Link> to settle. Both fit in one visit. The strength work remains the foundation.
       </p>
 
       <p>
-        See our page on <Link href="/red-light-therapy-miami" className="font-medium text-primary hover:underline">red light therapy in Miami</Link> for details on that piece.
+        See our page on <Link href="/blog/red-light-therapy-miami" className="font-medium text-primary hover:underline">red light therapy in Miami</Link> for details on that piece.
       </p>
 
       <h2>Stories from clients here</h2>
@@ -73,8 +73,20 @@ export default function FitnessOver50MiamiBody() {
       </p>
 
       <p>
-        Next steps: Reach out through the contact page or book a first session. We will walk through what to expect and how the work fits where you stand now.
+        Next steps: <a href="https://upliftedmethod.as.me" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">Book a first session</a> or reach out through the contact page. We will walk through what to expect and how the work fits where you stand now.
       </p>
+
+      <h2>Keep exploring</h2>
+      <p>
+        These topics connect directly. Read the related posts to see how strength training over 50 fits with safe methods, short sessions, and recovery support.
+      </p>
+      <ul>
+        <li><Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">What Is ARX Training? Efficient Strength That Actually Fits Real Life</Link></li>
+        <li><Link href="/blog/safe-strength-training-miami" className="font-medium text-primary hover:underline">Safe Strength Training in Miami When You Have Injuries or Limitations</Link></li>
+        <li><Link href="/blog/efficient-strength-training-miami" className="font-medium text-primary hover:underline">Efficient Strength Training in Miami (Without Wasting Hours)</Link></li>
+        <li><Link href="/blog/20-minute-workouts-busy-parents" className="font-medium text-primary hover:underline">20-Minute Workouts That Work for Busy Parents</Link></li>
+        <li><Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave Recovery: What It Is and How It Fits With Training</Link></li>
+      </ul>
 
       <h2>Sources</h2>
       <ul>

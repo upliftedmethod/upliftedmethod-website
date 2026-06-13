@@ -29,12 +29,12 @@ export default function RecoveryStudioMiamiWhatToLookForBody() {
       </p>
 
       <p>
-        Shiftwave works through a reclined chair that delivers pulsed pressure waves across the body. Breath guidance and audio layers run at the same time. Sessions typically last ten minutes. The design targets nervous system balance after stress or intense effort. Groups that train athletes and high demand professionals have integrated similar systems for fast resets between efforts.
+        <Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave</Link> works through a reclined chair that delivers pulsed pressure waves across the body. Breath guidance and audio layers run at the same time. Sessions typically last ten minutes. The design targets nervous system balance after stress or intense effort. Groups that train athletes and high demand professionals have integrated similar systems for fast resets between efforts.
       </p>
 
       <h2>Let’s break it down on how protocols should work</h2>
       <p>
-        A studio with substance builds sessions around the person in front of them. Staff inquire about recent training intensity, sleep, and any areas of tightness or fatigue. They then suggest timing and combination. Light exposure might follow a strength session to support tissue repair. A nervous system session might fit better on a lower load day. Places that review progress after several visits refine the approach instead of repeating the same steps.
+        A studio with substance builds sessions around the person in front of them. Staff inquire about recent training intensity, sleep, and any areas of tightness or fatigue. They then suggest timing and combination. Light exposure might follow a <Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">strength session</Link> to support tissue repair. A nervous system session might fit better on a lower load day. Places that review progress after several visits refine the approach instead of repeating the same steps.
       </p>
 
       <h2>Environment either supports or blocks the process</h2>
@@ -55,6 +55,18 @@ export default function RecoveryStudioMiamiWhatToLookForBody() {
       <p>
         Clients who choose based on these factors often describe more consistent energy across training days and fewer extended periods of lingering fatigue. They keep the habit because it fits the rest of their week.
       </p>
+
+      <h2>Keep exploring</h2>
+      <p>
+        These topics connect directly. Read the related posts to see how to choose recovery options that actually support consistent training in Miami.
+      </p>
+      <ul>
+        <li><Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">What Is ARX Training? Efficient Strength That Actually Fits Real Life</Link></li>
+        <li><Link href="/blog/how-red-light-therapy-works" className="font-medium text-primary hover:underline">How Red Light Therapy Works + What It Actually Does for Recovery</Link></li>
+        <li><Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave Recovery: What It Is and How It Fits With Training</Link></li>
+        <li><Link href="/blog/red-light-therapy-miami" className="font-medium text-primary hover:underline">Red Light Therapy in Miami: What to Expect and How to Use It Well</Link></li>
+        <li><Link href="/blog/best-supplements-for-recovery" className="font-medium text-primary hover:underline">Best Supplements for Recovery (Without the Hype)</Link></li>
+      </ul>
 
       <h2>Sources</h2>
       <p>

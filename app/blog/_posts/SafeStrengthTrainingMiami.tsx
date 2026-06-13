@@ -18,7 +18,7 @@ export default function SafeStrengthTrainingMiamiBody() {
 
       <h2>How real-time adjustable resistance changes the outcome</h2>
       <p>
-        ARX machines read your force output many times per second. They raise or lower the resistance instantly. When you reach a weak or sore spot, the load eases on its own. You still deliver full effort where you can produce force. You complete the full range without forcing a compromised position.
+        <Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">ARX machines</Link> read your force output many times per second. They raise or lower the resistance instantly. When you reach a weak or sore spot, the load eases on its own. You still deliver full effort where you can produce force. You complete the full range without forcing a compromised position.
       </p>
 
       <p>
@@ -44,7 +44,7 @@ export default function SafeStrengthTrainingMiamiBody() {
       </p>
 
       <p>
-        The strength portion stays focused and finishes in about twenty minutes for most people. You can remain and add red light therapy or a Shiftwave session the same visit. Recovery support sits in the same location.
+        The strength portion stays focused and finishes in about twenty minutes for most people. You can remain and add <Link href="/blog/how-red-light-therapy-works" className="font-medium text-primary hover:underline">red light therapy</Link> or a <Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave</Link> session the same visit. Recovery support sits in the same location.
       </p>
 
       <h2>Who this serves in Miami</h2>
@@ -63,12 +63,24 @@ export default function SafeStrengthTrainingMiamiBody() {
 
       <h2>Next steps</h2>
       <p>
-        If injuries or limitations have kept you from training, that does not have to stay the case. Book a session. We will assess what you can do safely and show you how the equipment supports progress without the usual risks. You do not have to pick between getting stronger and staying comfortable.
+        If injuries or limitations have kept you from training, that does not have to stay the case. <a href="https://upliftedmethod.as.me" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">Book a session</a>. We will assess what you can do safely and show you how the equipment supports progress without the usual risks. You do not have to pick between getting stronger and staying comfortable.
       </p>
 
       <p>
         We are located at 5026 NE 2nd Ave #303 in Upper Buena Vista. <Link href="/contact" className="font-medium text-primary hover:underline">Contact us</Link> or visit our <Link href="/arx" className="font-medium text-primary hover:underline">ARX page</Link> to see how the machines work. We serve clients across Miami who want strength training that actually fits their bodies.
       </p>
+
+      <h2>Keep exploring</h2>
+      <p>
+        These topics connect directly. Read the related posts to see how safe strength training fits with ARX, beginners, older adults, and recovery options.
+      </p>
+      <ul>
+        <li><Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">What Is ARX Training? Efficient Strength That Actually Fits Real Life</Link></li>
+        <li><Link href="/blog/personal-training-for-beginners-miami" className="font-medium text-primary hover:underline">Personal Training for Beginners in Miami: What to Expect</Link></li>
+        <li><Link href="/blog/fitness-over-50-miami" className="font-medium text-primary hover:underline">Fitness Over 50 in Miami: Staying Strong and Capable</Link></li>
+        <li><Link href="/blog/efficient-strength-training-miami" className="font-medium text-primary hover:underline">Efficient Strength Training in Miami (Without Wasting Hours)</Link></li>
+        <li><Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave Recovery: What It Is and How It Fits With Training</Link></li>
+      </ul>
 
       <h2>Sources</h2>
       <p>

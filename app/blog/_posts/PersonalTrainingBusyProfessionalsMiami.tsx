@@ -17,7 +17,7 @@ export default function PersonalTrainingBusyProfessionalsMiamiBody() {
       </p>
 
       <p>
-        Here is why a different structure works better. Sessions built around adaptive resistance let you reach high effort quickly and stay there. The machine reads your output in real time and applies the exact resistance you can handle at every point in the movement. You do not waste reps on momentum or easy portions of the range. The work stays targeted from start to finish.
+        Here is why a different structure works better. Sessions built around <Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">adaptive resistance</Link> let you reach high effort quickly and stay there. The machine reads your output in real time and applies the exact resistance you can handle at every point in the movement. You do not waste reps on momentum or easy portions of the range. The work stays targeted from start to finish.
       </p>
 
       <h2>What the research shows on adaptive resistance</h2>
@@ -36,7 +36,7 @@ export default function PersonalTrainingBusyProfessionalsMiamiBody() {
 
       <h2>Adding recovery without extra stops</h2>
       <p>
-        High-stress days leave the nervous system wound up. After the strength work, 15 to 20 minutes on Shiftwave or red light therapy helps the body shift into recovery mode. You handle both the training stimulus and the reset in one visit to Upper Buena Vista. Clients who live in Key Biscayne, Coconut Grove, Coral Gables, or Pinecrest often choose this setup because it removes the need to drive between multiple locations.
+        High-stress days leave the nervous system wound up. After the strength work, 15 to 20 minutes on <Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave</Link> or <Link href="/blog/how-red-light-therapy-works" className="font-medium text-primary hover:underline">red light therapy</Link> helps the body shift into recovery mode. You handle both the training stimulus and the reset in one visit to Upper Buena Vista. Clients who live in Key Biscayne, Coconut Grove, Coral Gables, or Pinecrest often choose this setup because it removes the need to drive between multiple locations.
       </p>
 
       <h2>How often professionals actually train</h2>
@@ -60,7 +60,7 @@ export default function PersonalTrainingBusyProfessionalsMiamiBody() {
 
       <h2>Next steps if this fits your schedule</h2>
       <p>
-        If you want personal training built around a packed Miami calendar, we can start with a short conversation about your goals and typical week. Read more on our <Link href="/arx" className="font-medium text-primary hover:underline">ARX page</Link> or <Link href="/services" className="font-medium text-primary hover:underline">services page</Link>. Contact us through the form or call 305-419-3133. We are located at 5026 NE 2nd Ave #303 in Upper Buena Vista. Book a session and feel what focused coach-led work delivers in the time you have.
+        If you want personal training built around a packed Miami calendar, we can start with a short conversation about your goals and typical week. Read more on our <Link href="/arx" className="font-medium text-primary hover:underline">ARX page</Link> or <Link href="/services" className="font-medium text-primary hover:underline">services page</Link>. <a href="https://upliftedmethod.as.me" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">Book a session</a> and feel what focused coach-led work delivers in the time you have. We are located at 5026 NE 2nd Ave #303 in Upper Buena Vista.
       </p>
 
       <div className="mt-8 pt-6 border-t text-sm text-gray-600">

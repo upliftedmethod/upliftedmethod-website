@@ -22,7 +22,7 @@ export default function PersonalTrainingForBeginnersMiamiBody() {
 
       <h2>What the first sessions actually involve</h2>
       <p>
-        You arrive and we talk through your goals, any past injuries or limitations, and how your typical week looks. Then we move. We start with simple patterns on adaptive resistance equipment because it matches the resistance to your exact strength output in real time. You do not pick weights or wonder if the load feels right. The machine handles that adjustment instantly. Actual work time runs about 20 minutes. Most people spend under an hour total at the studio, including conversation and any recovery work afterward.
+        You arrive and we talk through your goals, any past injuries or limitations, and how your typical week looks. Then we move. We start with simple patterns on <Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">adaptive resistance equipment</Link> because it matches the resistance to your exact strength output in real time. You do not pick weights or wonder if the load feels right. The machine handles that adjustment instantly. Actual work time runs about 20 minutes. Most people spend under an hour total at the studio, including conversation and any recovery work afterward.
       </p>
 
       <p>
@@ -51,7 +51,7 @@ export default function PersonalTrainingForBeginnersMiamiBody() {
 
       <h2>Next steps</h2>
       <p>
-        If you want to begin with support instead of guessing, book a session. We will walk through the space, show you the equipment, and get you moving in a way that fits your body and your life right now. No pressure to commit beyond that first visit. Just a straightforward way to start strength training in Miami.
+        If you want to begin with support instead of guessing, <a href="https://upliftedmethod.as.me" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">book a session</a>. We will walk through the space, show you the equipment, and get you moving in a way that fits your body and your life right now. No pressure to commit beyond that first visit. Just a straightforward way to start strength training in Miami.
       </p>
 
       <div className="mt-8 pt-6 border-t text-sm text-gray-600">

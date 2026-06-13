@@ -68,11 +68,12 @@ export default function WhatIsARXBody() {
         <li><Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave Recovery: What It Is and How It Fits With Training</Link></li>
         <li><Link href="/blog/how-red-light-therapy-works" className="font-medium text-primary hover:underline">How Red Light Therapy Works + What It Actually Does for Recovery</Link></li>
         <li><Link href="/blog/recovery-studio-miami-what-to-look-for" className="font-medium text-primary hover:underline">How to Choose a Recovery Studio in Miami</Link></li>
+        <li><Link href="/blog/best-supplements-for-recovery" className="font-medium text-primary hover:underline">Best Supplements for Recovery (Without the Hype)</Link></li>
       </ul>
 
       <h2>Next steps if you want to try it</h2>
       <p>
-        If you live or work in Miami and want to feel what this kind of focused strength session is like, reach out. We run ARX sessions from the Upper Buena Vista studio and through our mobile setup that serves many parts of the city. You can read more about the approach on our <Link href="/arx" className="font-medium text-primary hover:underline">ARX page</Link> or book directly and experience the difference in person. No long commitment required to start. Just a clear look at what modern strength training can feel like when the resistance actually matches your effort.
+        If you live or work in Miami and want to feel what this kind of focused strength session is like, reach out. We run ARX sessions from the Upper Buena Vista studio and through our mobile setup that serves many parts of the city. You can read more about the approach on our <Link href="/arx" className="font-medium text-primary hover:underline">ARX page</Link> or <a href="https://upliftedmethod.as.me" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">book directly</a> and experience the difference in person. No long commitment required to start. Just a clear look at what modern strength training can feel like when the resistance actually matches your effort.
       </p>
 
       <h2>References</h2>
