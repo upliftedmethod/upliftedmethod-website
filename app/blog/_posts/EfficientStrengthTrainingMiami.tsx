@@ -22,7 +22,7 @@ export default function EfficientStrengthTrainingMiamiBody() {
 
       <h2>Adaptive resistance changes the equation</h2>
       <p>
-        ARX machines read force output in real time and adjust resistance to match the user on every inch of the rep. You cannot coast through the easy parts. The tension stays high from start to finish. A coach sets the program so you move from one exercise to the next with little pause. Most sessions wrap the core work in roughly 15 to 20 minutes.
+        <Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">ARX machines</Link> read force output in real time and adjust resistance to match the user on every inch of the rep. You cannot coast through the easy parts. The tension stays high from start to finish. A coach sets the program so you move from one exercise to the next with little pause. Most sessions wrap the core work in roughly 15 to 20 minutes.
       </p>
 
       <p>
@@ -44,13 +44,25 @@ export default function EfficientStrengthTrainingMiamiBody() {
       </p>
 
       <p>
-        In practice, a coach handles the programming and cues. You arrive, warm up briefly, work through the sequence, and finish. Some clients add a recovery modality right after. Others head straight back to their day. Either way, the total time stays contained.
+        In practice, a coach handles the programming and cues. You arrive, warm up briefly, work through the sequence, and finish. Some clients add a <Link href="/blog/how-red-light-therapy-works" className="font-medium text-primary hover:underline">recovery modality</Link> right after. Others head straight back to their day. Either way, the total time stays contained.
       </p>
 
       <h2>Next steps</h2>
       <p>
-        If your week has space for two or three focused blocks of strength work, this format can help you build and hold strength without it consuming your calendar. Book a first session through our site or reach out directly. We keep the structure tight so the time you invest produces clear tension and measurable adaptation over time. Most people feel the difference in how the work feels inside those minutes.
+        If your week has space for two or three focused blocks of strength work, this format can help you build and hold strength without it consuming your calendar. <a href="https://upliftedmethod.as.me" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">Book a first session</a> through our site or reach out directly. We keep the structure tight so the time you invest produces clear tension and measurable adaptation over time. Most people feel the difference in how the work feels inside those minutes.
       </p>
+
+      <h2>Keep exploring</h2>
+      <p>
+        These topics connect directly. Read the related posts to see how efficient strength training fits with ARX, busy schedules, and recovery options.
+      </p>
+      <ul>
+        <li><Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">What Is ARX Training? Efficient Strength That Actually Fits Real Life</Link></li>
+        <li><Link href="/blog/20-minute-workouts-busy-parents" className="font-medium text-primary hover:underline">20-Minute Workouts That Work for Busy Parents</Link></li>
+        <li><Link href="/blog/personal-training-busy-professionals-miami" className="font-medium text-primary hover:underline">Personal Training for Busy Professionals in Miami</Link></li>
+        <li><Link href="/blog/safe-strength-training-miami" className="font-medium text-primary hover:underline">Safe Strength Training in Miami When You Have Injuries or Limitations</Link></li>
+        <li><Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave Recovery: What It Is and How It Fits With Training</Link></li>
+      </ul>
 
       <h2>Sources</h2>
       <p>

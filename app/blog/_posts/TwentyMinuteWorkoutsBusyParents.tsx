@@ -30,7 +30,7 @@ export default function TwentyMinuteWorkoutsBusyParentsBody() {
 
       <h2>How adaptive resistance changes the time equation</h2>
       <p>
-        Fixed weights require setup, multiple sets, and rest periods. Much of a traditional hour passes between efforts. Adaptive machines match resistance to your output on every inch of every rep. You stay near your current limit throughout the movement. One or two bouts per exercise can create the stimulus that used to take many sets. Twenty minutes on the equipment can produce the training effect many people chase in longer sessions.
+        Fixed weights require setup, multiple sets, and rest periods. Much of a traditional hour passes between efforts. <Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">Adaptive machines</Link> match resistance to your output on every inch of every rep. You stay near your current limit throughout the movement. One or two bouts per exercise can create the stimulus that used to take many sets. Twenty minutes on the equipment can produce the training effect many people chase in longer sessions.
       </p>
 
       <h2>A sample twenty-minute parent session</h2>
@@ -53,7 +53,7 @@ export default function TwentyMinuteWorkoutsBusyParentsBody() {
 
       <h2>Adding recovery without stretching the clock</h2>
       <p>
-        Parents carry stress from the day. A hard session can add to that load on the nervous system. We offer red light sessions on the EnergyLounger or Shiftwave right after strength work. Ten to twenty minutes on either modality gives the body a recovery signal. The whole visit stays under an hour. One stop covers both the stimulus and the reset. Many parents from Coconut Grove, Key Biscayne, and Coral Gables build this into their week because it fits the schedule.
+        Parents carry stress from the day. A hard session can add to that load on the nervous system. We offer <Link href="/blog/how-red-light-therapy-works" className="font-medium text-primary hover:underline">red light sessions</Link> on the EnergyLounger or <Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave</Link> right after strength work. Ten to twenty minutes on either modality gives the body a recovery signal. The whole visit stays under an hour. One stop covers both the stimulus and the reset. Many parents from Coconut Grove, Key Biscayne, and Coral Gables build this into their week because it fits the schedule.
       </p>
 
       <h2>Fitting sessions into real Miami parent weeks</h2>
@@ -76,8 +76,20 @@ export default function TwentyMinuteWorkoutsBusyParentsBody() {
 
       <h2>Next steps</h2>
       <p>
-        If you want to see how a twenty-minute session feels, book a time at our studio. We are at 5026 NE 2nd Ave #303 in Upper Buena Vista. Check the <Link href="/arx" className="font-medium text-primary hover:underline">ARX page</Link> for more on the method. Or go straight to <Link href="/contact" className="font-medium text-primary hover:underline">contact</Link> or our <Link href="/services" className="font-medium text-primary hover:underline">services</Link> to get started. Parents in Miami already use these short sessions to stay strong while raising their families. You can too.
+        If you want to see how a twenty-minute session feels, <a href="https://upliftedmethod.as.me" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">book a time</a> at our studio. We are at 5026 NE 2nd Ave #303 in Upper Buena Vista. Check the <Link href="/arx" className="font-medium text-primary hover:underline">ARX page</Link> for more on the method. Or go straight to <Link href="/contact" className="font-medium text-primary hover:underline">contact</Link> or our <Link href="/services" className="font-medium text-primary hover:underline">services</Link> to get started. Parents in Miami already use these short sessions to stay strong while raising their families. You can too.
       </p>
+
+      <h2>Keep exploring</h2>
+      <p>
+        These topics connect directly. Read the related posts to see how short parent workouts fit with ARX, other training styles, and recovery tools.
+      </p>
+      <ul>
+        <li><Link href="/blog/what-is-arx-training" className="font-medium text-primary hover:underline">What Is ARX Training? Efficient Strength That Actually Fits Real Life</Link></li>
+        <li><Link href="/blog/efficient-strength-training-miami" className="font-medium text-primary hover:underline">Efficient Strength Training in Miami (Without Wasting Hours)</Link></li>
+        <li><Link href="/blog/personal-training-busy-professionals-miami" className="font-medium text-primary hover:underline">Personal Training for Busy Professionals in Miami</Link></li>
+        <li><Link href="/blog/fitness-over-50-miami" className="font-medium text-primary hover:underline">Fitness Over 50 in Miami: Staying Strong and Capable</Link></li>
+        <li><Link href="/blog/shiftwave-recovery" className="font-medium text-primary hover:underline">Shiftwave Recovery: What It Is and How It Fits With Training</Link></li>
+      </ul>
 
       <h2>Sources</h2>
       <p>
